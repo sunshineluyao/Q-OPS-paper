@@ -212,6 +212,14 @@ python3 <this-skill-dir>/scripts/audit_latex_log.py \
 
 Run `audit_latex_log.py --self-test` once per environment; its clean fixture must pass and its undefined-reference/overfull fixture must fail.
 
+After installing or changing this Skill, run its complete regression suite once:
+
+```bash
+python3 <this-skill-dir>/scripts/test_release_gates.py
+```
+
+Do not release if any regression test fails. The suite covers starred titles, stable JSON output, Python compatibility, symlink rejection, multi-figure mapping, rerun detection, and curved-container geometry.
+
 11. validate both PDFs with `pdfinfo`, render every page, and compare clean-room page pixels with the intended release; byte equality is not required when metadata differs:
 
 ```bash
@@ -258,3 +266,4 @@ Lead the final response with the deliverables. Summarize the strongest supported
 - `scripts/audit_latex_log.py`: reject unresolved compilation, glyph, rerun, and layout defects from the stable LaTeX log.
 - `scripts/compare_pdf_renders.py`: verify page count and page-pixel equivalence between intended and clean-room PDFs.
 - `scripts/package_overleaf.py`: create a deterministic clean Overleaf ZIP while excluding build debris and sensitive workspace metadata.
+- `scripts/test_release_gates.py`: run deterministic positive and negative regressions for the bundled release utilities.

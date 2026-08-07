@@ -25,7 +25,14 @@ ERROR_PATTERNS = (
     ("undefined_citation", re.compile(r"(?:Citation .* undefined|There were undefined citations)", re.I)),
     ("undefined_reference", re.compile(r"(?:Reference .* undefined|There were undefined references)", re.I)),
     ("duplicate_label", re.compile(r"(?:multiply defined|multiply-defined labels)", re.I)),
-    ("rerun_required", re.compile(r"(?:Label\(s\) may have changed|Rerun to get cross-references right)", re.I)),
+    (
+        "rerun_required",
+        re.compile(
+            r"(?:Label\(s\) may have changed|\bRerun to\b|\bPlease\s+(?:\(re\)run|rerun)\b|"
+            r"\bRun LaTeX again\b)",
+            re.I,
+        ),
+    ),
     ("missing_character", re.compile(r"^Missing character:", re.I)),
     ("missing_destination", re.compile(r"has been referenced but does not exist", re.I)),
 )
@@ -81,6 +88,8 @@ def self_test() -> dict[str, object]:
         bad.write_text(
             "LaTeX Warning: There were undefined references.\n"
             "Overfull \\hbox (3.0pt too wide) in paragraph at lines 1--2\n"
+            "Package rerunfilecheck Warning: File `main.out' has changed.\n"
+            "Rerun to get outlines right\n"
             "Output written on main.pdf (2 pages, 100 bytes).\n",
             encoding="utf-8",
         )
@@ -90,7 +99,7 @@ def self_test() -> dict[str, object]:
     passed = (
         good_result["status"] == "PASS"
         and bad_result["status"] == "FAIL"
-        and {"undefined_reference", "overfull_box"}.issubset(bad_codes)
+        and {"undefined_reference", "overfull_box", "rerun_required"}.issubset(bad_codes)
     )
     return {
         "status": "PASS" if passed else "FAIL",

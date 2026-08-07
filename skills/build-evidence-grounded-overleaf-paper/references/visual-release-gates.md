@@ -31,7 +31,7 @@ Use these gates when creating or revising any evidence-bearing figure.
 - Shorten or wrap labels before reducing essential text. Treat 8 pt at final paper size as the default floor; use 7 pt only for secondary notes.
 - Keep status badges outside title extents. Keep captions and qualification strips inside their containers.
 - Do not place text on top of connectors, plot marks, shaded fills with insufficient contrast, or panel borders.
-- Treat containment as geometry, not visual impression. For code-generated SVGs, assign stable IDs to shapes and their text, annotate text with `data-container` and `data-padding`, and compare actual renderer glyph bounds with the container's geometric box.
+- Treat containment as geometry, not visual impression. For code-generated SVGs, assign stable IDs to shapes and their text, annotate text with `data-container` and `data-padding`, and compare actual renderer glyph bounds with the true container boundary, including curved circle, ellipse, and rounded-rectangle edges.
 - Mark legitimate labels outside shapes with `data-containment="free"`; do not leave text ownership implicit.
 - Require declared clearance on all four sides. Text that remains technically inside a border but leaves less than the declared padding still fails.
 

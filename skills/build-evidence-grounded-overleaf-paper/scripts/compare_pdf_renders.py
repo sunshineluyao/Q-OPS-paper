@@ -85,7 +85,7 @@ def compare(expected: Path, actual: Path, dpi: int, pdfinfo: str, pdftoppm: str)
         first = render(expected, expected_pages, dpi, pdftoppm, first_dir)
         second = render(actual, actual_pages, dpi, pdftoppm, second_dir)
     mismatches = [
-        item["page"] for item, other in zip(first, second, strict=True) if item["sha256"] != other["sha256"]
+        item["page"] for item, other in zip(first, second) if item["sha256"] != other["sha256"]
     ]
     return {
         "status": "PASS" if not mismatches else "FAIL",

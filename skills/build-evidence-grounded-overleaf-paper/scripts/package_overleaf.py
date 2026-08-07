@@ -50,6 +50,32 @@ def sha256(path: Path) -> str:
     return digest.hexdigest()
 
 
+def collect_files(
+    root: Path, main_stem: str, keep_bbl: bool, include_compiled_pdf: bool
+) -> list[Path]:
+    """Select package files only after rejecting every source-tree symlink."""
+    entries = list(root.rglob("*"))
+    symlinks = sorted(path.relative_to(root).as_posix() for path in entries if path.is_symlink())
+    if symlinks:
+        rendered = ", ".join(symlinks[:5])
+        suffix = "" if len(symlinks) <= 5 else f" (+{len(symlinks) - 5} more)"
+        raise ValueError(f"source tree contains symlink(s): {rendered}{suffix}")
+
+    files: list[Path] = []
+    for path in entries:
+        if not path.is_file() or is_excluded(
+            path, root, main_stem, keep_bbl, include_compiled_pdf
+        ):
+            continue
+        resolved = path.resolve(strict=True)
+        try:
+            resolved.relative_to(root)
+        except ValueError as exc:
+            raise ValueError(f"selected file resolves outside source root: {path}") from exc
+        files.append(path)
+    return files
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("root", type=Path, help="Overleaf source root")
@@ -69,11 +95,11 @@ def main() -> int:
         print("error: output ZIP must be outside the source tree", file=sys.stderr)
         return 2
 
-    files = [
-        path
-        for path in root.rglob("*")
-        if path.is_file() and not is_excluded(path, root, main_path.stem, args.keep_bbl, args.include_compiled_pdf)
-    ]
+    try:
+        files = collect_files(root, main_path.stem, args.keep_bbl, args.include_compiled_pdf)
+    except (OSError, ValueError) as error:
+        print(f"error: {error}", file=sys.stderr)
+        return 2
     if not files:
         print("error: no files selected for packaging", file=sys.stderr)
         return 2

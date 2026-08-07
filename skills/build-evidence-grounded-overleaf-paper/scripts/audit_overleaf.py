@@ -90,7 +90,7 @@ def balanced_argument(text: str, start: int, opener: str, closer: str) -> tuple[
 
 
 def command_arguments(text: str, commands: list[str]) -> list[tuple[str, str]]:
-    """Return balanced mandatory arguments for title-like commands."""
+    """Return balanced mandatory arguments for starred or unstarred commands."""
     if not commands:
         return []
     pattern = re.compile(r"\\(?P<command>" + "|".join(re.escape(item) for item in commands) + r")\b")
@@ -99,10 +99,14 @@ def command_arguments(text: str, commands: list[str]) -> list[tuple[str, str]]:
         cursor = match.end()
         while cursor < len(text) and text[cursor].isspace():
             cursor += 1
-        if cursor < len(text) and text[cursor] == "[":
+        if cursor < len(text) and text[cursor] == "*":
+            cursor += 1
+            while cursor < len(text) and text[cursor].isspace():
+                cursor += 1
+        while cursor < len(text) and text[cursor] == "[":
             optional = balanced_argument(text, cursor, "[", "]")
             if optional is None:
-                continue
+                break
             cursor = optional[1]
             while cursor < len(text) and text[cursor].isspace():
                 cursor += 1

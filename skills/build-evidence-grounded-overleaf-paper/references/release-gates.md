@@ -44,12 +44,12 @@ Pass every applicable gate before calling a paper final. Record `PASS`, `CAVEAT`
 - Every evidence-bearing figure has an editable master and publication PDF.
 - Quantitative figures regenerate from frozen data.
 - One figure manifest records message, evidence source/status, target width, master/export, compiled label/number/page/source, icon family, and each QA result.
-- A compiled map resolves every rendered figure number/page to its label, source wrapper, and graphic.
+- A compiled map resolves every rendered figure number/page to its label, source wrapper, and enclosing graphic or graphic set; any unresolved entry is a hard failure.
 - Reference images contribute composition grammar only; no traced or embedded reference raster remains.
 - Technical icons use one consistent vector system and do not imply unsupported evidence or certification.
 - Connectors are behind nodes, routed through reserved whitespace, and terminate at boundaries/ports; no floating arrowhead remains.
 - No clipping, overlap, boundary-touching text, status-badge/title collision, illegible type, connector-through-label defect, or deceptive axis remains.
-- Every in-shape SVG text block has a renderer-measured bounding box inside its declared container and clearance padding; estimated character width or standalone visual inspection alone is insufficient.
+- Every in-shape SVG text block has a renderer-measured bounding box inside its declared container and clearance padding; circles, ellipses, and rounded rectangles are checked against their true curved boundary rather than an outer box.
 - Every SVG text element is explicitly classified as container-bound or intentionally free; the containment check's positive fixture passes and deliberately narrowed negative fixture fails.
 - Final-size single/double-column render is readable.
 - Every figure passes editable-master/structure, standalone export, final-size, and full-page clean-room PDF inspection under its rendered figure number.
@@ -72,6 +72,7 @@ Pass every applicable gate before calling a paper final. Record `PASS`, `CAVEAT`
 
 - ZIP contains source, official style/checklist, bibliography, tables, figures, and required compact evidence/scripts.
 - ZIP excludes `.git`, credentials, private data, caches, auxiliary build files, and unrelated repository content.
+- Packaging rejects every symlink before reading file contents and verifies selected files remain inside the source root.
 - ZIP extracts without path traversal or nested-root confusion.
 - Extracted ZIP compiles independently in a fresh directory.
 - Clean-room PDF is visually identical to the intended release even when metadata prevents byte identity.
