@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering
+\caption{Five factor families in the implemented evaluator.}
+\label{tab:factorfamilies}
+\scriptsize
+\begin{tabularx}{\linewidth}{@{}p{0.20\linewidth}p{0.30\linewidth}X@{}}
+\toprule
+Family & Representative term & Operational interpretation \\
+\midrule
+Governance & $y_i\in\{H,A,C\}$; $H(y)=0$ & Human-mandatory tasks may not be AI-only. \\
+Reliability & $q_s,q_c\le\epsilon$ & Scenario service and regional capacity remain within tolerances. \\
+Oversight/exposure & $[R(y)-B_R]_+$; $2\,\mathrm{sd}(a_r)$ & Review capacity and regional AI-use dispersion are priced. \\
+Complementarity & $B_k\mathbf1[n^C_k\ge h_k]-A_k\mathbf1[\mathbf y_k=A]-J_k(m_k-1)_+$ & Workflow-level collaboration rewards and handoff/all-AI penalties. \\
+Evidence eligibility & gain, disagreement, strict core, $p_Q^\star/p_U^\star$ & Quantum evidence is interpreted only inside a classically characterized retained set. \\
+\bottomrule
+\end{tabularx}
+\end{table}

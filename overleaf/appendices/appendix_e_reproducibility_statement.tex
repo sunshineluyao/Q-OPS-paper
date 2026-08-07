@@ -1,0 +1,14 @@
+\section{Reproducibility and claim traceability}
+\label{app:reproducibility}
+
+The supplementary source contains the frozen configuration, archived 32-row evidence table, aggregate summary, rerun summary, configuration digest, figure generator, and a shared-field comparison script. For anonymous review, the public location is represented as the \Repo; the camera-ready source should replace this placeholder with the permanent repository URL and commit.
+
+\paragraph{Minimal reproduction.}
+From the public source snapshot, install NumPy and pytest, set the repository root on \texttt{PYTHONPATH}, and run the three targeted test modules for the C1.1/C1.2 generator, evaluator and locked protocol. Then execute the locked runner with its explicit confirmation flag and a new empty output directory. Finally run \texttt{scripts/audit\_reproduction.py} from this package against the archived and fresh CSVs. The independent audit obtained 32/32 rows, 704/704 exact shared-field matches and maximum absolute error zero.
+
+The archived CSV has 30 columns; the current public runner emits 22. The eight archive-only diagnostics are restart variance, composite incumbent feasibility, retained-state count, fallback use, $p=2$ near-optimal mass, effective support, and uniform/QAOA sample diversity. Because the schemas differ, the package does not claim byte identity. The richer archive remains the source for composite-feasibility and depth diagnostics; every field currently emitted by the runner is exactly reproduced.
+
+\input{tabs/tab_appendix_traceability}
+
+\paragraph{Repository-wide health caveat.}
+The targeted frozen experiment passes. A broad legacy test discovery also surfaced an unrelated sparse-tracking certificate failure, and a clean environment initially lacked pytest for a protocol module. These do not alter the C1.2 values, but they mean the snapshot should not be described as having an entirely green repository-wide test suite. The independent report records this distinction.

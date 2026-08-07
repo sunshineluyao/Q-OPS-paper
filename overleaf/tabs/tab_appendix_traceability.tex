@@ -1,0 +1,21 @@
+\begingroup
+\small
+\begin{longtable}{@{}p{0.26\linewidth}p{0.34\linewidth}p{0.31\linewidth}@{}}
+\caption{Claim-to-artifact traceability.}\label{tab:traceability}\\
+\toprule
+Claim / object & Public artifact or function & Verification route \\
+\midrule
+\endfirsthead
+\toprule
+Claim / object & Public artifact or function & Verification route \\
+\midrule
+\endhead
+Generator and evaluator & \path{qops/c12_generator.py}; \texttt{generate\_instance}; \texttt{evaluate} & Exact formulas summarized in Appendix~\ref{app:benchmark}; targeted tests cover determinism and legality. \\
+Classical controls & \path{qops/c12_classical.py}; coordinate greedy; cluster repair & Rerun all 32 frozen instances; compare gain, disagreement and feasibility fields. \\
+Core and statevector & \path{qops/c12_quantum.py}; core extraction; retained-state QAOA & Recompute retained states, $p=1/p=2$ masses and matched draws. \\
+Frozen matrix and inference & \path{qops/c12_locked.py}; locked config JSON & Explicit confirmation flag; configuration SHA-256; deterministic seeds. \\
+Headline aggregates & Archived records CSV and summary JSON & 32 archived rows; fresh run matches 704/704 values shared with the current runner exactly. \\
+Figures & \path{scripts/make_figures.py} and copied frozen CSV & Regenerate live-text SVG masters; export PDF; run SVG structural audit. \\
+\bottomrule
+\end{longtable}
+\endgroup

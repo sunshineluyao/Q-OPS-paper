@@ -1,0 +1,33 @@
+{
+  "experiment_id": "Q_OPS_GLOBAL_C1_2_LOCKED",
+  "config_sha256": "7f07459abc9e686934be1ee022768eb82a9687137cc86d4d7ea0b7727715e53c",
+  "instances": 32,
+  "overall_strict_feasible_core_rate": 0.9375,
+  "alns_win_rate": 0.78125,
+  "ambiguity_activation_rate": 0.78125,
+  "adoption_gate_rate": 0.28125,
+  "zero_final_hard_violations": true,
+  "paired_ci": {
+    "alns_gain": {
+      "mean": 17.019150418093602,
+      "lower": 12.52367259582828,
+      "upper": 21.552024477538033
+    },
+    "qaoa_minus_uniform_optimal_probability": {
+      "mean": 0.12991232490671997,
+      "lower": 0.0991021882159424,
+      "upper": 0.16400322919622745
+    },
+    "qaoa_minus_uniform_time_to_optimum": {
+      "mean": -23.5625,
+      "lower": -39.282031249999996,
+      "upper": -8.6875
+    },
+    "qaoa_minus_uniform_near_optimal_coverage": {
+      "mean": 0.04427083333333334,
+      "lower": -0.020833333333333332,
+      "upper": 0.11197916666666667
+    }
+  },
+  "claim_boundary": "A favorable locked result would support a statevector-level selective hybrid advantage candidate on this synthetic benchmark. It would not establish real-QPU, wall-clock, scaling, workplace-safety, or universal quantum advantage."
+}

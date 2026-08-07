@@ -1,0 +1,23 @@
+\section{Benchmark formulas, meanings, and precedents}
+\label{app:benchmark}
+
+This appendix distinguishes four evidence statuses: \emph{implemented} means the public evaluator computes the quantity; \emph{synthetic} means its coefficient is generated or frozen rather than estimated from field data; \emph{interpretive} means we supply a real-world analogy; and \emph{validated} is deliberately not asserted for organizational welfare, safety, or fairness.
+
+For scenario $\omega$, let $D_\omega$ be demand, $h_{r\omega}$ and $a_{r\omega}$ regional human/AI factors, and $u_\omega$ the common AI shock. With clipped success to $[0,1]$,
+\begin{align}
+s_{i\omega}(\Hmode)&=\bar s_i^H h_{r(i)\omega}, & (\ell^H,\ell^A)(\Hmode)&=(1,0),\\
+s_{i\omega}(\Amode)&=\bar s_i^A a_{r(i)\omega}u_\omega, &(\ell^H,\ell^A)(\Amode)&=(0,1),\\
+s_{i\omega}(\Cmode)&=\bar s_i^C(.55h_{r(i)\omega}+.45a_{r(i)\omega})(.985+.015u_\omega),
+ &(\ell^H,\ell^A)(\Cmode)&=(.45,.65).
+\end{align}
+Regional overflow is the sum of positive excesses over scenario-scaled human and AI capacities:
+\begin{equation}
+ O_\omega(y)=\sum_r\left[L^H_{r\omega}(y)-B^H_rh_{r\omega}\right]_+ +
+ \left[L^A_{r\omega}(y)-B^A_ra_{r\omega}\right]_+,
+\end{equation}
+where $L^x_{r\omega}=\sum_{i:r(i)=r}d_iD_\omega\ell^x(y_i)$. These equations correct a tempting but inaccurate simplification: the service constraint is aggregate and scenario-based, not a separate chance constraint for every task.
+
+\input{tabs/tab_appendix_benchmark_glossary}
+
+\paragraph{Generator distributions.}
+The generator assigns three-task clusters, up to three modeled regions, task values in $[9,18]$, human success in $[.94,.99]$, AI success based on $[.84,.955]$ with a sensitivity decrement, and collaborative success above the better base mode by a sampled margin, capped at .997. Costs, capacities, review requirements, cluster coefficients and disruption strength are seeded. The four stress levels increase sensitive-task prevalence, outage probability and selected penalties. These ranges define a controlled stress test, not an empirical model of any named industry.

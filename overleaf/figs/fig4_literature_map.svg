@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="705" viewBox="0 0 1200 705" role="img" aria-labelledby="title desc">
+<title id="title">Literature convergence map</title>
+<desc id="desc">Six established research streams connect through reserved gutters to a central four-layer integration stack. Arrowheads stop at the central boundary and do not cross text or icons.</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8.4" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#536273"/></marker>
+<filter id="shadow" x="-12%" y="-12%" width="124%" height="132%"><feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/><feOffset in="blur" dy="3" result="offset"/><feComponentTransfer in="offset" result="soft"><feFuncA type="linear" slope="0.12"/></feComponentTransfer><feMerge><feMergeNode in="soft"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect x="0" y="0" width="1200" height="705" fill="#FFFFFF"/>
+<text x="50" y="48" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" font-style="normal" fill="#17324D" text-anchor="start">Six established streams converge on a scoped integration</text>
+<text x="50" y="81" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" font-style="normal" fill="#536273" text-anchor="start">Connectors show conceptual dependence—not chronological priority or an exhaustive systematic review</text>
+<rect x="980" y="28" width="170" height="38" rx="19" fill="#FFFFFF" stroke="#249D78" stroke-width="2"/>
+<text x="1065.0" y="54" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" font-style="normal" fill="#249D78" text-anchor="middle">SCOPED MAP</text>
+<line x1="375" y1="215" x2="415" y2="215" stroke="#D6E0EA" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow)"/>
+<line x1="825" y1="215" x2="785" y2="215" stroke="#D6E0EA" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow)"/>
+<line x1="375" y1="405" x2="415" y2="405" stroke="#D6E0EA" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow)"/>
+<line x1="825" y1="405" x2="785" y2="405" stroke="#D6E0EA" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow)"/>
+<line x1="375" y1="595" x2="415" y2="595" stroke="#D6E0EA" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow)"/>
+<line x1="825" y1="595" x2="785" y2="595" stroke="#D6E0EA" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="45" y="145" width="330" height="140" rx="17" fill="#EEF5FC" stroke="#2878C8" stroke-width="2.6" filter="url(#shadow)"/>
+<circle cx="87" cy="187" r="22" fill="#EEF5FC" stroke="#2878C8" stroke-width="2"/>
+<ellipse cx="87" cy="187" rx="15" ry="6" fill="none" stroke="#2878C8" stroke-width="1.8" transform="rotate(30 87 187)"/>
+<ellipse cx="87" cy="187" rx="15" ry="6" fill="none" stroke="#2878C8" stroke-width="1.8" transform="rotate(-30 87 187)"/>
+<ellipse cx="87" cy="187" rx="15" ry="6" fill="none" stroke="#2878C8" stroke-width="1.8" transform="rotate(90 87 187)"/>
+<circle cx="87" cy="187" r="3" fill="#2878C8" stroke="#2878C8" stroke-width="1"/>
+<text x="121" y="184" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" font-style="normal" fill="#2878C8" text-anchor="start">Quantum optimization</text>
+<text x="121" y="217" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" font-style="normal" fill="#17212B" text-anchor="start"><tspan x="121" dy="0">QAOA · variational algorithms</tspan><tspan x="121" dy="22.44">Farhi · Blekos · Cerezo</tspan></text>
+<rect x="45" y="335" width="330" height="140" rx="17" fill="#EEF5FC" stroke="#17324D" stroke-width="2.6" filter="url(#shadow)"/>
+<circle cx="87" cy="377" r="22" fill="#EEF5FC" stroke="#17324D" stroke-width="2"/>
+<line x1="73" y1="389" x2="101" y2="389" stroke="#17324D" stroke-width="2.4" stroke-linecap="round"/>
+<rect x="74" y="377" width="6" height="12" rx="1" fill="#17324D" stroke="#17324D" stroke-width="1"/>
+<rect x="84" y="369" width="6" height="20" rx="1" fill="#17324D" stroke="#17324D" stroke-width="1"/>
+<rect x="94" y="362" width="6" height="27" rx="1" fill="#17324D" stroke="#17324D" stroke-width="1"/>
+<text x="121" y="374" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" font-style="normal" fill="#17324D" text-anchor="start">Operations uncertainty</text>
+<text x="121" y="407" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" font-style="normal" fill="#17212B" text-anchor="start"><tspan x="121" dy="0">chance constraints · service ops</tspan><tspan x="121" dy="22.44">Charnes–Cooper · Gans et al.</tspan></text>
+<rect x="45" y="525" width="330" height="140" rx="17" fill="#FFF6E9" stroke="#E48319" stroke-width="2.6" filter="url(#shadow)"/>
+<circle cx="87" cy="567" r="22" fill="#FFF6E9" stroke="#E48319" stroke-width="2"/>
+<line x1="87" y1="556" x2="75" y2="576" stroke="#E48319" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="87" y1="556" x2="99" y2="576" stroke="#E48319" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="75" y1="576" x2="99" y2="576" stroke="#E48319" stroke-width="2.4" stroke-linecap="round"/>
+<circle cx="87" cy="556" r="4" fill="#FFF6E9" stroke="#E48319" stroke-width="2.4"/>
+<circle cx="75" cy="576" r="4" fill="#FFF6E9" stroke="#E48319" stroke-width="2.4"/>
+<circle cx="99" cy="576" r="4" fill="#FFF6E9" stroke="#E48319" stroke-width="2.4"/>
+<text x="121" y="564" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" font-style="normal" fill="#E48319" text-anchor="start">Human–AI organizations</text>
+<text x="121" y="597" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" font-style="normal" fill="#17212B" text-anchor="start"><tspan x="121" dy="0">teaming · work allocation</tspan><tspan x="121" dy="22.44">Amershi · Seeber · Bai et al.</tspan></text>
+<rect x="825" y="145" width="330" height="140" rx="17" fill="#F2F0FB" stroke="#6C5CC5" stroke-width="2.6" filter="url(#shadow)"/>
+<circle cx="867" cy="187" r="22" fill="#F2F0FB" stroke="#6C5CC5" stroke-width="2"/>
+<path d="M 867 202 C 854 192, 862 183, 867 173 C 869 182, 881 186, 875 197 C 872 202, 864 204, 867 202 Z" stroke="#6C5CC5" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 867 197 C 863 192, 868 188, 870 183" stroke="#6C5CC5" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="901" y="184" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" font-style="normal" fill="#6C5CC5" text-anchor="start">Feasibility &amp; warm starts</text>
+<text x="901" y="217" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" font-style="normal" fill="#17212B" text-anchor="start"><tspan x="901" dy="0">alternating operators · warm QAOA</tspan><tspan x="901" dy="22.44">Hadfield · Egger · Sawaya</tspan></text>
+<rect x="825" y="335" width="330" height="140" rx="17" fill="#ECF7F2" stroke="#249D78" stroke-width="2.6" filter="url(#shadow)"/>
+<circle cx="867" cy="377" r="22" fill="#ECF7F2" stroke="#249D78" stroke-width="2"/>
+<line x1="854" y1="366" x2="854" y2="388" stroke="#249D78" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="880" y1="366" x2="880" y2="388" stroke="#249D78" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="860" y1="377" x2="872" y2="377" stroke="#249D78" stroke-width="2.4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<text x="901" y="374" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" font-style="normal" fill="#249D78" text-anchor="start">Selective prediction</text>
+<text x="901" y="407" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" font-style="normal" fill="#17212B" text-anchor="start"><tspan x="901" dy="0">abstention · learning to defer</tspan><tspan x="901" dy="22.44">Geifman–El-Yaniv · Madras</tspan></text>
+<rect x="825" y="525" width="330" height="140" rx="17" fill="#FFF4F4" stroke="#CF4B4B" stroke-width="2.6" filter="url(#shadow)"/>
+<circle cx="867" cy="567" r="22" fill="#FFF4F4" stroke="#CF4B4B" stroke-width="2"/>
+<line x1="867" y1="554" x2="867" y2="580" stroke="#CF4B4B" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="854" y1="559" x2="880" y2="559" stroke="#CF4B4B" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="858" y1="559" x2="853" y2="571" stroke="#CF4B4B" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="876" y1="559" x2="881" y2="571" stroke="#CF4B4B" stroke-width="1.8" stroke-linecap="round"/>
+<path d="M 848 571 Q 853 578 858 571" stroke="#CF4B4B" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 876 571 Q 881 578 886 571" stroke="#CF4B4B" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="901" y="564" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" font-style="normal" fill="#CF4B4B" text-anchor="start">Governance &amp; fairness</text>
+<text x="901" y="597" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" font-style="normal" fill="#17212B" text-anchor="start"><tspan x="901" dy="0">sociotechnical context · standards</tspan><tspan x="901" dy="22.44">Selbst · NIST · ISO/IEC</tspan></text>
+<rect x="415" y="120" width="370" height="545" rx="24" fill="#ECF7F2" stroke="#249D78" stroke-width="3.5" filter="url(#shadow)"/>
+<circle cx="600" cy="172" r="29" fill="#ECF7F2" stroke="#249D78" stroke-width="2"/>
+<circle cx="600" cy="172" r="5" fill="#249D78" stroke="#249D78" stroke-width="1"/>
+<line x1="600" y1="172" x2="600" y2="158" stroke="#249D78" stroke-width="2.4" stroke-linecap="round"/>
+<circle cx="600" cy="158" r="3" fill="#ECF7F2" stroke="#249D78" stroke-width="2.4"/>
+<line x1="600" y1="172" x2="586" y2="182" stroke="#249D78" stroke-width="2.4" stroke-linecap="round"/>
+<circle cx="586" cy="182" r="3" fill="#ECF7F2" stroke="#249D78" stroke-width="2.4"/>
+<line x1="600" y1="172" x2="614" y2="182" stroke="#249D78" stroke-width="2.4" stroke-linecap="round"/>
+<circle cx="614" cy="182" r="3" fill="#ECF7F2" stroke="#249D78" stroke-width="2.4"/>
+<text x="600" y="222" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" font-style="normal" fill="#249D78" text-anchor="middle">Integration evaluated here</text>
+<text x="600" y="252" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" font-style="normal" fill="#17212B" text-anchor="middle"><tspan x="600" dy="0">selective, classically bounded</tspan><tspan x="600" dy="22.5">quantum evidence for governed</tspan><tspan x="600" dy="22.5">H/A/C allocation</tspan></text>
+<rect x="440" y="350" width="320" height="55" rx="14" fill="#FFFFFF" stroke="#17324D" stroke-width="2.2"/>
+<circle cx="469" cy="377.5" r="15" fill="#FFFFFF" stroke="#17324D" stroke-width="2"/>
+<line x1="469" y1="366.5" x2="457" y2="386.5" stroke="#17324D" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="469" y1="366.5" x2="481" y2="386.5" stroke="#17324D" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="457" y1="386.5" x2="481" y2="386.5" stroke="#17324D" stroke-width="2.4" stroke-linecap="round"/>
+<circle cx="469" cy="366.5" r="4" fill="#FFFFFF" stroke="#17324D" stroke-width="2.4"/>
+<circle cx="457" cy="386.5" r="4" fill="#FFFFFF" stroke="#17324D" stroke-width="2.4"/>
+<circle cx="481" cy="386.5" r="4" fill="#FFFFFF" stroke="#17324D" stroke-width="2.4"/>
+<text x="494" y="385" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" font-style="normal" fill="#17324D" text-anchor="start">1  Governed H / A / C allocation</text>
+<rect x="440" y="420" width="320" height="55" rx="14" fill="#FFFFFF" stroke="#6C5CC5" stroke-width="2.2"/>
+<circle cx="469" cy="447.5" r="15" fill="#FFFFFF" stroke="#6C5CC5" stroke-width="2"/>
+<path d="M 457 459.5 L 472 444.5 M 467 439.5 Q 477 432.5 483 440.5 L 476 447.5 Q 469 442.5 467 439.5" stroke="#6C5CC5" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="457" cy="459.5" r="3" fill="none" stroke="#6C5CC5" stroke-width="2.4"/>
+<text x="494" y="455" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" font-style="normal" fill="#6C5CC5" text-anchor="start">2  Strong C + incumbent W</text>
+<rect x="440" y="490" width="320" height="55" rx="14" fill="#FFFFFF" stroke="#2878C8" stroke-width="2.2"/>
+<circle cx="469" cy="517.5" r="15" fill="#FFFFFF" stroke="#2878C8" stroke-width="2"/>
+<line x1="454" y1="509.5" x2="484" y2="509.5" stroke="#2878C8" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="454" y1="517.5" x2="484" y2="517.5" stroke="#2878C8" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="454" y1="525.5" x2="484" y2="525.5" stroke="#2878C8" stroke-width="1.8" stroke-linecap="round"/>
+<rect x="461" y="504.5" width="7" height="10" rx="1" fill="#FFFFFF" stroke="#2878C8" stroke-width="1.8"/>
+<rect x="472" y="520.5" width="8" height="10" rx="1" fill="#FFFFFF" stroke="#2878C8" stroke-width="1.8"/>
+<circle cx="476" cy="509.5" r="3" fill="#2878C8" stroke="#2878C8" stroke-width="1"/>
+<text x="494" y="525" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" font-style="normal" fill="#2878C8" text-anchor="start">3  Matched U / Q sampling</text>
+<rect x="440" y="560" width="320" height="55" rx="14" fill="#FFFFFF" stroke="#249D78" stroke-width="2.2"/>
+<circle cx="469" cy="587.5" r="15" fill="#FFFFFF" stroke="#249D78" stroke-width="2"/>
+<path d="M 469 572.5 L 482 577.5 L 479 594.5 Q 469 604.5 459 594.5 L 456 577.5 Z" stroke="#249D78" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 463 587.5 L 468 592.5 L 476 582.5" stroke="#249D78" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="494" y="595" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" font-style="normal" fill="#249D78" text-anchor="start">4  Locked audit + certificate</text>
+</svg>

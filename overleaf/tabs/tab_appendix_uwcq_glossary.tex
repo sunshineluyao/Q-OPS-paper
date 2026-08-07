@@ -1,0 +1,37 @@
+\begingroup
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{longtable}{@{}p{0.14\linewidth}p{0.25\linewidth}p{0.25\linewidth}p{0.27\linewidth}@{}}
+\caption{Complete \textsc{U--W--C--Q} strategy and metric glossary.}\label{tab:uwcqglossary}\\
+\toprule
+Object & Formula / implementation & Intuitive definition & Use and precedent \\
+\midrule
+\endfirsthead
+\toprule
+Object & Formula / implementation & Intuitive definition & Use and precedent \\
+\midrule
+\endhead
+Individual seed & $\arg\max_{m\in D_i}(v_i\bar s_{im}-d_ic_{im})$ per task & Myopic value-minus-cost initialization. & Starting point for coordinate descent. \\
+Greedy control & Repeated best legal one-task move until no $S$ improvement & Stronger than an all-human or random straw baseline. & Classical control; local-search precedent. \\
+Cluster repair & Exact enumeration of one three-task cluster, sometimes plus one external task, for 18 iterations and 2 restarts & Destroy/repair coordinated assignments inside a small neighborhood. & Inspired by ALNS~\citep{ropke2006alns}; the implementation is intentionally reported as \emph{cluster repair}, not a comprehensive ALNS suite. \\
+Classical gain & $\Delta=S(y^C)-S(y^G)$ & Improvement of cluster repair over greedy. & One ambiguity signal; mean and win rate are frozen outcomes. \\
+Disagreement & $d=n^{-1}\sum_i\mathbf1[y_i^G\ne y_i^C]$ & How differently the two classical procedures allocate tasks. & A second ambiguity signal. \\
+Ambiguity & $a=\min\{1,2.8d+5[\Delta/\max(|S_C|,1)]_++4\sqrt{v_R}/\max(|S_C|,1)\}$ & Normalized evidence that the classical landscape is contested. & Threshold $.08$; diagnostic, not calibrated probability. Algorithm selection context~\citep{rice1976algorithm,kotthoff2014algorithm}. \\
+Core score & $B_k+A_k+J_k\max(1,|k|-1)+5\bar d_k$ & Ranks clusters by complementarity, penalties and disagreement. & Selects four task indices; not a learned selector. \\
+Retained set & Enumerate $\prod_{i\in I}D_i$; keep $F(y)=1$ & Exact small-core assignments that remain feasible with the incumbent outside the core. & At most $3^4=81$ states. \\
+Fallback set & If no strict state, retain lowest 20\% of $20H+2R_++q_s+q_c$ & Keeps a least-violating diagnostic set when strict feasibility fails. & Used on 2/32 instances; never relabeled feasible. \\
+Retained graph & $A_{zz'}=1$ for one-mode Hamming neighbors; connect isolated nodes to nearest retained state & Mixer moves only among retained states. & Feasible alternating-operator motivation~\citep{hadfield2019alternating,sawaya2023mixers}. \\
+Warm state & $z_W=\arg\min_{z\in\mathcal Z}d_H(z,y^C_I)$; $\psi_0(z)\propto e^{-.35d_H(z,z_W)}$ & Starts near the cluster-repair incumbent while retaining support elsewhere. & Warm-start motivation~\citep{egger2021warm}. \\
+Hamiltonians & $H_C=\operatorname{diag}((E-\bar E)/\sigma_E)$, $E=-S$; $H_M=-A$ & Phase by standardized cost; mix along retained edges. & Statevector implementation; no gate compilation or noise model. \\
+QAOA state & $|\psi_p\rangle=\prod_{\ell=1}^p e^{-i\beta_\ell H_M}e^{-i\gamma_\ell H_C}|\psi_0\rangle$ & Alternates cost and mixer evolution. & QAOA/alternating-operator line~\citep{farhi2014qaoa,hadfield2019alternating,blekos2024review}. \\
+Parameter search & $p=1$: $13\times11$ grid; $p=2$: 30 seeded random trials; lexicographic objective $(\mathbb E[E],-M_{.05},-p^\star)$ & Frozen but unequal searches at the two depths. & Supports reporting each depth, not a causal depth comparison. \\
+Uniform baseline & $P_U(z)=1/|\mathcal Z|$ & Uninformed sampling on the same retained set. & Isolates concentration from feasibility filtering. \\
+Optimum mass & $p^\star=\sum_{z:E(z)=E_{\min}}P(z)$ & Probability of drawing any exactly optimal retained state. & Primary statevector concentration metric. \\
+Near-optimal mass & $M_{.05}=\sum_{z\in\mathcal N_{.05}}P(z)$, $\mathcal N_{.05}=\{E\le E_{\min}+.05\,\mathrm{range}(E)\}$ & Probability inside a 5\%-of-range energy band. & Secondary optimizer tie-break and descriptive metric. \\
+First hit & $T=\min\{b:z_b\text{ optimal}\}$; $T=129$ on a miss, budget 128 & Draw index of the first optimum under one seeded matched sample. & Sample-efficiency proxy, not wall-clock runtime. \\
+Coverage & distinct sampled near-optimal states / all near-optimal retained states & Diversity inside the near-optimal band. & Paired difference interval crosses zero. \\
+Evidence gate & $F_I\land a\ge.08\land p_2^\star\ge\max(.18,1.4p_U^\star)\land(\Delta>0\lor d\ge.05)$ & Flags frozen instances with strict feasibility, ambiguity and sufficient simulated concentration. & Computed \emph{after} QAOA; not an invocation policy. \\
+Certificate & Re-evaluate the accepted full assignment with the shared scenario evaluator & Separates quantum evidence from operational acceptance. & In the current experiment the cluster-repair incumbent remains the final/fallback assignment. \\
+\bottomrule
+\end{longtable}
+\endgroup

@@ -1,0 +1,79 @@
+{
+  "experiment_id": "Q_OPS_GLOBAL_C1_2_LOCKED",
+  "status": "frozen_not_executed",
+  "parent_development_experiment": "Q_OPS_GLOBAL_C1_2_DEVELOPMENT",
+  "freeze_date": "2026-08-01",
+  "matrix": {
+    "task_sizes": [12, 18],
+    "doping_levels": [0, 1, 2, 3],
+    "held_out_seeds": [101, 211, 307, 401],
+    "development_seeds_excluded": [11, 23],
+    "scenarios_per_instance": 24,
+    "instances": 32,
+    "core_size": 4,
+    "qaoa_depths": [1, 2],
+    "matched_sample_budget": 128
+  },
+  "frozen_model": {
+    "modes": ["HUMAN_ONLY", "AI_ONLY", "HUMAN_AI_COLLABORATION"],
+    "service_target": 0.70,
+    "chance_epsilon": 0.20,
+    "capacity_scale": 0.92,
+    "cluster_size": 3,
+    "correlated_disruptions": true,
+    "review_capacity": true,
+    "cluster_complementarity": true
+  },
+  "frozen_classical": {
+    "greedy": "single-task coordinate descent",
+    "alns": "cluster destroy-repair with exact neighborhood enumeration",
+    "alns_iterations": 18,
+    "alns_restarts": 2,
+    "exact_reference": "exact retained-core enumeration for every instance; full-instance exact or MILP reference for n_tasks=12 when computationally feasible"
+  },
+  "frozen_quantum": {
+    "simulation": "feasible-subspace statevector",
+    "warm_start": "nearest retained state to ALNS reference",
+    "p1_random_trials": "implementation default, unchanged from development",
+    "p2_random_trials": 30,
+    "final_verification": "shared classical scenario evaluator",
+    "hardware_or_noise_claims": false
+  },
+  "primary_outcomes": [
+    "strict_feasible_core_rate",
+    "alns_gain_over_greedy",
+    "classical_ambiguity",
+    "qaoa_optimal_state_probability",
+    "time_to_optimum_under_128_samples",
+    "near_optimal_coverage_under_128_samples",
+    "collaboration_rate",
+    "adoption_gate_rate",
+    "hard_constraint_violations"
+  ],
+  "paired_inference": {
+    "unit": "instance",
+    "confidence_level": 0.95,
+    "method": "paired bootstrap confidence intervals with 10000 resamples",
+    "multiplicity": "report all prespecified outcomes; no selective omission",
+    "null_cases": "retain and report"
+  },
+  "locked_success_gates": {
+    "overall_strict_feasible_core_rate_min": 0.70,
+    "alns_win_rate_min": 0.25,
+    "ambiguity_activation_rate_min": 0.25,
+    "adoption_gate_rate_min": 0.08,
+    "adoption_gate_rate_max": 0.50,
+    "qaoa_p2_optimal_probability_ratio_vs_uniform_min": 1.40,
+    "qaoa_time_to_optimum_ratio_vs_uniform_max": 0.80,
+    "zero_final_hard_violations": true
+  },
+  "automatic_failure_conditions": [
+    "any outcome-guided parameter tuning after locked execution begins",
+    "any overlap between held-out and development seeds",
+    "any unreported locked instance",
+    "any final hard-constraint violation in an accepted schedule",
+    "any claim stronger than exact synthetic evaluation plus statevector simulation"
+  ],
+  "execution_rule": "Do not run without the explicit --confirm-locked-run flag. Once executed, parameters and seeds may not be changed; any revision creates a new experiment identifier.",
+  "claim_boundary": "A favorable locked result would support a statevector-level selective hybrid advantage candidate on this synthetic benchmark. It would not establish real-QPU, wall-clock, scaling, workplace-safety, or universal quantum advantage."
+}

@@ -1,0 +1,15 @@
+\section{Additional results and diagnostic partitions}
+\label{app:additional}
+
+\input{tabs/tab_appendix_gate_partition}
+
+\paragraph{Depth and matched draws.}
+Across instances, mean optimum masses are .022278 (uniform), .249182 ($p=1$), and .152190 ($p=2$). The $p=2$ value exceeds uniform on 30/32; $p=1$ exceeds $p=2$ on 28/32. Since the parameter searches are unequal and selected by expected energy before optimum mass, this is a warning against interpreting depth as the sole causal factor.
+
+Uniform and $p=2$ near-optimal coverage means are .919271 and .963542. Their paired mean difference .044271 has 95\% interval [$-.020833,.111979$]. We therefore report the direction but make no positive coverage claim. The first-hit means of 36.50 and 12.9375 are sensitive to the frozen draw stream and miss code; they complement, rather than replace, the exact probability-mass result.
+
+\paragraph{Feasibility decomposition.}
+Thirty instances have at least one strict feasible retained state; two use fallback states. All 32 cluster-repair incumbents have zero explicit disallowed-mode violations, while 27 satisfy the stricter conjunction of review capacity and empirical service/capacity tolerances. Any abstract phrase ``zero final hard violations'' should be read as zero mode-domain violations only.
+
+\paragraph{Gate interpretation.}
+The ordered partition in \cref{tab:gatepartition} prevents double counting. Its 9 positive instances meet all frozen predicates after QAOA. A real invocation router would have to replace $p_2^\star$ with pre-execution features and be evaluated on new held-out instances. Until then, ``gate rate'' is an evidence summary, not a rate of saved QPU calls.

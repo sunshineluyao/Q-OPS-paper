@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="705" viewBox="0 0 1200 705" role="img" aria-labelledby="title desc">
+<title id="title">Five benchmark factor families</title>
+<desc id="desc">A branching taxonomy connects the governed human-AI allocation problem to five implemented factor families, each represented with an original technical icon and a concise formula or role.</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8.4" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#536273"/></marker>
+<filter id="shadow" x="-12%" y="-12%" width="124%" height="132%"><feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/><feOffset in="blur" dy="3" result="offset"/><feComponentTransfer in="offset" result="soft"><feFuncA type="linear" slope="0.12"/></feComponentTransfer><feMerge><feMergeNode in="soft"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect x="0" y="0" width="1200" height="705" fill="#FFFFFF"/>
+<text x="50" y="48" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" font-style="normal" fill="#17324D" text-anchor="start">Five factor families make allocation a governance problem</text>
+<text x="50" y="81" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" font-style="normal" fill="#536273" text-anchor="start">Branches encode distinct objective, feasibility, or evidence roles; they are not interchangeable metrics</text>
+<rect x="977" y="28" width="173" height="38" rx="19" fill="#FFFFFF" stroke="#249D78" stroke-width="2"/>
+<text x="1063.5" y="54" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" font-style="normal" fill="#249D78" text-anchor="middle">METHOD DESIGN</text>
+<path d="M 600 205 L 600 225 L 290 225 L 290 245" stroke="#D6E0EA" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 600 225 L 910 225 L 910 245" stroke="#D6E0EA" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 600 205 L 600 430 L 200 430 L 200 450" stroke="#D6E0EA" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 600 430 L 600 450" stroke="#D6E0EA" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 600 430 L 1000 430 L 1000 450" stroke="#D6E0EA" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="390" y="105" width="420" height="100" rx="20" fill="#ECF7F2" stroke="#249D78" stroke-width="3" id="taxonomy-center-shape" filter="url(#shadow)"/>
+<circle cx="445" cy="155" r="25" fill="#ECF7F2" stroke="#249D78" stroke-width="2"/>
+<line x1="445" y1="144" x2="433" y2="164" stroke="#249D78" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="445" y1="144" x2="457" y2="164" stroke="#249D78" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="433" y1="164" x2="457" y2="164" stroke="#249D78" stroke-width="2.4" stroke-linecap="round"/>
+<circle cx="445" cy="144" r="4" fill="#ECF7F2" stroke="#249D78" stroke-width="2.4"/>
+<circle cx="433" cy="164" r="4" fill="#ECF7F2" stroke="#249D78" stroke-width="2.4"/>
+<circle cx="457" cy="164" r="4" fill="#ECF7F2" stroke="#249D78" stroke-width="2.4"/>
+<text id="taxonomy-center-title" data-container="taxonomy-center-shape" data-padding="12" x="490" y="145" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" font-style="normal" fill="#249D78" text-anchor="start">Governed H/A/C evaluator</text>
+<text id="taxonomy-center-body" data-container="taxonomy-center-shape" data-padding="12" x="490" y="174" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" font-style="normal" fill="#17212B" text-anchor="start">one allocation, five factor families</text>
+<rect x="110" y="245" width="360" height="160" rx="17" fill="#EEF5FC" stroke="#17324D" stroke-width="2.6" id="taxonomy-card-1-shape" filter="url(#shadow)"/>
+<circle cx="152" cy="287" r="22" fill="#EEF5FC" stroke="#17324D" stroke-width="2"/>
+<path d="M 152 272 L 165 277 L 162 294 Q 152 304 142 294 L 139 277 Z" stroke="#17324D" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 146 287 L 151 292 L 159 282" stroke="#17324D" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text id="taxonomy-card-1-title" data-container="taxonomy-card-1-shape" data-padding="12" x="186" y="284" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" font-style="normal" fill="#17324D" text-anchor="start">1  Governance</text>
+<text id="taxonomy-card-1-body" data-container="taxonomy-card-1-shape" data-padding="12" x="186" y="317" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" font-style="normal" fill="#17212B" text-anchor="start"><tspan x="186" dy="0">mode domain Dᵢ; H(y)=0</tspan><tspan x="186" dy="23.76">human-required tasks exclude A</tspan></text>
+<rect x="730" y="245" width="360" height="160" rx="17" fill="#EEF5FC" stroke="#2878C8" stroke-width="2.6" id="taxonomy-card-2-shape" filter="url(#shadow)"/>
+<circle cx="772" cy="287" r="22" fill="#EEF5FC" stroke="#2878C8" stroke-width="2"/>
+<path d="M 758 297 L 766 289 L 773 293 L 785 277" stroke="#2878C8" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="758" cy="297" r="2.5" fill="#2878C8" stroke="#2878C8" stroke-width="1"/>
+<circle cx="766" cy="289" r="2.5" fill="#2878C8" stroke="#2878C8" stroke-width="1"/>
+<circle cx="773" cy="293" r="2.5" fill="#2878C8" stroke="#2878C8" stroke-width="1"/>
+<circle cx="785" cy="277" r="2.5" fill="#2878C8" stroke="#2878C8" stroke-width="1"/>
+<text id="taxonomy-card-2-title" data-container="taxonomy-card-2-shape" data-padding="12" x="806" y="284" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" font-style="normal" fill="#2878C8" text-anchor="start">2  Reliability</text>
+<text id="taxonomy-card-2-body" data-container="taxonomy-card-2-shape" data-padding="12" x="806" y="317" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" font-style="normal" fill="#17212B" text-anchor="start"><tspan x="806" dy="0">24 correlated scenarios</tspan><tspan x="806" dy="23.76">qₛ≤ε and q_c≤ε</tspan></text>
+<rect x="20" y="450" width="360" height="160" rx="17" fill="#FFF6E9" stroke="#E48319" stroke-width="2.6" id="taxonomy-card-3-shape" filter="url(#shadow)"/>
+<circle cx="62" cy="492" r="22" fill="#FFF6E9" stroke="#E48319" stroke-width="2"/>
+<path d="M 47 492 Q 62 478 77 492 Q 62 506 47 492 Z" stroke="#E48319" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="62" cy="492" r="5" fill="none" stroke="#E48319" stroke-width="2.4"/>
+<text id="taxonomy-card-3-title" data-container="taxonomy-card-3-shape" data-padding="12" x="96" y="489" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" font-style="normal" fill="#E48319" text-anchor="start">3  Oversight &amp; exposure</text>
+<text id="taxonomy-card-3-body" data-container="taxonomy-card-3-shape" data-padding="12" x="96" y="522" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" font-style="normal" fill="#17212B" text-anchor="start"><tspan x="96" dy="0">review overflow [R(y)−Bᴿ]₊</tspan><tspan x="96" dy="23.76">regional AI-use dispersion</tspan></text>
+<rect x="420" y="450" width="360" height="160" rx="17" fill="#F2F0FB" stroke="#6C5CC5" stroke-width="2.6" id="taxonomy-card-4-shape" filter="url(#shadow)"/>
+<circle cx="462" cy="492" r="22" fill="#F2F0FB" stroke="#6C5CC5" stroke-width="2"/>
+<line x1="462" y1="481" x2="450" y2="501" stroke="#6C5CC5" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="462" y1="481" x2="474" y2="501" stroke="#6C5CC5" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="450" y1="501" x2="474" y2="501" stroke="#6C5CC5" stroke-width="2.4" stroke-linecap="round"/>
+<circle cx="462" cy="481" r="4" fill="#F2F0FB" stroke="#6C5CC5" stroke-width="2.4"/>
+<circle cx="450" cy="501" r="4" fill="#F2F0FB" stroke="#6C5CC5" stroke-width="2.4"/>
+<circle cx="474" cy="501" r="4" fill="#F2F0FB" stroke="#6C5CC5" stroke-width="2.4"/>
+<text id="taxonomy-card-4-title" data-container="taxonomy-card-4-shape" data-padding="12" x="496" y="489" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" font-style="normal" fill="#6C5CC5" text-anchor="start">4  Complementarity</text>
+<text id="taxonomy-card-4-body" data-container="taxonomy-card-4-shape" data-padding="12" x="496" y="522" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" font-style="normal" fill="#17212B" text-anchor="start"><tspan x="496" dy="0">cluster threshold reward</tspan><tspan x="496" dy="23.76">handoff and all-AI penalties</tspan></text>
+<rect x="820" y="450" width="360" height="160" rx="17" fill="#ECF7F2" stroke="#249D78" stroke-width="2.6" id="taxonomy-card-5-shape" filter="url(#shadow)"/>
+<circle cx="862" cy="492" r="22" fill="#ECF7F2" stroke="#249D78" stroke-width="2"/>
+<path d="M 848 480 L 876 480 L 867 491 L 867 504 L 859 500 L 859 491 Z" stroke="#249D78" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text id="taxonomy-card-5-title" data-container="taxonomy-card-5-shape" data-padding="12" x="896" y="489" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" font-style="normal" fill="#249D78" text-anchor="start">5  Evidence eligibility</text>
+<text id="taxonomy-card-5-body" data-container="taxonomy-card-5-shape" data-padding="12" x="896" y="522" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" font-style="normal" fill="#17212B" text-anchor="start"><tspan x="896" dy="0">classical gain + disagreement</tspan><tspan x="896" dy="23.76">strict core, gate + certificate</tspan></text>
+<rect x="125" y="634" width="950" height="46" rx="23" fill="#FFF4F4" stroke="#CF4B4B" stroke-width="2" id="taxonomy-disclaimer-shape"/>
+<text id="taxonomy-disclaimer-label" data-container="taxonomy-disclaimer-shape" data-padding="12" x="600" y="663" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" font-style="normal" fill="#CF4B4B" text-anchor="middle">Synthetic operational construct—not a validated workplace fairness, welfare, or safety instrument</text>
+</svg>

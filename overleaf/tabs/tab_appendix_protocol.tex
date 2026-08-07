@@ -1,0 +1,23 @@
+\begin{table}[h]
+\centering
+\caption{Frozen experimental protocol.}
+\label{tab:protocol}
+\small
+\begin{tabularx}{\linewidth}{@{}p{0.28\linewidth}X@{}}
+\toprule
+Component & Frozen value \\
+\midrule
+Factorial matrix & $n\in\{12,18\}$; stress/doping $\in\{0,1,2,3\}$; seeds $\{101,211,307,401\}$; 32 instances total \\
+Scenarios & 24 correlated scenarios per instance; service target .70; tolerance .20; capacity scale .92 \\
+Classical & Coordinate greedy; cluster destroy/repair, 18 iterations, 2 restarts \\
+Retained core & 4 variables; ternary legal domains; exact retained-core enumeration; at most 81 states \\
+Quantum & Noiseless feasible-subspace statevector; $p=1,2$; $p=1$ grid 143 points; $p=2$ seeded random search 30 points \\
+Sampling & 128 replacement draws per U/Q distribution; different frozen seeds; miss coded 129 \\
+Inference & Instance is the paired unit; percentile paired bootstrap; 10,000 resamples; all prespecified nulls retained \\
+Config digest & \texttt{7f07459abc9e686934be1ee022768eb82}\\[-1mm]
+& \texttt{a9687137cc86d4d7ea0b7727715e53c} \\
+Source snapshot & Public implementation commit \texttt{ae6a85f52fb5808e631bc0c4cfa43220}\\[-1mm]
+& \texttt{c10ce9aa} \\
+\bottomrule
+\end{tabularx}
+\end{table}

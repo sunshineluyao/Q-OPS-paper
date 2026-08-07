@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering
+\caption{The \textsc{U--W--C--Q} layers and their evidentiary roles.}
+\label{tab:uwcq}
+\scriptsize
+\begin{tabularx}{\linewidth}{@{}p{0.07\linewidth}p{0.20\linewidth}p{0.31\linewidth}X@{}}
+\toprule
+Layer & Implemented object & Formula / metric & Role \\
+\midrule
+U & Uniform retained-state sampler & $P_U(z)=1/|\mathcal Z|$; 128 draws & Uninformed feasible-set comparator. \\
+W & ALNS-nearest warm state & $\psi_0(z)\propto e^{-0.35d_H(z,z_W)}$ & Biases initial amplitude toward the incumbent. \\
+C & Greedy, cluster repair, exact core, verifier & $\Delta=S_C-S_G$, $d=n^{-1}\sum_i\mathbf1[y_i^G\ne y_i^C]$ & Builds incumbent/core and checks accepted assignments. \\
+Q & Retained-graph statevector QAOA & $\prod_{\ell=1}^p e^{-i\beta_\ell H_M}e^{-i\gamma_\ell H_C}|\psi_0\rangle$ & Tests probability concentration, not runtime advantage. \\
+\bottomrule
+\end{tabularx}
+\end{table}

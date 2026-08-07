@@ -1,0 +1,16 @@
+\begin{table}[h]
+\centering
+\caption{Ordered post-simulation evidence-gate partition.}
+\label{tab:gatepartition}
+\small
+\begin{tabularx}{\linewidth}{@{}p{0.34\linewidth}p{0.16\linewidth}X@{}}
+\toprule
+First failing/succeeding condition & Count & Interpretation \\
+\midrule
+No strict feasible retained state & 2 & Violation-ranked fallback; cannot support strict-core evidence. \\
+Classical ambiguity below .08 & 7 & Strong classical methods give little reason to focus on disagreement. \\
+Concentration below frozen threshold & 14 & QAOA $p=2$ does not meet both absolute and relative mass thresholds. \\
+All evidence conditions pass & 9 & Post-simulation evidence-positive subset; still not a deployment decision. \\
+\bottomrule
+\end{tabularx}
+\end{table}
