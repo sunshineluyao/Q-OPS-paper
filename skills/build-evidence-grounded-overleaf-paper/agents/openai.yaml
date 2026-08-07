@@ -1,0 +1,15 @@
+interface:
+  display_name: Evidence-Grounded Overleaf Paper
+  short_description: Build first-pass, audited, submission-ready papers
+  default_prompt: Use $build-evidence-grounded-overleaf-paper to turn my sources and
+    reproducible results into a fully audited Overleaf ZIP, compiled PDF, and submission
+    report.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
