@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "root": ".",
+  "main": "main.tex",
+  "counts": {
+    "numbered_main_sections": 6,
+    "rq_contribution_pairs": 3,
+    "main_figures": 3,
+    "tables": 7,
+    "bibliography_entries": 27,
+    "clip_art_assets": 8,
+    "errors": 0
+  },
+  "findings": []
+}

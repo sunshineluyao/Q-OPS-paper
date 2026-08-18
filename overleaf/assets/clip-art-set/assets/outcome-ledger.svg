@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+<title id="title">Outcome ledger</title>
+<desc id="desc">Editable conceptual ledger for service, cost, review, and resilience outputs.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#536273"/></marker></defs>
+<rect x="96" y="70" width="320" height="370" rx="10" fill="#FFFFFF" stroke="#0F766E" stroke-width="4"/>
+<circle cx="121" cy="100" r="6" fill="#0F766E" stroke="#0F766E" stroke-width="1"/>
+<line x1="141" y1="100" x2="396" y2="100" stroke="#0F766E" stroke-width="4" stroke-linecap="round"/>
+<circle cx="121" cy="132" r="6" fill="#0F766E" stroke="#0F766E" stroke-width="1"/>
+<line x1="141" y1="132" x2="396" y2="132" stroke="#0F766E" stroke-width="4" stroke-linecap="round"/>
+<circle cx="121" cy="164" r="6" fill="#0F766E" stroke="#0F766E" stroke-width="1"/>
+<line x1="141" y1="164" x2="396" y2="164" stroke="#0F766E" stroke-width="4" stroke-linecap="round"/>
+<path d="M 135 150 L 175 150 L 190 125 L 210 178 L 225 150 L 285 150" fill="none" stroke="#315EFB" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="145" y="197" width="22" height="38" rx="3" fill="#315EFB" stroke="#315EFB" stroke-width="1"/>
+<rect x="187" y="173" width="22" height="62" rx="3" fill="#315EFB" stroke="#315EFB" stroke-width="1"/>
+<rect x="229" y="153" width="22" height="82" rx="3" fill="#315EFB" stroke="#315EFB" stroke-width="1"/>
+<path d="M 140 294 Q 200 245 260 294 Q 200 343 140 294 Z" fill="none" stroke="#A94F21" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="200" cy="294" r="16" fill="#FFFFFF" stroke="#A94F21" stroke-width="5"/>
+<path d="M 140 390 Q 200 330 260 390" fill="none" stroke="#0F766E" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="140" y1="390" x2="260" y2="390" stroke="#0F766E" stroke-width="8" stroke-linecap="round"/>
+</svg>

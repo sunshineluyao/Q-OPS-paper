@@ -209,6 +209,16 @@ tempCodeRunnerFile.py
 # PyPI configuration file
 .pypirc
 
+# Rebuildable LaTeX and staged paper-build state
+*.aux
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+.svg-ready
+.validated-ready
+.manuscript-assets-ready
+
 # Marimo
 marimo/_static/
 marimo/_lsp/

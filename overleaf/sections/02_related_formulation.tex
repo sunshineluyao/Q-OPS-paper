@@ -1,0 +1,40 @@
+\section{Related Work and Human--AI Staffing Formulation}
+\label{sec:formulation}
+
+\paragraph{Intersecting literatures.}
+Algorithm selection asks which solver fits an instance~\citep{rice1976algorithm,kotthoff2014algorithm}; selective prediction and learning to defer add abstention or handoff under uncertainty~\citep{geifman2017selective,madras2018defer}. QAOA and alternating operators provide parameterized distributions and constraint-aware mixers~\citep{farhi2014qaoa,hadfield2019alternating}, while warm starts inject classical information~\citep{egger2021warm}. QOBLIB exemplifies model-independent instances, strong classical records, standardized metrics, and transparent resource reporting~\citep{koch2026qoblib}. Q-OPS connects these components to a staffing decision in which verification and fallback remain classical. Its integration claim is qualified: it does not introduce a new circuit family, prove a welfare theorem, or establish field validity.
+
+\paragraph{Selection, deferral, and evidence-aware invocation.}
+Classical algorithm selection predicts which available solver will perform best on an instance~\citep{rice1976algorithm,kotthoff2014algorithm}. Selective prediction instead permits a model to withhold an answer, while learning to defer allocates a decision to another agent whose error profile may differ~\citep{geifman2017selective,madras2018defer}. Q-OPS borrows the option structure but not their empirical guarantees. Its recorded gate is computed after observing a quantum statistic; it is therefore a retrospective evidence partition, not a learned selector, calibrated uncertainty score, or prospective deferral policy. A gate evaluated only after paying the quantum cost cannot demonstrate cost-saving invocation.
+
+\paragraph{Benchmark levels and credible counterfactuals.}
+Quantum-optimization evidence depends on what is held fixed. System-level studies bind an algorithm to a particular software and hardware stack; algorithm-level studies compare methods under an explicit resource account; application-level studies ask whether inserting a quantum component improves the same decision problem relative to practically relevant alternatives. QOBLIB exemplifies strong classical records and standardized resource reporting~\citep{koch2026qoblib}, while application-benchmarking frameworks keep the surrounding workflow visible~\citep{finzgar2022quark}. We synthesize these concerns into an evidence ladder rather than attributing an exact taxonomy to either source. The frozen comparison controls retained-state draws, but not parameter-search effort, total computation, hardware conditions, or organizational outcomes. Its contribution is consequently conditional algorithmic evidence inside an application-oriented architecture.
+
+\paragraph{Human--AI allocation and institutional stakes.}
+Human--AI work design is not exhausted by choosing the numerically best mode. Prior work distinguishes automation from augmentation and shows that their value depends on between-task and within-task complementarity~\citep{fuegener2026complementarity}; interaction research emphasizes authority boundaries and institution-level consequences~\citep{amershi2019humanai,seeber2020machines}. Q-OPS encodes these concerns only as synthetic modes, capacities, disruption scenarios, and explicit diagnostics. It does not observe workers, customers, distributional effects, rights, or welfare. The contribution to trustworthy AI for social benefit is therefore a testable governance architecture and an explicit measurement agenda, not a claim of realized good.
+
+\paragraph{Trustworthy quantum scope.}
+The quantum trust question concerns a hybrid optimization pipeline: when a probabilistic quantum component should be invoked, how its candidate is checked without trusting the generation path, and how the system falls back when evidence is insufficient. The method is QAOA-based optimization, not quantum machine learning; it contains no learned quantum model, adversarial threat experiment, privacy mechanism, cryptographic claim, or real-QPU robustness result. Security and QML generalization are out of scope rather than silently implied by venue alignment.
+
+\paragraph{Staffing benchmark.}
+For tasks $i\in I$, choose a legal mode $y_i\in D_i\subseteq\{\Hmode,\Amode,\Cmode\}$ for human-only, AI-only, or collaboration. Tasks have duration $d_i$, priority $p_i$, value $v_i$, region $r(i)$, and mode-dependent cost $c_{i,y_i}$. Review-required AI work consumes one unit and collaboration one quarter,
+\begin{equation}
+C(y)=\sum_i d_i c_{i,y_i},\qquad
+R(y)=\sum_i r_i\bigl(\ind[y_i=\Amode]+.25\ind[y_i=\Cmode]\bigr),
+\label{eq:costreview}
+\end{equation}
+with review overflow $R_+(y)=[R(y)-B_R]_+$. Workflow clusters receive a thresholded collaboration benefit, an AI-only concentration penalty, and a mode-friction penalty; the complete frozen formula appears in Appendix~\ref{app:benchmark}.
+
+For each correlated disruption scenario $\omega\in\Omega$, a shared evaluator computes weighted service and regional capacity overflow. Empirical service and capacity failure rates are
+\begin{equation}
+q_s(y)=|\Omega|^{-1}\!\sum_\omega \ind[\mathrm{service}_\omega(y)<.70],\quad
+q_c(y)=|\Omega|^{-1}\!\sum_\omega \ind[O_\omega(y)>0].
+\label{eq:chance}
+\end{equation}
+Composite feasibility is
+$F(y)=\ind[H(y)=0,R_+(y)=0,q_s(y)\le .20,q_c(y)\le .20]$,
+where $H$ counts disallowed modes. The score combines expected value minus cost and overflow, workflow complementarity, a regional AI-exposure regularizer, review overflow, and chance-constraint penalties. All coefficients are frozen synthetic design choices, not learned welfare weights, workplace standards, or fairness guarantees.
+
+\input{tabs/table1_decision_environment}
+
+The benchmark makes stakeholder consequences visible without claiming them as measured benefits. Customers depend on service continuity; workers face review load and inappropriate automation risk; organizations face cost, accountability, and resilience; society faces the broader question of disciplined technology adoption. Lower cost, more AI assignments, or more collaboration need not imply higher welfare.

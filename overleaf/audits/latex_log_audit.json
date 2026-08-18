@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "log": "main.log",
+  "pages": 22,
+  "font_count": 32,
+  "raster_image_count": 0,
+  "checks": {
+    "pdf_pages_22": true,
+    "all_fonts_embedded": true,
+    "no_raster_images_in_manuscript_pdf": true,
+    "zero_latex_errors": true,
+    "zero_unresolved_references": true,
+    "zero_unresolved_citations": true,
+    "zero_overfull_boxes": true,
+    "zero_missing_glyphs": true,
+    "all_figure_pages_mapped": true,
+    "all_table_pages_mapped": true,
+    "all_review_scores_at_least_90": true
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "procedure": "Extract deterministic anonymous ZIP into a fresh empty directory; run make distclean; run make -j2 release-audit; rebuild the anonymous ZIP.",
+  "source_pdf_sha256": "a73c3dec2d1ae0b790d1e8f3d8003f23c0b8fd63deefc2ff7be54d534bb28c4f",
+  "cleanroom_pdf_sha256": "a73c3dec2d1ae0b790d1e8f3d8003f23c0b8fd63deefc2ff7be54d534bb28c4f",
+  "pdf_bytes_identical": true,
+  "repeated_package_bytes_identical": true,
+  "cleanroom_release_audit": "PASS"
+}

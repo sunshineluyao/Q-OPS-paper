@@ -1,0 +1,46 @@
+\section{Evidence-Aware Quantum--Classical Routing}
+\label{sec:routing}
+
+\paragraph{Observable decision state.}
+Let
+\begin{equation}
+z=[n,d,\rho,g,a,r,s,c]
+\label{eq:state}
+\end{equation}
+summarize dimension, constraint density, interaction structure, remaining classical headroom, disagreement among strong classical methods, review scarcity, disruption severity, and computational cost. These components form an instance-difficulty vector rather than treating qubit count as difficulty. The frozen implementation observes only a subset directly; the complete vector is the intended application-level interface and its unevaluated components are future work.
+
+\paragraph{Classical counterfactual and retained core.}
+A legal coordinate-greedy solution is challenged by cluster destroy/repair with exact neighborhood enumeration. Let $y^G,y^C$ be the incumbents, $\Delta=S(y^C)-S(y^G)$, $d_G$ their normalized disagreement, and $v_R$ restart-score variance. The frozen ambiguity score is
+\begin{equation}
+a=\min\!\left\{1,\,2.8d_G+5\left[\frac{\Delta}{\max(|S(y^C)|,1)}\right]_+
++4\frac{\sqrt{v_R}}{\max(|S(y^C)|,1)}\right\}.
+\label{eq:ambiguity}
+\end{equation}
+Four interacting tasks are retained and every legal assignment is classically evaluated with the incumbent fixed outside the core. Strictly feasible states form $\mathcal Z$; an empty set triggers an explicitly labeled least-violation fallback and never becomes ``feasible.'' Exact enumeration therefore supplies a retained-core reference conditional on fixing the outside incumbent. Candidate legality and composite feasibility are checked separately by the shared scenario evaluator; neither operation certifies global optimality or field safety.
+
+\paragraph{Optional quantum pilot.}
+The warm state is the retained assignment nearest $y^C$. A feasible-subspace statevector QAOA distribution uses the retained-state adjacency as mixer and standardized score as cost. Uniform feasible sampling and QAOA receive the same 128-draw sampling budget. The empirical frozen gate requires a strict core, $a\ge .08$, classical headroom/disagreement, and $p_2^\star\ge\max(.18,1.4p_U^\star)$. Since it consumes $p_2^\star$, it is a \emph{post-simulation evidence gate}, not a deployable pre-execution policy.
+
+The frozen quantum branch audits the distribution and does not replace the cluster-repair incumbent. The prospective policy is instead
+\begin{equation}
+\pi(z)=\begin{cases}
+\text{Quantum Pilot},&\widehat F(z)=1,\ H(z)>\tau_H,\ A(z)>\tau_A,\ \widehat V_Q(z)>\tau_Q,\\
+\text{Classical},&\text{strong classical evidence is sufficient},\\
+\text{Abstain / Human Review},&\text{evidence is insufficient or risk is unacceptable},
+\end{cases}
+\label{eq:router}
+\end{equation}
+where $\widehat F(z)$ predicts pre-execution availability of an admissible retained state; it is not the realized assignment predicate $F(y)$. The frozen study neither estimates $\widehat F$ nor evaluates this prospective policy. Abstention/review are conceptual extensions. Economically, quantum invocation is justified only when
+\begin{equation}
+\mathbb E[\Delta W\mid z]>C_Q+C_{\mathrm{validation}}+C_{\mathrm{risk}}+C_{\mathrm{review}}.
+\label{eq:economics}
+\end{equation}
+Q-OPS estimates none of these welfare terms; the inequality is a decision scaffold, not a theorem.
+
+\paragraph{Failure model and containment.}
+The architecture separates five failure modes that a single score would hide. A \emph{false invocation} spends quantum, validation, and review resources when the classical incumbent was sufficient. A \emph{false abstention} forgoes a genuinely useful candidate. A \emph{candidate failure} returns a disallowed or composite-infeasible assignment. A \emph{model failure} arises when the synthetic evaluator omits a stakeholder-relevant requirement or misprices a consequence. Finally, a \emph{distribution failure} occurs when workload, capacity, or disruption behavior departs from the frozen generator. The current experiment addresses only a subset: the post-simulation gate exposes selective evidence; exact retained-state evaluation characterizes the local comparison; the shared evaluator rejects inadmissible candidates; and fallback preserves the cluster-repair incumbent. It does not estimate false-invocation cost, detect evaluator misspecification or distribution shift, or establish independence against common-mode software defects.
+
+Verification is independent of the quantum proposal mechanism but uses the same classical evaluator as the benchmark, so it is not a third-party certificate or formal proof. A stronger implementation would separate proposal and verification code paths, version the decision model, log gate reasons and resource use, test verifier disagreement, and escalate unresolved cases to a named human authority. Those controls are prospective requirements, not properties measured by C1.2.
+
+\paragraph{Verification and evidence ladder.}
+Every candidate passes the same classical scenario evaluator before acceptance; otherwise the system returns the classical incumbent or escalates. We distinguish five evidence levels: L1 quantum feasibility; L2 conditional algorithmic value under controlled budgets; L3 hardware-level value; L4 end-to-end wall-clock value; and L5 application-level economic value. The present paper reaches L2 across frozen retained-core comparisons only; 9/32 cases satisfy the post-simulation evidence gate, but no prospective adoption policy was evaluated.

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+<title id="title">Feasibility inspector</title>
+<desc id="desc">A magnifier checks constraint rows without implying external certification.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#536273"/></marker></defs>
+<rect x="95" y="90" width="270" height="310" rx="10" fill="#FFFFFF" stroke="#0F766E" stroke-width="4"/>
+<circle cx="120" cy="120" r="6" fill="#0F766E" stroke="#0F766E" stroke-width="1"/>
+<line x1="140" y1="120" x2="345" y2="120" stroke="#0F766E" stroke-width="4" stroke-linecap="round"/>
+<circle cx="120" cy="152" r="6" fill="#0F766E" stroke="#0F766E" stroke-width="1"/>
+<line x1="140" y1="152" x2="345" y2="152" stroke="#0F766E" stroke-width="4" stroke-linecap="round"/>
+<circle cx="120" cy="184" r="6" fill="#0F766E" stroke="#0F766E" stroke-width="1"/>
+<line x1="140" y1="184" x2="345" y2="184" stroke="#0F766E" stroke-width="4" stroke-linecap="round"/>
+<circle cx="340" cy="315" r="78" fill="#FFFFFF" stroke="#18324A" stroke-width="8"/>
+<line x1="395" y1="370" x2="452" y2="427" stroke="#18324A" stroke-width="16" stroke-linecap="round"/>
+<line x1="300" y1="290" x2="378" y2="290" stroke="#0F766E" stroke-width="7" stroke-linecap="round"/>
+<line x1="300" y1="325" x2="360" y2="325" stroke="#0F766E" stroke-width="7" stroke-linecap="round"/>
+</svg>

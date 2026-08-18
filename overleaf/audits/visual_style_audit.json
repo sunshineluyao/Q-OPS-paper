@@ -1,0 +1,105 @@
+{
+  "status": "PASS",
+  "contract": {
+    "figure_width_units": 1200,
+    "minimum_font_units": 25,
+    "minimum_effective_points": 8.281,
+    "font_family": "Nimbus Sans,TeX Gyre Heros,Arial,Helvetica,sans-serif",
+    "palette": [
+      "#0F766E",
+      "#18324A",
+      "#315EFB",
+      "#536273",
+      "#8B4050",
+      "#A94F21",
+      "#CBD5E1",
+      "#E8F6F1",
+      "#EAF0FF",
+      "#F5F7FB",
+      "#FFF3EC",
+      "#FFFFFF"
+    ]
+  },
+  "figures": {
+    "fig1_architecture.svg": {
+      "width_1200": true,
+      "font_family_unified": true,
+      "minimum_font_units": 25.0,
+      "minimum_effective_points_at_397_5pt_width": 8.281,
+      "minimum_font_at_least_25_units": true,
+      "palette_only": true,
+      "colors": [
+        "#0F766E",
+        "#18324A",
+        "#315EFB",
+        "#536273",
+        "#A94F21",
+        "#CBD5E1",
+        "#E8F6F1",
+        "#EAF0FF",
+        "#F5F7FB",
+        "#FFF3EC",
+        "#FFFFFF"
+      ],
+      "no_embedded_raster_in_svg": true,
+      "publication_pdf_exists": true,
+      "no_raster_images_in_publication_pdf": true,
+      "all_text_classified": true
+    },
+    "fig2_quantum_value_region.svg": {
+      "width_1200": true,
+      "font_family_unified": true,
+      "minimum_font_units": 25.0,
+      "minimum_effective_points_at_397_5pt_width": 8.281,
+      "minimum_font_at_least_25_units": true,
+      "palette_only": true,
+      "colors": [
+        "#0F766E",
+        "#18324A",
+        "#315EFB",
+        "#536273",
+        "#8B4050",
+        "#A94F21",
+        "#CBD5E1",
+        "#E8F6F1",
+        "#EAF0FF",
+        "#F5F7FB",
+        "#FFFFFF"
+      ],
+      "no_embedded_raster_in_svg": true,
+      "publication_pdf_exists": true,
+      "no_raster_images_in_publication_pdf": true,
+      "all_text_classified": true
+    },
+    "fig3_evidence_evolution.svg": {
+      "width_1200": true,
+      "font_family_unified": true,
+      "minimum_font_units": 25.0,
+      "minimum_effective_points_at_397_5pt_width": 8.281,
+      "minimum_font_at_least_25_units": true,
+      "palette_only": true,
+      "colors": [
+        "#0F766E",
+        "#18324A",
+        "#315EFB",
+        "#536273",
+        "#8B4050",
+        "#A94F21",
+        "#CBD5E1",
+        "#EAF0FF",
+        "#F5F7FB",
+        "#FFF3EC",
+        "#FFFFFF"
+      ],
+      "no_embedded_raster_in_svg": true,
+      "publication_pdf_exists": true,
+      "no_raster_images_in_publication_pdf": true,
+      "all_text_classified": true
+    }
+  },
+  "checks": {
+    "exactly_three_figure_masters": true,
+    "all_source_checks_pass": true,
+    "clip_art_package_validated": true
+  }
+}

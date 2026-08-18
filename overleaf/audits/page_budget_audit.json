@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "policy": "Strict common cap: Trustworthy AI for Good permits eight content pages; SaTQuML permits nine. References and appendices are excluded.",
+  "content_pages": 8,
+  "references_first_page": 9,
+  "total_pdf_pages": 22,
+  "checks": {
+    "pdf_has_appendix_pages": true,
+    "exactly_six_numbered_sections": true,
+    "exactly_three_rq_contribution_pairs": true,
+    "continuous_title": true,
+    "references_absent_from_page_8": true,
+    "references_begin_on_page_9": true,
+    "main_content_uses_eight_pages": true
+  }
+}

@@ -1,12 +1,13 @@
 # Q-OPS NeurIPS 2026 source package
 
-This package compiles the anonymous workshop submission and carries the frozen
-evidence needed to audit every headline result.
+This package compiles one anonymous, eight-page-compatible NeurIPS 2026
+workshop paper and carries the frozen evidence needed to audit every headline
+result.
 
 ## Compile on Overleaf
 
 Upload the ZIP, select `main.tex` as the main document, and use pdfLaTeX.  The
-six publication PDFs are already included, so Inkscape is not required on
+three publication PDFs are already included, so Inkscape is not required on
 Overleaf.
 
 ## Rebuild locally
@@ -18,32 +19,38 @@ Requirements: Python 3, NumPy, Inkscape, and a TeX distribution with
 make
 ```
 
-`scripts/make_figures.py` regenerates all editable SVG masters from the frozen
-CSV.  `scripts/audit_reproduction.py` compares a fresh public-repository run
-with the archived evidence on every field emitted by the current runner.
+The staged build first creates and validates the eight-asset technical clip-art
+family, then composes all editable SVG masters and machine-readable table
+sources from frozen inputs. `scripts/audit_reproduction.py` compares a fresh runner
+with archived evidence on every field emitted by the current runner.
 
-All six figures use original vector line icons generated in
-`scripts/make_figures.py`; no external logos, raster illustrations, or traced
-bitmaps are embedded.  Publication PDFs are exported from the live-text SVG
-masters.  Visual release checks are performed against the rendered PDF figure
-number and page, because LaTeX float order need not match source filenames.
-Figure 3 and Figure 6 additionally declare each card label's SVG container and
-clearance.  Re-run the renderer-measured containment checks with:
+All figures and clip-art assets use original editable vector geometry; no
+external logos, stock illustrations, raster masters, or traced bitmaps are
+embedded. Publication PDFs are exported from live-text SVG masters. Every
+figure text element is classified as container-owned or intentionally free.
+Re-run renderer-measured containment checks with:
 
 ```bash
-python3 scripts/audit_svg_text_containment.py \
-  figs/fig2_benchmark_taxonomy.svg --require-annotations
-python3 scripts/audit_svg_text_containment.py \
-  figs/fig6_open_questions_map.svg --require-annotations
+make release-audit
 ```
+
+That target independently checks rendered SVG containment, the unified visual
+contract, frozen/rerun numerical equality, cross-document headline values,
+bibliographic existence and metadata, anonymity, eight-page body use, and the
+static claim boundary. `make package` additionally writes the deterministic
+anonymous supplement ZIP and its checksum.
 
 ## Evidence snapshot
 
-- Public implementation commit: `ae6a85f52fb5808e631bc0c4cfa43220c10ce9aa`
+- Identifying implementation commit: retained only in the non-anonymous external audit
 - Frozen instances: 32
 - Evidence files: `data/locked_c12_records.csv`,
   `data/locked_c12_summary.json`, and `data/q_ops_global_c1_2_locked.json`
-- Shared-field reproduction audit: `data/reproduction_audit.json`
+- Fresh rerun rows: `data/locked_rerun_records.csv`
+- Exact shared-field reproduction summary:
+  `data/shared_field_reproduction.json`
+- Sanitized environment and command record:
+  `data/rerun_environment_manifest.json`
 
 For double-blind submission, `main.tex` deliberately identifies the public
 artifact only as an anonymous supplementary artifact.  Insert the public URL
@@ -52,7 +59,8 @@ version.
 
 ## Claim boundary
 
-The package supports a conditional, noiseless statevector concentration signal
-on synthetic four-task retained sets under a matched 128-draw budget.  It does
-not support real-QPU, wall-clock, scaling, workplace-safety, or universal
-quantum-advantage claims.
+The package supports a conditional noiseless statevector concentration signal
+across 32 synthetic four-task retained-core comparisons under a matched
+128-draw budget. The 28.13% figure is a post-simulation evidence-gate rate, not
+prospective adoption. It does not support real-QPU, wall-clock, scaling,
+application-level, workplace-safety, or universal-advantage claims.

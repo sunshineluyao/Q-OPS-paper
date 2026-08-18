@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+<title id="title">Classical counterfactual</title>
+<desc id="desc">Two candidate ledgers compared through a lens.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#536273"/></marker></defs>
+<rect x="70" y="120" width="150" height="220" rx="10" fill="#FFFFFF" stroke="#315EFB" stroke-width="4"/>
+<circle cx="95" cy="150" r="6" fill="#315EFB" stroke="#315EFB" stroke-width="1"/>
+<line x1="115" y1="150" x2="200" y2="150" stroke="#315EFB" stroke-width="4" stroke-linecap="round"/>
+<circle cx="95" cy="182" r="6" fill="#315EFB" stroke="#315EFB" stroke-width="1"/>
+<line x1="115" y1="182" x2="200" y2="182" stroke="#315EFB" stroke-width="4" stroke-linecap="round"/>
+<circle cx="95" cy="214" r="6" fill="#315EFB" stroke="#315EFB" stroke-width="1"/>
+<line x1="115" y1="214" x2="200" y2="214" stroke="#315EFB" stroke-width="4" stroke-linecap="round"/>
+<rect x="292" y="120" width="150" height="220" rx="10" fill="#FFFFFF" stroke="#0F766E" stroke-width="4"/>
+<circle cx="317" cy="150" r="6" fill="#0F766E" stroke="#0F766E" stroke-width="1"/>
+<line x1="337" y1="150" x2="422" y2="150" stroke="#0F766E" stroke-width="4" stroke-linecap="round"/>
+<circle cx="317" cy="182" r="6" fill="#0F766E" stroke="#0F766E" stroke-width="1"/>
+<line x1="337" y1="182" x2="422" y2="182" stroke="#0F766E" stroke-width="4" stroke-linecap="round"/>
+<circle cx="317" cy="214" r="6" fill="#0F766E" stroke="#0F766E" stroke-width="1"/>
+<line x1="337" y1="214" x2="422" y2="214" stroke="#0F766E" stroke-width="4" stroke-linecap="round"/>
+<circle cx="255" cy="305" r="70" fill="#FFFFFF" stroke="#18324A" stroke-width="7"/>
+<line x1="307" y1="357" x2="382" y2="432" stroke="#18324A" stroke-width="14" stroke-linecap="round"/>
+<line x1="215" y1="284" x2="294" y2="284" stroke="#A94F21" stroke-width="6" stroke-linecap="round"/>
+<line x1="215" y1="316" x2="278" y2="316" stroke="#A94F21" stroke-width="6" stroke-linecap="round"/>
+</svg>

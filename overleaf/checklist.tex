@@ -1,4 +1,5 @@
 \section*{NeurIPS Paper Checklist}
+\small
 
 %%% Official instruction block removed as required. %%%
 
@@ -8,7 +9,7 @@
 \item {\bf Claims}
     \item[] Question: Do the main claims made in the abstract and introduction accurately reflect the paper's contributions and scope?
     \item[] Answer: \answerYes{}
-    \item[] Justification: The abstract, Introduction, Results, and Table~\ref{tab:claims} state the conditional statevector claim and explicitly exclude QPU, runtime, scaling, safety, and universal-advantage claims.
+    \item[] Justification: The abstract, Introduction, Results, and Table~\ref{tab:results} state the conditional statevector claim and explicitly exclude QPU, runtime, scaling, safety, and universal-advantage claims.
     \item[] Guidelines:
     \begin{itemize}
         \item The answer \answerNA{} means that the abstract and introduction do not include the claims made in the paper.
@@ -98,7 +99,7 @@
 \item {\bf Experiment statistical significance}
     \item[] Question: Does the paper report error bars suitably and correctly defined or other appropriate information about the statistical significance of the experiments?
     \item[] Answer: \answerYes{}
-    \item[] Justification: Table~\ref{tab:locked} reports 95\% instance-level bootstrap intervals; Appendix~\ref{app:protocol} gives paired resampling, 10,000 resamples, and fixed inference seeds.
+    \item[] Justification: Table~\ref{tab:results} reports 95\% instance-level bootstrap intervals; Appendix~\ref{app:protocol} gives paired resampling, 10,000 resamples, and fixed inference seeds.
     \item[] Guidelines:
     \begin{itemize}
         \item The answer \answerNA{} means that the paper does not include experiments.
