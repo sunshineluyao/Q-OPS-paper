@@ -1,0 +1,46 @@
+{
+  "root": "/workspace/scratch/6fa97f3c50c3/qops-paper/overleaf",
+  "aux": "main.aux",
+  "count": 3,
+  "resolved_count": 3,
+  "unresolved_count": 0,
+  "unresolved_labels": [],
+  "figures": [
+    {
+      "number": "1",
+      "page": "2",
+      "label": "fig:architecture",
+      "source_tex": "figs/fig1_architecture.tex",
+      "graphic": "figs/fig1_architecture.pdf",
+      "graphics": [
+        "figs/fig1_architecture.pdf"
+      ],
+      "status": "resolved",
+      "resolution_error": null
+    },
+    {
+      "number": "2",
+      "page": "5",
+      "label": "fig:evolution",
+      "source_tex": "figs/fig3_evidence_evolution.tex",
+      "graphic": "figs/fig3_evidence_evolution.pdf",
+      "graphics": [
+        "figs/fig3_evidence_evolution.pdf"
+      ],
+      "status": "resolved",
+      "resolution_error": null
+    },
+    {
+      "number": "3",
+      "page": "6",
+      "label": "fig:qvr",
+      "source_tex": "figs/fig2_quantum_value_region.tex",
+      "graphic": "figs/fig2_quantum_value_region.pdf",
+      "graphics": [
+        "figs/fig2_quantum_value_region.pdf"
+      ],
+      "status": "resolved",
+      "resolution_error": null
+    }
+  ]
+}

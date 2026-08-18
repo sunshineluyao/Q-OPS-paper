@@ -1,0 +1,13 @@
+test_curved_and_rounded_boundaries_reject_corner_text (__main__.ReleaseGateRegressionTests.test_curved_and_rounded_boundaries_reject_corner_text) ... ok
+test_multiple_figure_environments_map_independently (__main__.ReleaseGateRegressionTests.test_multiple_figure_environments_map_independently) ... ok
+test_outline_rerun_request_fails_log_audit (__main__.ReleaseGateRegressionTests.test_outline_rerun_request_fails_log_audit) ... ok
+test_packager_rejects_external_file_symlink (__main__.ReleaseGateRegressionTests.test_packager_rejects_external_file_symlink) ... ok
+test_pdf_compare_works_with_legacy_zip_signature (__main__.ReleaseGateRegressionTests.test_pdf_compare_works_with_legacy_zip_signature) ... ok
+test_starred_title_manual_break_is_rejected (__main__.ReleaseGateRegressionTests.test_starred_title_manual_break_is_rejected) ... ok
+test_svg_json_keeps_record_count_and_records (__main__.ReleaseGateRegressionTests.test_svg_json_keeps_record_count_and_records) ... ok
+test_unresolved_figure_is_a_failure_state (__main__.ReleaseGateRegressionTests.test_unresolved_figure_is_a_failure_state) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.003s
+
+OK

@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "computed": {
+    "rows": 32,
+    "gate_positive": 9,
+    "strict_core": 30,
+    "composite_feasible": 27,
+    "disallowed_mode_violations": 0,
+    "mean_uniform_optimum_mass": 0.022278120276439495,
+    "mean_p2_optimum_mass": 0.1521904451831595,
+    "ratio_of_means": 6.8313862792145175
+  },
+  "checks": {
+    "record_count_32": true,
+    "gate_count_9": true,
+    "strict_core_count_30": true,
+    "composite_feasible_count_27": true,
+    "zero_disallowed_mode_violations": true,
+    "mean_uniform_matches": true,
+    "mean_p2_matches": true,
+    "ratio_6_831386": true,
+    "exactly_six_numbered_section_inputs": true,
+    "exactly_three_rq_pairs": true,
+    "continuous_title": true,
+    "no_adopted_subset_misstatement": true,
+    "shared_field_not_byte_identity_boundary": true
+  },
+  "anonymity": {
+    "personal_github_owner": true,
+    "challenge_identity": true,
+    "public_repo_url": true,
+    "identifying_commit": true,
+    "institutional_identity": true
+  }
+}

@@ -1,0 +1,224 @@
+\begin{thebibliography}{28}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Amershi et~al.(2019)Amershi, Weld, Vorvoreanu, Fourney, Nushi,
+  Collisson, Suh, Iqbal, Bennett, Inkpen, Teevan, Kikin-Gil, and
+  Horvitz]{amershi2019humanai}
+Saleema Amershi, Dan Weld, Mihaela Vorvoreanu, Adam Fourney, Besmira Nushi,
+  Penny Collisson, Jina Suh, Shamsi Iqbal, Paul~N. Bennett, Kori Inkpen, Jaime
+  Teevan, Ruth Kikin-Gil, and Eric Horvitz.
+\newblock Guidelines for human--{AI} interaction.
+\newblock In \emph{Proceedings of the 2019 CHI Conference on Human Factors in
+  Computing Systems}, pages 1--13, 2019.
+\newblock \doi{10.1145/3290605.3300233}.
+
+\bibitem[Bai et~al.(2022)Bai, Dai, Zhang, Zhang, and Hu]{bai2022algorithmic}
+Bin Bai, Hengchen Dai, Dennis~J. Zhang, Fanyin Zhang, and Hao Hu.
+\newblock The impacts of algorithmic work assignment on fairness perceptions
+  and productivity: Evidence from field experiments.
+\newblock \emph{Manufacturing \& Service Operations Management}, 24\penalty0
+  (6):\penalty0 3060--3078, 2022.
+\newblock \doi{10.1287/msom.2022.1120}.
+
+\bibitem[Bharti et~al.(2022)Bharti, Cervera-Lierta, Kyaw, Haug, Alperin-Lea,
+  Anand, Degroote, Heimonen, Kottmann, Menke, Mok, Sim, Kwek, and
+  Aspuru-Guzik]{bharti2022nisq}
+Kishor Bharti, Alba Cervera-Lierta, Thi~Ha Kyaw, Tobias Haug, Sumner
+  Alperin-Lea, Abhinav Anand, Matthias Degroote, Hermanni Heimonen, Jakob~S.
+  Kottmann, Tim Menke, Wai-Keong Mok, Sukin Sim, Leong-Chuan Kwek, and Al{\'a}n
+  Aspuru-Guzik.
+\newblock Noisy intermediate-scale quantum algorithms.
+\newblock \emph{Reviews of Modern Physics}, 94:\penalty0 015004, 2022.
+\newblock \doi{10.1103/RevModPhys.94.015004}.
+
+\bibitem[Blekos et~al.(2024)Blekos, Brand, Ceschini, Chou, Li, Pandya, and
+  Summer]{blekos2024review}
+Kostas Blekos, Dean Brand, Andrea Ceschini, Chiao-Hui Chou, Rui-Hao Li, Komal
+  Pandya, and Alessandro Summer.
+\newblock A review on quantum approximate optimization algorithm and its
+  variants.
+\newblock \emph{Physics Reports}, 1068:\penalty0 1--66, 2024.
+\newblock \doi{10.1016/j.physrep.2024.03.002}.
+
+\bibitem[Cerezo et~al.(2021)Cerezo, Arrasmith, Babbush, Benjamin, Endo, Fujii,
+  McClean, Mitarai, Yuan, Cincio, and Coles]{cerezo2021variational}
+Marco Cerezo, Andrew Arrasmith, Ryan Babbush, Simon~C. Benjamin, Suguru Endo,
+  Keisuke Fujii, Jarrod~R. McClean, Kosuke Mitarai, Xiao Yuan, Lukasz Cincio,
+  and Patrick~J. Coles.
+\newblock Variational quantum algorithms.
+\newblock \emph{Nature Reviews Physics}, 3:\penalty0 625--644, 2021.
+\newblock \doi{10.1038/s42254-021-00348-9}.
+
+\bibitem[Charnes and Cooper(1959)]{charnes1959chance}
+Abraham Charnes and William~W. Cooper.
+\newblock Chance-constrained programming.
+\newblock \emph{Management Science}, 6\penalty0 (1):\penalty0 73--79, 1959.
+\newblock \doi{10.1287/mnsc.6.1.73}.
+
+\bibitem[Egger et~al.(2021)Egger, Marecek, and Woerner]{egger2021warm}
+Daniel~J. Egger, Jakub Marecek, and Stefan Woerner.
+\newblock Warm-starting quantum optimization.
+\newblock \emph{Quantum}, 5:\penalty0 479, 2021.
+\newblock \doi{10.22331/q-2021-06-17-479}.
+
+\bibitem[Farhi et~al.(2014)Farhi, Goldstone, and Gutmann]{farhi2014qaoa}
+Edward Farhi, Jeffrey Goldstone, and Sam Gutmann.
+\newblock A quantum approximate optimization algorithm.
+\newblock \emph{arXiv preprint arXiv:1411.4028}, 2014.
+\newblock \doi{10.48550/arXiv.1411.4028}.
+
+\bibitem[Finzgar et~al.(2022)Finzgar, Ross, H{"o}lscher, Klepsch, and
+  Luckow]{finzgar2022quark}
+Jernej~Rudi Finzgar, Philipp Ross, Leonhard H{"o}lscher, Johannes Klepsch, and
+  Andre Luckow.
+\newblock {QUARK}: A framework for quantum computing application benchmarking.
+\newblock In \emph{2022 IEEE International Conference on Quantum Computing and
+  Engineering}, pages 226--237, 2022.
+\newblock \doi{10.1109/QCE53715.2022.00042}.
+
+\bibitem[F{"u}gener et~al.(2026)F{"u}gener, Walzner, and
+  Gupta]{fuegener2026complementarity}
+Andreas F{"u}gener, Stefan Walzner, and Alok Gupta.
+\newblock Automation, augmentation, and complementarity in human--{AI} decision
+  making.
+\newblock \emph{Management Science}, 72\penalty0 (1):\penalty0 538--557, 2026.
+\newblock \doi{10.1287/mnsc.2024.05684}.
+
+\bibitem[Gans et~al.(2003)Gans, Koole, and Mandelbaum]{gans2003callcenters}
+Noah Gans, Ger Koole, and Avishai Mandelbaum.
+\newblock Telephone call centers: Tutorial, review, and research prospects.
+\newblock \emph{Manufacturing \& Service Operations Management}, 5\penalty0
+  (2):\penalty0 79--141, 2003.
+\newblock \doi{10.1287/msom.5.2.79.16071}.
+
+\bibitem[Geifman and El-Yaniv(2017)]{geifman2017selective}
+Yonatan Geifman and Ran El-Yaniv.
+\newblock Selective classification for deep neural networks.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~30, 2017.
+
+\bibitem[Hadfield et~al.(2019)Hadfield, Wang, O'Gorman, Rieffel, Venturelli,
+  and Biswas]{hadfield2019alternating}
+Stuart Hadfield, Zhihui Wang, Bryan O'Gorman, Eleanor~G. Rieffel, Davide
+  Venturelli, and Rupak Biswas.
+\newblock From the quantum approximate optimization algorithm to a quantum
+  alternating operator ansatz.
+\newblock \emph{Algorithms}, 12\penalty0 (2):\penalty0 34, 2019.
+\newblock \doi{10.3390/a12020034}.
+
+\bibitem[Hart and Moore(1990)]{hart1990property}
+Oliver Hart and John Moore.
+\newblock Property rights and the nature of the firm.
+\newblock \emph{Journal of Political Economy}, 98\penalty0 (6):\penalty0
+  1119--1158, 1990.
+\newblock \doi{10.1086/261729}.
+
+\bibitem[{International Organization for
+  Standardization}(2023{\natexlab{a}})]{iso23894}
+{International Organization for Standardization}.
+\newblock {ISO/IEC 23894:2023}: Information technology---artificial
+  intelligence---guidance on risk management.
+\newblock Technical report, ISO, 2023{\natexlab{a}}.
+
+\bibitem[{International Organization for
+  Standardization}(2023{\natexlab{b}})]{iso42001}
+{International Organization for Standardization}.
+\newblock {ISO/IEC 42001:2023}: Information technology---artificial
+  intelligence---management system.
+\newblock Technical report, ISO, 2023{\natexlab{b}}.
+
+\bibitem[Koch et~al.(2026)Koch, Bernal~Neira, Chen, Cortiana, Egger, Heese,
+  Hegade, Gomez~Cadavid, Huang, Itoko, Kleinert, et~al.]{koch2026qoblib}
+Thorsten Koch, David~E. Bernal~Neira, Ying Chen, Giorgio Cortiana, Daniel~J.
+  Egger, Raoul Heese, Narendra~N. Hegade, Alejandro Gomez~Cadavid, Rhea Huang,
+  Toshinari Itoko, Thomas Kleinert, et~al.
+\newblock The quantum optimization benchmarking library.
+\newblock \emph{Nature Computational Science}, 6:\penalty0 653--671, 2026.
+\newblock \doi{10.1038/s43588-026-00991-1}.
+
+\bibitem[Kotthoff(2014)]{kotthoff2014algorithm}
+Lars Kotthoff.
+\newblock Algorithm selection for combinatorial search problems: A survey.
+\newblock \emph{AI Magazine}, 35\penalty0 (3):\penalty0 48--60, 2014.
+\newblock \doi{10.1609/aimag.v35i3.2460}.
+
+\bibitem[Madras et~al.(2018)Madras, Pitassi, and Zemel]{madras2018defer}
+David Madras, Toniann Pitassi, and Richard Zemel.
+\newblock Predict responsibly: Improving fairness and accuracy by learning to
+  defer.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~31, 2018.
+
+\bibitem[Mehrabi et~al.(2021)Mehrabi, Morstatter, Saxena, Lerman, and
+  Galstyan]{mehrabi2021fairness}
+Ninareh Mehrabi, Fred Morstatter, Nripsuta Saxena, Kristina Lerman, and Aram
+  Galstyan.
+\newblock A survey on bias and fairness in machine learning.
+\newblock \emph{ACM Computing Surveys}, 54\penalty0 (6):\penalty0 1--35, 2021.
+\newblock \doi{10.1145/3457607}.
+
+\bibitem[{National Institute of Standards and Technology}(2023)]{nist2023airmf}
+{National Institute of Standards and Technology}.
+\newblock Artificial intelligence risk management framework ({AI RMF 1.0}).
+\newblock Technical Report NIST AI 100-1, U.S. Department of Commerce, 2023.
+
+\bibitem[Preskill(2018)]{preskill2018nisq}
+John Preskill.
+\newblock Quantum computing in the {NISQ} era and beyond.
+\newblock \emph{Quantum}, 2:\penalty0 79, 2018.
+\newblock \doi{10.22331/q-2018-08-06-79}.
+
+\bibitem[Rice(1976)]{rice1976algorithm}
+John~R. Rice.
+\newblock The algorithm selection problem.
+\newblock \emph{Advances in Computers}, 15:\penalty0 65--118, 1976.
+\newblock \doi{10.1016/S0065-2458(08)60520-3}.
+
+\bibitem[Ropke and Pisinger(2006)]{ropke2006alns}
+Stefan Ropke and David Pisinger.
+\newblock An adaptive large neighborhood search heuristic for the pickup and
+  delivery problem with time windows.
+\newblock \emph{Transportation Science}, 40\penalty0 (4):\penalty0 455--472,
+  2006.
+\newblock \doi{10.1287/trsc.1050.0135}.
+
+\bibitem[Sawaya et~al.(2023)Sawaya, Schmitz, and Hadfield]{sawaya2023mixers}
+Nicolas P.~D. Sawaya, Alexander~T. Schmitz, and Stuart Hadfield.
+\newblock Encoding trade-offs and design toolkits in quantum algorithms for
+  discrete optimization: Coloring, routing, scheduling, and other problems.
+\newblock \emph{Quantum}, 7:\penalty0 1111, 2023.
+\newblock \doi{10.22331/q-2023-09-14-1111}.
+
+\bibitem[Seeber et~al.(2020)Seeber, Bittner, Briggs, de~Vreede, de~Vreede,
+  Elkins, Maier, Merz, Oeste-Rei{\ss}, Randrup, Schwabe, and
+  S{"o}llner]{seeber2020machines}
+Isabella Seeber, Eva Bittner, Robert~O. Briggs, Triparna de~Vreede, Gert-Jan
+  de~Vreede, Aaron Elkins, Ronald Maier, Alexander~B. Merz, Sarah
+  Oeste-Rei{\ss}, Nils Randrup, Gerhard Schwabe, and Matthias S{"o}llner.
+\newblock Machines as teammates: A research agenda on {AI} in team
+  collaboration.
+\newblock \emph{Information \& Management}, 57\penalty0 (2):\penalty0 103174,
+  2020.
+\newblock \doi{10.1016/j.im.2019.103174}.
+
+\bibitem[Selbst et~al.(2019)Selbst, boyd, Friedler, Venkatasubramanian, and
+  Vertesi]{selbst2019fairness}
+Andrew~D. Selbst, danah boyd, Sorelle~A. Friedler, Suresh Venkatasubramanian,
+  and Janet Vertesi.
+\newblock Fairness and abstraction in sociotechnical systems.
+\newblock In \emph{Proceedings of the Conference on Fairness, Accountability,
+  and Transparency}, pages 59--68, 2019.
+\newblock \doi{10.1145/3287560.3287598}.
+
+\bibitem[Simon(1955)]{simon1955behavioral}
+Herbert~A. Simon.
+\newblock A behavioral model of rational choice.
+\newblock \emph{The Quarterly Journal of Economics}, 69\penalty0 (1):\penalty0
+  99--118, 1955.
+\newblock \doi{10.2307/1884852}.
+
+\end{thebibliography}

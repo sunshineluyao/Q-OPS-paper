@@ -1,0 +1,215 @@
+{
+  "status": "PASS",
+  "log": "/tmp/qops_commit3_check.miWqvC/qops-anonymous-supplement/main.log",
+  "pages": 20,
+  "counts": {
+    "errors": 0,
+    "warnings": 34
+  },
+  "findings": [
+    {
+      "severity": "warning",
+      "code": "underfull_box",
+      "line": 739,
+      "message": "Underfull \\vbox (badness 2368) has occurred while \\output is active []"
+    },
+    {
+      "severity": "warning",
+      "code": "underfull_box",
+      "line": 759,
+      "message": "Underfull \\vbox (badness 4699) has occurred while \\output is active []"
+    },
+    {
+      "severity": "warning",
+      "code": "underfull_box",
+      "line": 763,
+      "message": "Underfull \\vbox (badness 6876) has occurred while \\output is active []"
+    },
+    {
+      "severity": "warning",
+      "code": "underfull_box",
+      "line": 768,
+      "message": "Underfull \\hbox (badness 1701) in paragraph at lines 21--22"
+    },
+    {
+      "severity": "warning",
+      "code": "underfull_box",
+      "line": 773,
+      "message": "Underfull \\hbox (badness 1721) in paragraph at lines 22--22"
+    },
+    {
+      "severity": "warning",
+      "code": "underfull_box",
+      "line": 778,
+      "message": "Underfull \\hbox (badness 3942) in paragraph at lines 22--22"
+    },
+    {
+      "severity": "warning",
+      "code": "underfull_box",
+      "line": 783,
+      "message": "Underfull \\hbox (badness 1132) in paragraph at lines 23--23"
+    },
+    {
+      "severity": "warning",
+      "code": "underfull_box",
+      "line": 789,
+      "message": "Underfull \\hbox (badness 1394) in paragraph at lines 23--23"
+    },
+    {
+      "severity": "warning",
+      "code": "underfull_box",
+      "line": 795,
+      "message": "Underfull \\hbox (badness 10000) in paragraph at lines 23--23"
+    },
+    {
+      "severity": "warning",
+      "code": "underfull_box",
+      "line": 801,
+      "message": "Underfull \\hbox (badness 5316) in paragraph at lines 23--23"
+    },
+    {
+      "severity": "warning",
+      "code": "underfull_box",
+      "line": 806,
+      "message": "Underfull \\hbox (badness 7925) in paragraph at lines 23--24"
+    },
+    {
+      "severity": "warning",
+      "code": "underfull_box",
+      "line": 811,
+      "message": "Underfull \\hbox (badness 7273) in paragraph at lines 24--25"
+    },
+    {
+      "severity": "warning",
+      "code": "underfull_box",
+      "line": 816,
+      "message": "Underfull \\hbox (badness 10000) in paragraph at lines 25--25"
+    },
+    {
+      "severity": "warning",
+      "code": "underfull_box",
+      "line": 821,
+      "message": "Underfull \\hbox (badness 2020) in paragraph at lines 25--25"
+    },
+    {
+      "severity": "warning",
+      "code": "underfull_box",
+      "line": 829,
+      "message": "Underfull \\hbox (badness 10000) in paragraph at lines 26--26"
+    },
+    {
+      "severity": "warning",
+      "code": "underfull_box",
+      "line": 834,
+      "message": "Underfull \\hbox (badness 6792) in paragraph at lines 29--29"
+    },
+    {
+      "severity": "warning",
+      "code": "underfull_box",
+      "line": 840,
+      "message": "Underfull \\hbox (badness 10000) in paragraph at lines 14--14"
+    },
+    {
+      "severity": "warning",
+      "code": "underfull_box",
+      "line": 845,
+      "message": "Underfull \\hbox (badness 10000) in paragraph at lines 19--19"
+    },
+    {
+      "severity": "warning",
+      "code": "underfull_box",
+      "line": 852,
+      "message": "Underfull \\hbox (badness 10000) in paragraph at lines 19--19"
+    },
+    {
+      "severity": "warning",
+      "code": "underfull_box",
+      "line": 858,
+      "message": "Underfull \\hbox (badness 10000) in paragraph at lines 21--21"
+    },
+    {
+      "severity": "warning",
+      "code": "underfull_box",
+      "line": 864,
+      "message": "Underfull \\hbox (badness 10000) in paragraph at lines 24--24"
+    },
+    {
+      "severity": "warning",
+      "code": "underfull_box",
+      "line": 869,
+      "message": "Underfull \\hbox (badness 10000) in paragraph at lines 24--24"
+    },
+    {
+      "severity": "warning",
+      "code": "underfull_box",
+      "line": 875,
+      "message": "Underfull \\hbox (badness 10000) in paragraph at lines 26--26"
+    },
+    {
+      "severity": "warning",
+      "code": "underfull_box",
+      "line": 880,
+      "message": "Underfull \\hbox (badness 10000) in paragraph at lines 30--30"
+    },
+    {
+      "severity": "warning",
+      "code": "underfull_box",
+      "line": 886,
+      "message": "Underfull \\hbox (badness 2027) in paragraph at lines 30--30"
+    },
+    {
+      "severity": "warning",
+      "code": "underfull_box",
+      "line": 892,
+      "message": "Underfull \\hbox (badness 2401) in paragraph at lines 31--32"
+    },
+    {
+      "severity": "warning",
+      "code": "underfull_box",
+      "line": 897,
+      "message": "Underfull \\hbox (badness 2326) in paragraph at lines 33--33"
+    },
+    {
+      "severity": "warning",
+      "code": "underfull_box",
+      "line": 904,
+      "message": "Underfull \\hbox (badness 6641) in paragraph at lines 34--35"
+    },
+    {
+      "severity": "warning",
+      "code": "underfull_box",
+      "line": 917,
+      "message": "Underfull \\hbox (badness 10000) in paragraph at lines 13--13"
+    },
+    {
+      "severity": "warning",
+      "code": "underfull_box",
+      "line": 922,
+      "message": "Underfull \\hbox (badness 10000) in paragraph at lines 13--13"
+    },
+    {
+      "severity": "warning",
+      "code": "underfull_box",
+      "line": 927,
+      "message": "Underfull \\hbox (badness 8075) in paragraph at lines 16--16"
+    },
+    {
+      "severity": "warning",
+      "code": "underfull_box",
+      "line": 932,
+      "message": "Underfull \\hbox (badness 5446) in paragraph at lines 17--18"
+    },
+    {
+      "severity": "warning",
+      "code": "underfull_box",
+      "line": 937,
+      "message": "Underfull \\hbox (badness 1132) in paragraph at lines 17--18"
+    },
+    {
+      "severity": "warning",
+      "code": "underfull_box",
+      "line": 942,
+      "message": "Underfull \\hbox (badness 10000) in paragraph at lines 18--18"
+    }
+  ]
+}
