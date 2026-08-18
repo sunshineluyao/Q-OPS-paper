@@ -1,0 +1,7 @@
+family,benchmark_encoding,stakeholder_interpretation
+Decision,"Human-only, AI-only, or human--AI collaboration",Accountability and automation choice
+Reliability,24 correlated disruption scenarios; empirical chance constraints,Customer continuity under shocks
+Oversight,Finite review capacity; collaboration uses partial review,Reviewer workload and escalation
+Workflow,"Cluster complementarity, concentration, and mode friction",Organizational coordination
+Objective,"Expected service value minus cost, overflow, and penalties","Transparent trade-offs, not welfare"
+Acceptance,"Composite feasibility, shared evaluator, classical fallback",Auditable operational boundary

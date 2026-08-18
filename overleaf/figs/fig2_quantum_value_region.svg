@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">Quantum Value Region</title>
+<desc id="desc">Observed frozen instances mapped by classical ambiguity and p=2 optimum probability.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#536273"/></marker></defs>
+<rect x="0" y="0" width="1200" height="760" fill="#FFFFFF"/>
+<text id="text-1" x="55" y="50" font-family="Arial,Helvetica,sans-serif" font-size="32" font-weight="700" fill="#18324A" text-anchor="start" data-containment="free">Observed Quantum Value Region</text>
+<text id="text-2" x="55" y="82" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" fill="#536273" text-anchor="start" data-containment="free">Frozen C1.2 observations; regions are gate interpretations, not application-level value estimates.</text>
+<rect x="120" y="125" width="930" height="510" rx="0" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2" id="plot"/>
+<rect x="120" y="125" width="74.4" height="510" rx="0" fill="#F5F7FB" stroke="none" stroke-width="0"/>
+<rect x="194.4" y="125" width="855.6" height="418.20000000000005" rx="0" fill="#E8F6F1" stroke="none" stroke-width="0"/>
+<rect x="194.4" y="543.2" width="855.6" height="91.79999999999995" rx="0" fill="#FFF3EC" stroke="none" stroke-width="0"/>
+<line x1="194.4" y1="125" x2="194.4" y2="635" stroke="#18324A" stroke-width="2" stroke-linecap="round" stroke-dasharray="8 6"/>
+<line x1="120" y1="543.2" x2="1050" y2="543.2" stroke="#18324A" stroke-width="2" stroke-linecap="round" stroke-dasharray="8 6"/>
+<line x1="120.0" y1="635" x2="120.0" y2="643" stroke="#18324A" stroke-width="2" stroke-linecap="round"/>
+<text id="text-3" x="120.0" y="669" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" fill="#18324A" text-anchor="middle" data-containment="free">0.0</text>
+<line x1="112" y1="635.0" x2="120" y2="635.0" stroke="#18324A" stroke-width="2" stroke-linecap="round"/>
+<text id="text-4" x="105" y="641.0" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" fill="#18324A" text-anchor="end" data-containment="free">0.0</text>
+<line x1="306.0" y1="635" x2="306.0" y2="643" stroke="#18324A" stroke-width="2" stroke-linecap="round"/>
+<text id="text-5" x="306.0" y="669" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" fill="#18324A" text-anchor="middle" data-containment="free">0.2</text>
+<line x1="112" y1="533.0" x2="120" y2="533.0" stroke="#18324A" stroke-width="2" stroke-linecap="round"/>
+<text id="text-6" x="105" y="539.0" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" fill="#18324A" text-anchor="end" data-containment="free">0.2</text>
+<line x1="492.0" y1="635" x2="492.0" y2="643" stroke="#18324A" stroke-width="2" stroke-linecap="round"/>
+<text id="text-7" x="492.0" y="669" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" fill="#18324A" text-anchor="middle" data-containment="free">0.4</text>
+<line x1="112" y1="431.0" x2="120" y2="431.0" stroke="#18324A" stroke-width="2" stroke-linecap="round"/>
+<text id="text-8" x="105" y="437.0" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" fill="#18324A" text-anchor="end" data-containment="free">0.4</text>
+<line x1="678.0" y1="635" x2="678.0" y2="643" stroke="#18324A" stroke-width="2" stroke-linecap="round"/>
+<text id="text-9" x="678.0" y="669" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" fill="#18324A" text-anchor="middle" data-containment="free">0.6</text>
+<line x1="112" y1="329.0" x2="120" y2="329.0" stroke="#18324A" stroke-width="2" stroke-linecap="round"/>
+<text id="text-10" x="105" y="335.0" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" fill="#18324A" text-anchor="end" data-containment="free">0.6</text>
+<line x1="864.0" y1="635" x2="864.0" y2="643" stroke="#18324A" stroke-width="2" stroke-linecap="round"/>
+<text id="text-11" x="864.0" y="669" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" fill="#18324A" text-anchor="middle" data-containment="free">0.8</text>
+<line x1="112" y1="227.0" x2="120" y2="227.0" stroke="#18324A" stroke-width="2" stroke-linecap="round"/>
+<text id="text-12" x="105" y="233.0" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" fill="#18324A" text-anchor="end" data-containment="free">0.8</text>
+<line x1="1050.0" y1="635" x2="1050.0" y2="643" stroke="#18324A" stroke-width="2" stroke-linecap="round"/>
+<text id="text-13" x="1050.0" y="669" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" fill="#18324A" text-anchor="middle" data-containment="free">1.0</text>
+<line x1="112" y1="125.0" x2="120" y2="125.0" stroke="#18324A" stroke-width="2" stroke-linecap="round"/>
+<text id="text-14" x="105" y="131.0" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" fill="#18324A" text-anchor="end" data-containment="free">1.0</text>
+<text id="text-15" x="585.0" y="700" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" fill="#18324A" text-anchor="middle" data-containment="free">classical ambiguity</text>
+<text id="text-16" x="40" y="380" transform="rotate(-90 40 380)" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" fill="#18324A" text-anchor="middle" data-containment="free">p=2 optimum probability</text>
+<text id="text-17" x="150" y="155" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" fill="#536273" text-anchor="start" data-containment="free">Classical sufficient</text>
+<text id="text-18" x="720" y="155" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" fill="#14877D" text-anchor="start" data-containment="free">Quantum-candidate region</text>
+<text id="text-19" x="650" y="610" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" fill="#D97745" text-anchor="start" data-containment="free">Evidence insufficient</text>
+<circle cx="120.0" cy="614.455617875729" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
+<circle cx="1050.0" cy="558.9542754477781" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
+<circle cx="1050.0" cy="536.3091287585008" r="7" fill="#14877D" stroke="#14877D" stroke-width="3"/>
+<circle cx="854.5958934215942" cy="524.1007688135851" r="7" fill="#14877D" stroke="#14877D" stroke-width="3"/>
+<circle cx="1050.0" cy="631.4858104168354" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
+<circle cx="1050.0" cy="571.4436238574721" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
+<circle cx="1050.0" cy="586.1155397862916" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
+<circle cx="120.0" cy="515.1944166953813" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
+<circle cx="1050.0" cy="592.5396645157634" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
+<circle cx="120.0" cy="587.7808884831849" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
+<circle cx="1050.0" cy="618.6148898563216" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
+<circle cx="120.0" cy="516.9938396858968" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
+<circle cx="120.0" cy="613.3504025010675" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
+<circle cx="120.0" cy="590.6954506354172" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
+<line x1="1043.0" y1="585.4422661062436" x2="1057.0" y2="599.4422661062436" stroke="#536273" stroke-width="3" stroke-linecap="round"/>
+<line x1="1043.0" y1="599.4422661062436" x2="1057.0" y2="585.4422661062436" stroke="#536273" stroke-width="3" stroke-linecap="round"/>
+<circle cx="120.0" cy="540.2482631608641" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
+<circle cx="531.4091730380902" cy="617.3374635432798" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
+<circle cx="1050.0" cy="561.5980770113931" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
+<circle cx="1050.0" cy="545.321527267707" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
+<circle cx="1050.0" cy="528.9435299840554" r="7" fill="#14877D" stroke="#14877D" stroke-width="3"/>
+<circle cx="1017.2028062330965" cy="539.0008418984871" r="7" fill="#14877D" stroke="#14877D" stroke-width="3"/>
+<circle cx="764.3290072107728" cy="566.0777680567102" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
+<circle cx="1050.0" cy="540.7202033975358" r="7" fill="#14877D" stroke="#14877D" stroke-width="3"/>
+<circle cx="1050.0" cy="504.016704037177" r="7" fill="#14877D" stroke="#14877D" stroke-width="3"/>
+<circle cx="1050.0" cy="547.3710854598688" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
+<circle cx="808.0352773688655" cy="566.2482019546385" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
+<circle cx="1050.0" cy="598.5621362902721" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
+<circle cx="1050.0" cy="518.031411562114" r="7" fill="#14877D" stroke="#14877D" stroke-width="3"/>
+<circle cx="1050.0" cy="303.8062407947072" r="7" fill="#14877D" stroke="#14877D" stroke-width="3"/>
+<line x1="863.9452935571201" y1="570.6666742828794" x2="877.9452935571201" y2="584.6666742828794" stroke="#536273" stroke-width="3" stroke-linecap="round"/>
+<line x1="863.9452935571201" y1="584.6666742828794" x2="877.9452935571201" y2="570.6666742828794" stroke="#536273" stroke-width="3" stroke-linecap="round"/>
+<circle cx="1050.0" cy="627.6261276269862" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
+<circle cx="1050.0" cy="503.19909484669313" r="7" fill="#14877D" stroke="#14877D" stroke-width="3"/>
+<circle cx="1090" cy="170" r="7" fill="#14877D" stroke="#14877D" stroke-width="3"/>
+<text id="text-20" x="1110" y="176" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" fill="#14877D" text-anchor="start" data-containment="free">gate +</text>
+<circle cx="1090" cy="210" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
+<text id="text-21" x="1110" y="216" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" fill="#D97745" text-anchor="start" data-containment="free">gate −</text>
+<line x1="1083" y1="243" x2="1097" y2="257" stroke="#536273" stroke-width="3" stroke-linecap="round"/>
+<line x1="1083" y1="257" x2="1097" y2="243" stroke="#536273" stroke-width="3" stroke-linecap="round"/>
+<text id="text-22" x="1110" y="256" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" fill="#536273" text-anchor="start" data-containment="free">no core</text>
+<text id="text-23" x="120" y="738" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" fill="#536273" text-anchor="start" data-containment="free">Guides: ambiguity .08; p2 mass .18. Full gate also uses strict core, ratio, and headroom.</text>
+</svg>

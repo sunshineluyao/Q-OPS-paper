@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1400" height="690" viewBox="0 0 1400 690" role="img" aria-labelledby="title desc">
+<title id="title">Evidence evolution</title>
+<desc id="desc">C1.0 to C1.2 development logic and controls.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#536273"/></marker></defs>
+<rect x="0" y="0" width="1400" height="690" fill="#FFFFFF"/>
+<text id="text-1" x="50" y="50" font-family="Arial,Helvetica,sans-serif" font-size="31" font-weight="700" fill="#18324A" text-anchor="start" data-containment="free">Evidence evolution: controls added because earlier signals were insufficient</text>
+<text id="text-2" x="50" y="82" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="400" fill="#536273" text-anchor="start" data-containment="free">C1.0--C1.1 are qualitative development evidence; only C1.2 carries frozen held-out results.</text>
+<line x1="430" y1="330" x2="500" y2="330" stroke="#536273" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow)"/>
+<line x1="900" y1="330" x2="970" y2="330" stroke="#536273" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="40" y="145" width="390" height="370" rx="18" fill="#F5F7FB" stroke="#CBD5E1" stroke-width="2" id="c10"/>
+<rect x="54" y="161" width="6" height="338" rx="3" fill="#536273" stroke="#536273" stroke-width="0"/>
+<text id="text-3" x="74" y="195" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" fill="#18324A" text-anchor="start" data-container="c10" data-padding="14">C1.0  Classical ceiling</text>
+<text id="text-4" x="74" y="239" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="400" fill="#536273" text-anchor="start" data-container="c10" data-padding="14"><tspan x="74" dy="0">Strong classical search</tspan><tspan x="74" dy="32.5">left too little headroom.</tspan><tspan x="74" dy="32.5">Control: compare against</tspan><tspan x="74" dy="32.5">credible alternatives.</tspan></text>
+<rect x="500" y="145" width="400" height="370" rx="18" fill="#FFF3EC" stroke="#CBD5E1" stroke-width="2" id="c11"/>
+<rect x="514" y="161" width="6" height="338" rx="3" fill="#D97745" stroke="#D97745" stroke-width="0"/>
+<text id="text-5" x="534" y="195" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" fill="#18324A" text-anchor="start" data-container="c11" data-padding="14">C1.1  Attractive proxy</text>
+<text id="text-6" x="534" y="239" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="400" fill="#536273" text-anchor="start" data-container="c11" data-padding="14"><tspan x="534" dy="0">Concentration alone</tspan><tspan x="534" dy="32.5">did not establish a</tspan><tspan x="534" dy="32.5">feasible, ambiguous</tspan><tspan x="534" dy="32.5">value region.</tspan><tspan x="534" dy="32.5">Control: gate feasibility</tspan><tspan x="534" dy="32.5">and ambiguity.</tspan></text>
+<rect x="970" y="145" width="390" height="370" rx="18" fill="#EAF0FF" stroke="#CBD5E1" stroke-width="2" id="c12"/>
+<rect x="984" y="161" width="6" height="338" rx="3" fill="#14877D" stroke="#14877D" stroke-width="0"/>
+<text id="text-7" x="1004" y="195" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" fill="#18324A" text-anchor="start" data-container="c12" data-padding="14">C1.2  Frozen audit</text>
+<text id="text-8" x="1004" y="239" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="400" fill="#536273" text-anchor="start" data-container="c12" data-padding="14"><tspan x="1004" dy="0">32 held-out instances</tspan><tspan x="1004" dy="32.5">strict cores: 30/32</tspan><tspan x="1004" dy="32.5">post-simulation gate: 9/32</tspan><tspan x="1004" dy="32.5">shared evaluator + fallback</tspan><tspan x="1004" dy="32.5">704 exact shared-field checks</tspan></text>
+<text id="text-9" x="50" y="585" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" fill="#18324A" text-anchor="start" data-containment="free">Scientific argument</text>
+<text id="text-10" x="320" y="585" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="400" fill="#536273" text-anchor="start" data-containment="free">Apparent value can vanish without feasibility, strong classical controls, and relevance.</text>
+<text id="text-11" x="50" y="640" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" fill="#18324A" text-anchor="start" data-containment="free">Remaining boundary</text>
+<text id="text-12" x="350" y="640" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="400" fill="#536273" text-anchor="start" data-containment="free">Routing, QPU/noise, end-to-end cost, and stakeholder outcomes remain open.</text>
+</svg>

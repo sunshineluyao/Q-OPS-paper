@@ -1,0 +1,19 @@
+\begin{table}[t]
+\caption{Frozen C1.2 benchmark results. Intervals are 95\% paired bootstrap intervals where available; ``-- means no interval was specified.}\label{tab:results}
+\footnotesize\setlength{\tabcolsep}{3pt}
+\begin{tabularx}{\columnwidth}{@{}Yp{.18\columnwidth}p{.25\columnwidth}Y@{}}
+\toprule
+\textbf{Metric} & \textbf{Estimate} & \textbf{95\% CI / denominator} & \textbf{Scope} \\
+\midrule
+Held-out matrix & 32 & -- & Frozen; all cases retained \\
+Strict feasible core & 30/32 & -- & Two least-violation fallbacks \\
+Cluster repair gain & 17.019 & [12.524, 21.552] & Paired instance bootstrap \\
+Uniform optimum mass & 0.0223 & [0.0147, 0.0350] & All retained cores \\
+$p=2$ optimum mass & 0.1522 & [0.1161, 0.1940] & Noiseless statevector \\
+$p=2$ minus uniform & 0.1299 & [0.0991, 0.1640] & Matched retained state set \\
+Evidence-gate positive & 9/32 (28.13\%) & [12.50\%, 43.75\%] & Post-simulation; not prospective \\
+Composite-feasible incumbent & 27/32 & -- & Stricter than mode legality \\
+Disallowed-mode violations & 0/32 & -- & Not total safety or feasibility \\
+\bottomrule
+\end{tabularx}
+\end{table}
