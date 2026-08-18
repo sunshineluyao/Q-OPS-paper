@@ -41,6 +41,7 @@ def main() -> None:
     parser.add_argument("rerun", type=Path)
     parser.add_argument("output", type=Path)
     parser.add_argument("--commit", required=True)
+    parser.add_argument("--anonymous-summary", type=Path)
     args = parser.parse_args()
 
     archived_rows, archived = load(args.archive)
@@ -94,6 +95,20 @@ def main() -> None:
     }
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(result, indent=2), encoding="utf-8")
+    if args.anonymous_summary:
+        anonymous = {
+            "schema_version": "1.0",
+            "archive_rows": len(archived_rows),
+            "rerun_rows": len(rerun_rows),
+            "shared_field_count": len(shared),
+            "shared_value_comparisons": comparisons,
+            "max_absolute_error": max_abs_error,
+            "mismatch_count": len(mismatches),
+            "status": "PASS" if not mismatches else "FAIL",
+            "evidence_boundary": "Exact shared-field reproduction only; the archive and current runner have different schemas, so this is not a byte-identical CSV claim."
+        }
+        args.anonymous_summary.parent.mkdir(parents=True, exist_ok=True)
+        args.anonymous_summary.write_text(json.dumps(anonymous, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(result, indent=2))
     raise SystemExit(0 if not mismatches else 1)
 

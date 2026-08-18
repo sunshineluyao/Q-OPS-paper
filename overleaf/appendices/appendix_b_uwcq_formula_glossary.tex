@@ -1,7 +1,7 @@
 \section{Complete \UWCQ{} formula glossary}
 \label{app:uwcq}
 
-The mnemonic is not execution order. The classical layer encloses the experiment: it produces the incumbent and retained set, while the same evaluator verifies the final assignment. The warm layer feeds Q, and U/Q form a paired distributional comparison. \Cref{fig:architecture} visualizes the enclosing application architecture; \cref{tab:uwcqglossary} records every implemented strategy and metric.
+The mnemonic is not execution order. The classical layer encloses the experiment: it produces the incumbent and retained set, while the same evaluator verifies the final assignment independently of the quantum generation path. The warm layer feeds Q, and U/Q form a paired distributional comparison. \Cref{fig:architecture} visualizes the enclosing application architecture; \cref{tab:uwcqglossary} records every implemented strategy and metric.
 
 \input{tabs/tab_appendix_uwcq_glossary}
 
@@ -9,4 +9,4 @@ The mnemonic is not execution order. The classical layer encloses the experiment
 For every frozen parameter candidate, statevector probabilities are ranked lexicographically by expected energy, then negative near-optimal mass, then negative exact-optimum mass. Thus $p^\star$ is not the sole optimization objective. The $p=1$ grid and $p=2$ random search also have unequal cardinality. Reporting the strong $p=1$ result is therefore part of the audit rather than an ablation.
 
 \paragraph{No production quantum assignment.}
-The implementation computes an exact best retained-core state for reference and distributional sampling metrics, but it does not replace the cluster-repair incumbent with a sampled quantum candidate. ``Classical certificate'' in this paper means that any accepted full assignment is evaluated by the common scenario evaluator; in the frozen run, the operational incumbent remains classical. This distinction prevents probability concentration from being misreported as an implemented end-to-end policy improvement.
+The implementation computes an exact best retained-core state for reference and distributional sampling metrics, but it does not replace the cluster-repair incumbent with a sampled quantum candidate. ``Quantum-independent verification'' means that any accepted full assignment is evaluated by the shared classical scenario evaluator; it is not a third-party certificate or a separate implementation. In the frozen run, the operational incumbent remains classical. This distinction prevents probability concentration from being misreported as an implemented end-to-end policy improvement.

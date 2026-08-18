@@ -13,13 +13,12 @@ FILES = [
     "main.tex", "main.pdf", "main.bbl", "references.bib", "neurips_2026.sty", "checklist.tex",
     "Makefile", "ANONYMOUS_README.md",
 ]
-DIRS = ["sections", "appendices", "tabs", "figs", "data", "assets/clip-art-set", "scripts"]
-EXCLUDE_NAMES = {"__pycache__", ".DS_Store"}
+DIRS = ["sections", "appendices", "tabs", "figs", "data", "assets/clip-art-set", "scripts", "audits"]
+EXCLUDE_NAMES = {"__pycache__", ".DS_Store", ".svg-ready", ".validated-ready", ".manuscript-assets-ready"}
 EXCLUDE_SUFFIXES = {".aux", ".log", ".out", ".blg", ".fls", ".fdb_latexmk", ".synctex.gz"}
 EXCLUDE_PATHS = {
     "data/reproduction_audit.json",
-    "scripts/audit_release.py",
-    "scripts/package_anonymous.py",
+    "audits/package_checksum.sha256",
 }
 
 

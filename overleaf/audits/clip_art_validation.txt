@@ -1,1 +1,0 @@
-PASS: clip-art manifest validates (metadata and files)

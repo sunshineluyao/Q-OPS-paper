@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "archive_rows": 32,
+  "rerun_rows": 32,
+  "shared_field_count": 22,
+  "shared_value_comparisons": 704,
+  "max_absolute_error": 0.0,
+  "mismatch_count": 0,
+  "status": "PASS",
+  "evidence_boundary": "Exact shared-field reproduction only; the archive and current runner have different schemas, so this is not a byte-identical CSV claim."
+}

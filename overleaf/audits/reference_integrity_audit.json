@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "scope": "Bibliographic existence, metadata, and claim support checked against publisher, proceedings, standards-body, journal, or canonical DOI records as of 2026-08-18; this is not a guarantee against future or unindexed notices.",
+  "counts": {
+    "entries": 27,
+    "cited": 27,
+    "registry": 27
+  },
+  "missing_citations": [],
+  "unused_entries": [],
+  "checks": {
+    "all_citations_resolve": true,
+    "no_unused_bibliography_entries": true,
+    "registry_covers_every_entry": true,
+    "no_duplicate_dois": true,
+    "required_fields_present": true,
+    "primary_locator_for_every_entry": true,
+    "doi_registry_alignment": true,
+    "verification_date_recorded": true,
+    "no_known_broken_metadata_tokens": true
+  }
+}

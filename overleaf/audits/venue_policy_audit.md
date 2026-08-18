@@ -1,15 +1,16 @@
-# Venue policy audit
+# Venue policy and fit audit
 
-Verified against the official workshop sites on 2026-08-18.
+Verified from the official workshop sites on 2026-08-18.
 
 | Requirement | Trustworthy AI for Good | SaTQuML | Unified manuscript decision |
 |---|---|---|---|
-| Format | NeurIPS workshop style; exact 2026 style details partly TBA | NeurIPS 2026 style | Official repository `neurips_2026.sty` retained |
-| Main-text length | 2--8 pages, excluding references and appendices | long 9, short 4, tiny 2 pages; references and appendices excluded | 8-page maximum; current numbered main text and references occupy pages 1--8, with Section 6 ending on page 7 |
-| Review | Double blind | Double blind | Anonymous author block, neutral workshop title, no identifying URL/commit in the PDF |
-| Supplement | Appendices excluded from main limit | Supplementary material in the same PDF | One 20-page PDF: 8-page paper/references followed by appendices and checklist |
-| Prior/parallel review | Non-archival; parallel workshop submission allowed | Non-archival; under-review work allowed | Simultaneous workshop submission appears compatible; authors must still disclose/comply with any OpenReview form-specific question |
+| Main text | 2–8 pages | long paper up to 9 pages | strict common cap: exactly 8 content pages |
+| Exclusions | references and appendices excluded | references and appendices excluded; main text self-contained | references begin page 9; appendices begin page 11 |
+| Style | NeurIPS 2026 workshop style; details partly TBA | NeurIPS 2026 style | official supplied `neurips_2026.sty` retained without margin/font reduction |
+| Review | double blind | double blind, including linked artifacts | anonymous author block, neutral workshop title, no identifying coordinates/history |
+| Supplement | appendices permitted outside main limit | references and supplement in the same PDF; 50 MB maximum | one 22-page, 0.45 MB PDF; reviewers need not rely on appendix |
+| Non-archival / parallel work | non-archival; under-review work and another NeurIPS workshop allowed | non-archival; under-review and concurrent submission allowed subject to the other venue | simultaneous submission appears compatible from both sides; authors must still answer OpenReview forms accurately |
 
-Primary sources: https://trustworthy-ai-for-good.github.io/ and https://satquml.github.io/.
+Primary sources: [Trustworthy AI for Good](https://trustworthy-ai-for-good.github.io/) and [SaTQuML](https://satquml.github.io/).
 
-Unresolved issues: both workshops may later prescribe a venue-specific `\workshoptitle{}` string, so the source currently uses the neutral `NeurIPS 2026 Workshop Submission`. SaTQuML fit remains a scope risk because its center of gravity is secure/trustworthy quantum machine learning, whereas Q-OPS evaluates QAOA-based optimization. The paper's benchmarking, strong-baseline, negative-result, and trust-boundary contributions are relevant, but acceptance under that scope cannot be guaranteed.
+The common manuscript is self-contained in eight pages, then uses unlimited references/appendices as permitted. AI4GOOD fit is explicit through affected-stakeholder pathways, institutional accountability, auditability, and the warning that efficiency proxies are not welfare. SaTQuML fit remains a material scope risk: the work studies QAOA-based optimization rather than QML or a security application. The paper therefore frames SaTQuML relevance narrowly around strong baselines, reproducibility, negative evidence, trustworthy hybrid evaluation, and deployment boundaries; it does not manufacture QML/security claims. A human submission decision remains necessary if either workshop changes its TBA details or interprets scope more narrowly.

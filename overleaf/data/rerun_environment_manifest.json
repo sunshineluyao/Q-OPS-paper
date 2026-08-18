@@ -1,0 +1,46 @@
+{
+  "audit_kind": "independent frozen C1.2 rerun",
+  "performed_on": "2026-08-18",
+  "anonymity_note": "The identifying implementation revision is retained in the external audit record and omitted from this double-blind artifact.",
+  "command_template": "PYTHONPATH=. PYTHONDONTWRITEBYTECODE=1 python3 scripts/run_q_ops_global_c12_locked.py --config configs/q_ops_global_c1_2_locked.json --output-dir <fresh-empty-directory> --confirm-locked-run",
+  "config_sha256": "7f07459abc9e686934be1ee022768eb82a9687137cc86d4d7ea0b7727715e53c",
+  "matrix": {
+    "task_sizes": [12, 18],
+    "doping_levels": [0, 1, 2, 3],
+    "held_out_seeds": [101, 211, 307, 401],
+    "development_seeds_excluded": [11, 23],
+    "instances": 32,
+    "matched_sample_budget": 128,
+    "uniform_draw_seed_rule": "instance seed + 101",
+    "qaoa_draw_seed_rule": "instance seed + 202",
+    "bootstrap_seeds": [7001, 7002, 7003, 7004]
+  },
+  "environment": {
+    "python": "3.12.13",
+    "numpy": "2.3.5",
+    "os": "Linux 6.18.35 x86_64",
+    "cpu": "AMD EPYC 9V74 80-Core Processor",
+    "visible_logical_cpus": 9,
+    "visible_memory_gib": 21,
+    "gpu": "not requested; nvidia-smi unavailable"
+  },
+  "runtime_observation": {
+    "wall_seconds": 31.980,
+    "user_seconds": 67.158,
+    "system_seconds": 0.160,
+    "interpretation": "Environment/load observation only; not a benchmark outcome or advantage claim."
+  },
+  "outputs": {
+    "locked_records.csv": "d7af7c91b5f1ba4f54f0b2ed784d1f3e09c95bf8352f708a93b35e7f8e8ec5e9",
+    "locked_summary.json": "bac061809b562749bea326004cfd06c83343e3342e5e3afc40e5394d5261be88"
+  },
+  "reproduction": {
+    "archive_rows": 32,
+    "rerun_rows": 32,
+    "shared_fields": 22,
+    "shared_value_comparisons": 704,
+    "mismatch_count": 0,
+    "max_abs_error": 0.0,
+    "boundary": "Exact shared-field reproduction; no byte-identical CSV claim."
+  }
+}

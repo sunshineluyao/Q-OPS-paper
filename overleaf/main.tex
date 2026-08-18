@@ -1,5 +1,9 @@
 \documentclass{article}
 
+\pdfinfoomitdate=1
+\pdftrailerid{}
+\pdfsuppressptexinfo=15
+
 \PassOptionsToPackage{numbers,sort&compress}{natbib}
 \usepackage[dblblindworkshop]{neurips_2026}
 \workshoptitle{NeurIPS 2026 Workshop Submission}
@@ -20,8 +24,9 @@
 
 \definecolor{qnavy}{HTML}{18324A}
 \definecolor{qblue}{HTML}{315EFB}
-\definecolor{qgreen}{HTML}{14877D}
-\definecolor{qorange}{HTML}{D97745}
+\definecolor{qgreen}{HTML}{0F766E}
+\definecolor{qorange}{HTML}{A94F21}
+\definecolor{qboundary}{HTML}{8B4050}
 \hypersetup{colorlinks=true,citecolor=qnavy,linkcolor=qnavy,urlcolor=qgreen}
 \newcolumntype{Y}{>{\raggedright\arraybackslash}X}
 \newcommand{\ind}{\mathbb{I}}
@@ -40,7 +45,7 @@
 \maketitle
 
 \begin{abstract}
-Organizations allocating work among humans, AI systems, and human--AI teams must balance service, cost, limited review capacity, correlated failures, and hard operating requirements. Indiscriminate adoption of an uncertain computational technology creates a second trust problem: a promising candidate is not sufficient evidence that the technology should be invoked. Q-OPS treats quantum computation as an optional expert inside an application-oriented decision architecture. Strong classical methods first establish feasibility and remaining headroom; an evidence gate identifies a selective quantum pilot; every candidate is independently checked; unsupported use falls back to the classical incumbent. In the frozen study, the quantum branch audits a retained-state distribution and does not replace that incumbent. Among 32 synthetic held-out instances, 9/32 (28.13\%) meet the recorded post-simulation evidence gate. Across all retained-core comparisons, the matched-budget optimum-sampling probability ratio is 6.831$\times$ relative to uniform feasible sampling. The shared evaluator records zero disallowed-mode violations, while only 27/32 classical incumbents satisfy the stricter composite-feasibility predicate. Earlier C1.0--C1.1 development stages and the frozen depth comparison preserve negative evidence: strong classical controls can remove apparent headroom, and $p=1$ exceeds $p=2$ on 28/32 cases under unequal parameter-search budgets. The present result is therefore statevector-level conditional algorithmic evidence, not real-QPU, wall-clock, scaling, universal, or application-level quantum advantage. Q-OPS illustrates a general rule for trustworthy emerging-computation adoption: compare against credible alternatives, invoke selectively, certify independently, and retain a safe fallback.
+Organizations allocating work among humans, AI systems, and human--AI teams must balance service, cost, limited review capacity, correlated failures, and hard operating requirements. Indiscriminate adoption of an uncertain computational technology creates a second trust problem: a promising candidate is not sufficient evidence that the technology should be invoked. Q-OPS treats quantum computation as an optional expert inside an application-oriented decision architecture. Strong classical methods establish a credible incumbent and characterize remaining headroom; a future pre-execution router may invoke an optional quantum pilot; the frozen post-simulation gate records evidence after that pilot; and quantum-independent checking by the shared classical evaluator preserves fallback. In the frozen study, the quantum branch audits a retained-state distribution and does not replace the incumbent. Among 32 synthetic held-out instances, 9/32 (28.13\%) meet the recorded post-simulation evidence gate. Across all retained-core comparisons, the ratio of exact optimum masses under the $p=2$ and uniform distributions is 6.831$\times$; this is distinct from the matched 128-draw outcomes. The evaluator records zero disallowed-mode violations, while only 27/32 classical incumbents satisfy the stricter composite-feasibility predicate. Earlier C1.0--C1.1 development stages and the frozen depth comparison preserve negative evidence: strong classical controls can remove apparent headroom, and $p=1$ exceeds $p=2$ on 28/32 cases under unequal parameter-search budgets. The present result is therefore statevector-level conditional algorithmic evidence, not real-QPU, wall-clock, scaling, universal, security, QML, or application-level quantum advantage. Q-OPS illustrates a general rule for trustworthy emerging-computation adoption: compare against credible alternatives, invoke selectively, verify through a quantum-independent path, and retain a fallback.
 \end{abstract}
 
 \input{sections/01_introduction}

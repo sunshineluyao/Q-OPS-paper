@@ -1,4 +1,4 @@
-\begin{thebibliography}{28}
+\begin{thebibliography}{27}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -59,8 +59,8 @@ Abraham Charnes and William~W. Cooper.
 \newblock \emph{Management Science}, 6\penalty0 (1):\penalty0 73--79, 1959.
 \newblock \doi{10.1287/mnsc.6.1.73}.
 
-\bibitem[Egger et~al.(2021)Egger, Marecek, and Woerner]{egger2021warm}
-Daniel~J. Egger, Jakub Marecek, and Stefan Woerner.
+\bibitem[Egger et~al.(2021)Egger, Mare{\v{c}}ek, and Woerner]{egger2021warm}
+Daniel~J. Egger, Jakub Mare{\v{c}}ek, and Stefan Woerner.
 \newblock Warm-starting quantum optimization.
 \newblock \emph{Quantum}, 5:\penalty0 479, 2021.
 \newblock \doi{10.22331/q-2021-06-17-479}.
@@ -71,20 +71,20 @@ Edward Farhi, Jeffrey Goldstone, and Sam Gutmann.
 \newblock \emph{arXiv preprint arXiv:1411.4028}, 2014.
 \newblock \doi{10.48550/arXiv.1411.4028}.
 
-\bibitem[Finzgar et~al.(2022)Finzgar, Ross, H{"o}lscher, Klepsch, and
-  Luckow]{finzgar2022quark}
-Jernej~Rudi Finzgar, Philipp Ross, Leonhard H{"o}lscher, Johannes Klepsch, and
-  Andre Luckow.
+\bibitem[Fin{\v{z}}gar et~al.(2022)Fin{\v{z}}gar, Ross, H{\"o}lscher, Klepsch,
+  and Luckow]{finzgar2022quark}
+Jernej~Rudi Fin{\v{z}}gar, Philipp Ross, Leonhard H{\"o}lscher, Johannes
+  Klepsch, and Andre Luckow.
 \newblock {QUARK}: A framework for quantum computing application benchmarking.
 \newblock In \emph{2022 IEEE International Conference on Quantum Computing and
   Engineering}, pages 226--237, 2022.
 \newblock \doi{10.1109/QCE53715.2022.00042}.
 
-\bibitem[F{"u}gener et~al.(2026)F{"u}gener, Walzner, and
+\bibitem[F{\"u}gener et~al.(2026)F{\"u}gener, Walzner, and
   Gupta]{fuegener2026complementarity}
-Andreas F{"u}gener, Stefan Walzner, and Alok Gupta.
-\newblock Automation, augmentation, and complementarity in human--{AI} decision
-  making.
+Andreas F{\"u}gener, Dominik~D. Walzner, and Alok Gupta.
+\newblock Roles of artificial intelligence in collaboration with humans:
+  Automation, augmentation, and the future of work.
 \newblock \emph{Management Science}, 72\penalty0 (1):\penalty0 538--557, 2026.
 \newblock \doi{10.1287/mnsc.2024.05684}.
 
@@ -110,19 +110,13 @@ Stuart Hadfield, Zhihui Wang, Bryan O'Gorman, Eleanor~G. Rieffel, Davide
 \newblock \emph{Algorithms}, 12\penalty0 (2):\penalty0 34, 2019.
 \newblock \doi{10.3390/a12020034}.
 
-\bibitem[Hart and Moore(1990)]{hart1990property}
-Oliver Hart and John Moore.
-\newblock Property rights and the nature of the firm.
-\newblock \emph{Journal of Political Economy}, 98\penalty0 (6):\penalty0
-  1119--1158, 1990.
-\newblock \doi{10.1086/261729}.
-
 \bibitem[{International Organization for
   Standardization}(2023{\natexlab{a}})]{iso23894}
 {International Organization for Standardization}.
 \newblock {ISO/IEC 23894:2023}: Information technology---artificial
   intelligence---guidance on risk management.
 \newblock Technical report, ISO, 2023{\natexlab{a}}.
+\newblock URL \url{https://www.iso.org/standard/77304.html}.
 
 \bibitem[{International Organization for
   Standardization}(2023{\natexlab{b}})]{iso42001}
@@ -130,6 +124,7 @@ Oliver Hart and John Moore.
 \newblock {ISO/IEC 42001:2023}: Information technology---artificial
   intelligence---management system.
 \newblock Technical report, ISO, 2023{\natexlab{b}}.
+\newblock URL \url{https://www.iso.org/standard/42001.html}.
 
 \bibitem[Koch et~al.(2026)Koch, Bernal~Neira, Chen, Cortiana, Egger, Heese,
   Hegade, Gomez~Cadavid, Huang, Itoko, Kleinert, et~al.]{koch2026qoblib}
@@ -147,7 +142,7 @@ Lars Kotthoff.
 \newblock \doi{10.1609/aimag.v35i3.2460}.
 
 \bibitem[Madras et~al.(2018)Madras, Pitassi, and Zemel]{madras2018defer}
-David Madras, Toniann Pitassi, and Richard Zemel.
+David Madras, Toni Pitassi, and Richard Zemel.
 \newblock Predict responsibly: Improving fairness and accuracy by learning to
   defer.
 \newblock In \emph{Advances in Neural Information Processing Systems},
@@ -161,10 +156,14 @@ Ninareh Mehrabi, Fred Morstatter, Nripsuta Saxena, Kristina Lerman, and Aram
 \newblock \emph{ACM Computing Surveys}, 54\penalty0 (6):\penalty0 1--35, 2021.
 \newblock \doi{10.1145/3457607}.
 
-\bibitem[{National Institute of Standards and Technology}(2023)]{nist2023airmf}
-{National Institute of Standards and Technology}.
-\newblock Artificial intelligence risk management framework ({AI RMF 1.0}).
-\newblock Technical Report NIST AI 100-1, U.S. Department of Commerce, 2023.
+\bibitem[Pineau et~al.(2021)Pineau, Vincent-Lamarre, Sinha, Larivi{\`e}re,
+  Beygelzimer, d'Alch{\'e} Buc, Fox, and Larochelle]{pineau2021reproducibility}
+Joelle Pineau, Philippe Vincent-Lamarre, Koustuv Sinha, Vincent Larivi{\`e}re,
+  Alina Beygelzimer, Florence d'Alch{\'e} Buc, Emily Fox, and Hugo Larochelle.
+\newblock Improving reproducibility in machine learning research: A report from
+  the {NeurIPS} 2019 reproducibility program.
+\newblock \emph{Journal of Machine Learning Research}, 22\penalty0
+  (164):\penalty0 1--20, 2021.
 
 \bibitem[Preskill(2018)]{preskill2018nisq}
 John Preskill.
@@ -195,10 +194,10 @@ Nicolas P.~D. Sawaya, Alexander~T. Schmitz, and Stuart Hadfield.
 
 \bibitem[Seeber et~al.(2020)Seeber, Bittner, Briggs, de~Vreede, de~Vreede,
   Elkins, Maier, Merz, Oeste-Rei{\ss}, Randrup, Schwabe, and
-  S{"o}llner]{seeber2020machines}
+  S{\"o}llner]{seeber2020machines}
 Isabella Seeber, Eva Bittner, Robert~O. Briggs, Triparna de~Vreede, Gert-Jan
   de~Vreede, Aaron Elkins, Ronald Maier, Alexander~B. Merz, Sarah
-  Oeste-Rei{\ss}, Nils Randrup, Gerhard Schwabe, and Matthias S{"o}llner.
+  Oeste-Rei{\ss}, Nils Randrup, Gerhard Schwabe, and Matthias S{\"o}llner.
 \newblock Machines as teammates: A research agenda on {AI} in team
   collaboration.
 \newblock \emph{Information \& Management}, 57\penalty0 (2):\penalty0 103174,
@@ -214,11 +213,10 @@ Andrew~D. Selbst, danah boyd, Sorelle~A. Friedler, Suresh Venkatasubramanian,
   and Transparency}, pages 59--68, 2019.
 \newblock \doi{10.1145/3287560.3287598}.
 
-\bibitem[Simon(1955)]{simon1955behavioral}
-Herbert~A. Simon.
-\newblock A behavioral model of rational choice.
-\newblock \emph{The Quarterly Journal of Economics}, 69\penalty0 (1):\penalty0
-  99--118, 1955.
-\newblock \doi{10.2307/1884852}.
+\bibitem[Tabassi(2023)]{nist2023airmf}
+Elham Tabassi.
+\newblock Artificial intelligence risk management framework ({AI RMF 1.0}).
+\newblock Technical Report NIST AI 100-1, National Institute of Standards and
+  Technology, U.S. Department of Commerce, 2023.
 
 \end{thebibliography}

@@ -2,11 +2,11 @@
 <title id="title">Evidence gate</title>
 <desc id="desc">Feasibility, headroom, and ambiguity marks entering a selective funnel.</desc>
 <defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#536273"/></marker></defs>
-<circle cx="115" cy="105" r="34" fill="#FFFFFF" stroke="#14877D" stroke-width="6"/>
+<circle cx="115" cy="105" r="34" fill="#FFFFFF" stroke="#0F766E" stroke-width="6"/>
 <circle cx="256" cy="105" r="34" fill="#FFFFFF" stroke="#315EFB" stroke-width="6"/>
-<circle cx="397" cy="105" r="34" fill="#FFFFFF" stroke="#D97745" stroke-width="6"/>
+<circle cx="397" cy="105" r="34" fill="#FFFFFF" stroke="#A94F21" stroke-width="6"/>
 <path d="M 75 165 L 437 165 L 320 330 L 320 402 L 192 402 L 192 330 Z" fill="#EAF0FF" stroke="#18324A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="115" y1="140" x2="180" y2="220" stroke="#14877D" stroke-width="5" stroke-linecap="round"/>
+<line x1="115" y1="140" x2="180" y2="220" stroke="#0F766E" stroke-width="5" stroke-linecap="round"/>
 <line x1="256" y1="140" x2="256" y2="250" stroke="#315EFB" stroke-width="5" stroke-linecap="round"/>
-<line x1="397" y1="140" x2="332" y2="220" stroke="#D97745" stroke-width="5" stroke-linecap="round"/>
+<line x1="397" y1="140" x2="332" y2="220" stroke="#A94F21" stroke-width="5" stroke-linecap="round"/>
 </svg>

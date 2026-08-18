@@ -1,32 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
 <title id="title">Staffing mix</title>
-<desc id="desc">Human, AI, and collaborative work as a conceptual staffing micro-scene.</desc>
+<desc id="desc">A person, neutral compute module, and task board form a conceptual allocation micro-scene.</desc>
 <defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#536273"/></marker></defs>
-<circle cx="130" cy="205.0" r="13.75" fill="#FFFFFF" stroke="#18324A" stroke-width="5.0"/>
-<path d="M 100.0 270.0 Q 130 225.0 160.0 270.0" fill="none" stroke="#18324A" stroke-width="5.0" stroke-linecap="round" stroke-linejoin="round"/>
-<rect x="347.0" y="195.0" width="70.0" height="70.0" rx="10.0" fill="#EAF0FF" stroke="#315EFB" stroke-width="5.0"/>
-<line x1="334.5" y1="207.5" x2="347.0" y2="207.5" stroke="#315EFB" stroke-width="3.75" stroke-linecap="round"/>
-<line x1="417.0" y1="207.5" x2="429.5" y2="207.5" stroke="#315EFB" stroke-width="3.75" stroke-linecap="round"/>
-<line x1="334.5" y1="230.0" x2="347.0" y2="230.0" stroke="#315EFB" stroke-width="3.75" stroke-linecap="round"/>
-<line x1="417.0" y1="230.0" x2="429.5" y2="230.0" stroke="#315EFB" stroke-width="3.75" stroke-linecap="round"/>
-<line x1="334.5" y1="252.5" x2="347.0" y2="252.5" stroke="#315EFB" stroke-width="3.75" stroke-linecap="round"/>
-<line x1="417.0" y1="252.5" x2="429.5" y2="252.5" stroke="#315EFB" stroke-width="3.75" stroke-linecap="round"/>
-<circle cx="369.5" cy="220.0" r="5.0" fill="#315EFB" stroke="#315EFB" stroke-width="1"/>
-<circle cx="394.5" cy="220.0" r="5.0" fill="#315EFB" stroke="#315EFB" stroke-width="1"/>
-<line x1="369.5" y1="242.5" x2="394.5" y2="242.5" stroke="#315EFB" stroke-width="3.75" stroke-linecap="round"/>
-<circle cx="256" cy="315" r="54" fill="#FFF3EC" stroke="#14877D" stroke-width="5"/>
-<circle cx="238" cy="305.12" r="6.82" fill="#FFFFFF" stroke="#14877D" stroke-width="2.48"/>
-<path d="M 223.12 337.36 Q 238 315.04 252.88 337.36" fill="none" stroke="#14877D" stroke-width="2.48" stroke-linecap="round" stroke-linejoin="round"/>
-<rect x="262.6" y="304.6" width="30.800000000000004" height="30.800000000000004" rx="4.4" fill="#EAF0FF" stroke="#14877D" stroke-width="2.2"/>
-<line x1="257.1" y1="310.1" x2="262.6" y2="310.1" stroke="#14877D" stroke-width="1.6500000000000001" stroke-linecap="round"/>
-<line x1="293.4" y1="310.1" x2="298.9" y2="310.1" stroke="#14877D" stroke-width="1.6500000000000001" stroke-linecap="round"/>
-<line x1="257.1" y1="320.0" x2="262.6" y2="320.0" stroke="#14877D" stroke-width="1.6500000000000001" stroke-linecap="round"/>
-<line x1="293.4" y1="320.0" x2="298.9" y2="320.0" stroke="#14877D" stroke-width="1.6500000000000001" stroke-linecap="round"/>
-<line x1="257.1" y1="329.9" x2="262.6" y2="329.9" stroke="#14877D" stroke-width="1.6500000000000001" stroke-linecap="round"/>
-<line x1="293.4" y1="329.9" x2="298.9" y2="329.9" stroke="#14877D" stroke-width="1.6500000000000001" stroke-linecap="round"/>
-<circle cx="272.5" cy="315.6" r="2.2" fill="#14877D" stroke="#14877D" stroke-width="1"/>
-<circle cx="283.5" cy="315.6" r="2.2" fill="#14877D" stroke="#14877D" stroke-width="1"/>
-<line x1="272.5" y1="325.5" x2="283.5" y2="325.5" stroke="#14877D" stroke-width="1.6500000000000001" stroke-linecap="round"/>
-<path d="M 174 250 C 205 275 218 289 226 301" fill="none" stroke="#14877D" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M 338 250 C 307 275 294 289 286 301" fill="none" stroke="#14877D" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="120" cy="211.2" r="13.2" fill="#FFFFFF" stroke="#18324A" stroke-width="4.8"/>
+<path d="M 91.2 273.6 Q 120 230.4 148.8 273.6" fill="none" stroke="#18324A" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="356.4" y="201.4" width="67.2" height="67.2" rx="9.6" fill="#EAF0FF" stroke="#315EFB" stroke-width="4.8"/>
+<line x1="344.4" y1="213.4" x2="356.4" y2="213.4" stroke="#315EFB" stroke-width="3.5999999999999996" stroke-linecap="round"/>
+<line x1="423.6" y1="213.4" x2="435.6" y2="213.4" stroke="#315EFB" stroke-width="3.5999999999999996" stroke-linecap="round"/>
+<line x1="344.4" y1="235.0" x2="356.4" y2="235.0" stroke="#315EFB" stroke-width="3.5999999999999996" stroke-linecap="round"/>
+<line x1="423.6" y1="235.0" x2="435.6" y2="235.0" stroke="#315EFB" stroke-width="3.5999999999999996" stroke-linecap="round"/>
+<line x1="344.4" y1="256.6" x2="356.4" y2="256.6" stroke="#315EFB" stroke-width="3.5999999999999996" stroke-linecap="round"/>
+<line x1="423.6" y1="256.6" x2="435.6" y2="256.6" stroke="#315EFB" stroke-width="3.5999999999999996" stroke-linecap="round"/>
+<line x1="375.6" y1="223.0" x2="404.4" y2="223.0" stroke="#315EFB" stroke-width="3.5999999999999996" stroke-linecap="round"/>
+<line x1="375.6" y1="244.6" x2="404.4" y2="244.6" stroke="#315EFB" stroke-width="3.5999999999999996" stroke-linecap="round"/>
+<rect x="205" y="105" width="105" height="190" rx="10" fill="#FFFFFF" stroke="#0F766E" stroke-width="5"/>
+<circle cx="230" cy="145" r="7" fill="#0F766E" stroke="#0F766E" stroke-width="1"/>
+<line x1="250" y1="145" x2="290" y2="145" stroke="#0F766E" stroke-width="5" stroke-linecap="round"/>
+<circle cx="230" cy="190" r="7" fill="#0F766E" stroke="#0F766E" stroke-width="1"/>
+<line x1="250" y1="190" x2="290" y2="190" stroke="#0F766E" stroke-width="5" stroke-linecap="round"/>
+<circle cx="230" cy="235" r="7" fill="#0F766E" stroke="#0F766E" stroke-width="1"/>
+<line x1="250" y1="235" x2="290" y2="235" stroke="#0F766E" stroke-width="5" stroke-linecap="round"/>
+<path d="M 165 250 C 195 250 205 235 205 220" fill="none" stroke="#0F766E" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 345 245 C 320 245 310 230 310 215" fill="none" stroke="#0F766E" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

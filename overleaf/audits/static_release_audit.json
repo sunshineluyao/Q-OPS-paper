@@ -1,13 +1,15 @@
 {
   "status": "PASS",
-  "root": "/workspace/scratch/6fa97f3c50c3/qops-paper/overleaf",
+  "root": ".",
   "main": "main.tex",
   "counts": {
-    "tex_files": 24,
-    "graphics": 3,
-    "bibliographies": 1,
-    "errors": 0,
-    "warnings": 0
+    "numbered_main_sections": 6,
+    "rq_contribution_pairs": 3,
+    "main_figures": 3,
+    "tables": 7,
+    "bibliography_entries": 27,
+    "clip_art_assets": 8,
+    "errors": 0
   },
   "findings": []
 }

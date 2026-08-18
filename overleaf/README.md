@@ -19,9 +19,9 @@ Requirements: Python 3, NumPy, Inkscape, and a TeX distribution with
 make
 ```
 
-`scripts/generate_release_assets.py` regenerates all editable SVG masters,
-machine-readable table sources, and the seven-asset technical clip-art family
-from frozen inputs. `scripts/audit_reproduction.py` compares a fresh runner
+The staged build first creates and validates the eight-asset technical clip-art
+family, then composes all editable SVG masters and machine-readable table
+sources from frozen inputs. `scripts/audit_reproduction.py` compares a fresh runner
 with archived evidence on every field emitted by the current runner.
 
 All figures and clip-art assets use original editable vector geometry; no
@@ -31,16 +31,26 @@ figure text element is classified as container-owned or intentionally free.
 Re-run renderer-measured containment checks with:
 
 ```bash
-make visual-audit
+make release-audit
 ```
+
+That target independently checks rendered SVG containment, the unified visual
+contract, frozen/rerun numerical equality, cross-document headline values,
+bibliographic existence and metadata, anonymity, eight-page body use, and the
+static claim boundary. `make package` additionally writes the deterministic
+anonymous supplement ZIP and its checksum.
 
 ## Evidence snapshot
 
-- Public implementation commit: `ae6a85f52fb5808e631bc0c4cfa43220c10ce9aa`
+- Identifying implementation commit: retained only in the non-anonymous external audit
 - Frozen instances: 32
 - Evidence files: `data/locked_c12_records.csv`,
   `data/locked_c12_summary.json`, and `data/q_ops_global_c1_2_locked.json`
-- Shared-field reproduction audit: `data/reproduction_audit.json`
+- Fresh rerun rows: `data/locked_rerun_records.csv`
+- Exact shared-field reproduction summary:
+  `data/shared_field_reproduction.json`
+- Sanitized environment and command record:
+  `data/rerun_environment_manifest.json`
 
 For double-blind submission, `main.tex` deliberately identifies the public
 artifact only as an anonymous supplementary artifact.  Insert the public URL

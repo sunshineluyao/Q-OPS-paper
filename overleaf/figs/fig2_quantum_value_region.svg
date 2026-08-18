@@ -1,85 +1,108 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
-<title id="title">Quantum Value Region</title>
-<desc id="desc">Observed frozen instances mapped by classical ambiguity and p=2 optimum probability.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+<title id="title">Observed evidence margins and conceptual Quantum Value Region</title>
+<desc id="desc">Frozen gate diagnostics occupy the left panel; the unmeasured economic value region is separated on the right.</desc>
 <defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#536273"/></marker></defs>
-<rect x="0" y="0" width="1200" height="760" fill="#FFFFFF"/>
-<text id="text-1" x="55" y="50" font-family="Arial,Helvetica,sans-serif" font-size="32" font-weight="700" fill="#18324A" text-anchor="start" data-containment="free">Observed Quantum Value Region</text>
-<text id="text-2" x="55" y="82" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" fill="#536273" text-anchor="start" data-containment="free">Frozen C1.2 observations; regions are gate interpretations, not application-level value estimates.</text>
-<rect x="120" y="125" width="930" height="510" rx="0" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2" id="plot"/>
-<rect x="120" y="125" width="74.4" height="510" rx="0" fill="#F5F7FB" stroke="none" stroke-width="0"/>
-<rect x="194.4" y="125" width="855.6" height="418.20000000000005" rx="0" fill="#E8F6F1" stroke="none" stroke-width="0"/>
-<rect x="194.4" y="543.2" width="855.6" height="91.79999999999995" rx="0" fill="#FFF3EC" stroke="none" stroke-width="0"/>
-<line x1="194.4" y1="125" x2="194.4" y2="635" stroke="#18324A" stroke-width="2" stroke-linecap="round" stroke-dasharray="8 6"/>
-<line x1="120" y1="543.2" x2="1050" y2="543.2" stroke="#18324A" stroke-width="2" stroke-linecap="round" stroke-dasharray="8 6"/>
-<line x1="120.0" y1="635" x2="120.0" y2="643" stroke="#18324A" stroke-width="2" stroke-linecap="round"/>
-<text id="text-3" x="120.0" y="669" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" fill="#18324A" text-anchor="middle" data-containment="free">0.0</text>
-<line x1="112" y1="635.0" x2="120" y2="635.0" stroke="#18324A" stroke-width="2" stroke-linecap="round"/>
-<text id="text-4" x="105" y="641.0" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" fill="#18324A" text-anchor="end" data-containment="free">0.0</text>
-<line x1="306.0" y1="635" x2="306.0" y2="643" stroke="#18324A" stroke-width="2" stroke-linecap="round"/>
-<text id="text-5" x="306.0" y="669" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" fill="#18324A" text-anchor="middle" data-containment="free">0.2</text>
-<line x1="112" y1="533.0" x2="120" y2="533.0" stroke="#18324A" stroke-width="2" stroke-linecap="round"/>
-<text id="text-6" x="105" y="539.0" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" fill="#18324A" text-anchor="end" data-containment="free">0.2</text>
-<line x1="492.0" y1="635" x2="492.0" y2="643" stroke="#18324A" stroke-width="2" stroke-linecap="round"/>
-<text id="text-7" x="492.0" y="669" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" fill="#18324A" text-anchor="middle" data-containment="free">0.4</text>
-<line x1="112" y1="431.0" x2="120" y2="431.0" stroke="#18324A" stroke-width="2" stroke-linecap="round"/>
-<text id="text-8" x="105" y="437.0" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" fill="#18324A" text-anchor="end" data-containment="free">0.4</text>
-<line x1="678.0" y1="635" x2="678.0" y2="643" stroke="#18324A" stroke-width="2" stroke-linecap="round"/>
-<text id="text-9" x="678.0" y="669" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" fill="#18324A" text-anchor="middle" data-containment="free">0.6</text>
-<line x1="112" y1="329.0" x2="120" y2="329.0" stroke="#18324A" stroke-width="2" stroke-linecap="round"/>
-<text id="text-10" x="105" y="335.0" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" fill="#18324A" text-anchor="end" data-containment="free">0.6</text>
-<line x1="864.0" y1="635" x2="864.0" y2="643" stroke="#18324A" stroke-width="2" stroke-linecap="round"/>
-<text id="text-11" x="864.0" y="669" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" fill="#18324A" text-anchor="middle" data-containment="free">0.8</text>
-<line x1="112" y1="227.0" x2="120" y2="227.0" stroke="#18324A" stroke-width="2" stroke-linecap="round"/>
-<text id="text-12" x="105" y="233.0" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" fill="#18324A" text-anchor="end" data-containment="free">0.8</text>
-<line x1="1050.0" y1="635" x2="1050.0" y2="643" stroke="#18324A" stroke-width="2" stroke-linecap="round"/>
-<text id="text-13" x="1050.0" y="669" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" fill="#18324A" text-anchor="middle" data-containment="free">1.0</text>
-<line x1="112" y1="125.0" x2="120" y2="125.0" stroke="#18324A" stroke-width="2" stroke-linecap="round"/>
-<text id="text-14" x="105" y="131.0" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" fill="#18324A" text-anchor="end" data-containment="free">1.0</text>
-<text id="text-15" x="585.0" y="700" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" fill="#18324A" text-anchor="middle" data-containment="free">classical ambiguity</text>
-<text id="text-16" x="40" y="380" transform="rotate(-90 40 380)" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" fill="#18324A" text-anchor="middle" data-containment="free">p=2 optimum probability</text>
-<text id="text-17" x="150" y="155" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" fill="#536273" text-anchor="start" data-containment="free">Classical sufficient</text>
-<text id="text-18" x="720" y="155" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" fill="#14877D" text-anchor="start" data-containment="free">Quantum-candidate region</text>
-<text id="text-19" x="650" y="610" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" fill="#D97745" text-anchor="start" data-containment="free">Evidence insufficient</text>
-<circle cx="120.0" cy="614.455617875729" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
-<circle cx="1050.0" cy="558.9542754477781" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
-<circle cx="1050.0" cy="536.3091287585008" r="7" fill="#14877D" stroke="#14877D" stroke-width="3"/>
-<circle cx="854.5958934215942" cy="524.1007688135851" r="7" fill="#14877D" stroke="#14877D" stroke-width="3"/>
-<circle cx="1050.0" cy="631.4858104168354" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
-<circle cx="1050.0" cy="571.4436238574721" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
-<circle cx="1050.0" cy="586.1155397862916" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
-<circle cx="120.0" cy="515.1944166953813" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
-<circle cx="1050.0" cy="592.5396645157634" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
-<circle cx="120.0" cy="587.7808884831849" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
-<circle cx="1050.0" cy="618.6148898563216" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
-<circle cx="120.0" cy="516.9938396858968" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
-<circle cx="120.0" cy="613.3504025010675" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
-<circle cx="120.0" cy="590.6954506354172" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
-<line x1="1043.0" y1="585.4422661062436" x2="1057.0" y2="599.4422661062436" stroke="#536273" stroke-width="3" stroke-linecap="round"/>
-<line x1="1043.0" y1="599.4422661062436" x2="1057.0" y2="585.4422661062436" stroke="#536273" stroke-width="3" stroke-linecap="round"/>
-<circle cx="120.0" cy="540.2482631608641" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
-<circle cx="531.4091730380902" cy="617.3374635432798" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
-<circle cx="1050.0" cy="561.5980770113931" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
-<circle cx="1050.0" cy="545.321527267707" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
-<circle cx="1050.0" cy="528.9435299840554" r="7" fill="#14877D" stroke="#14877D" stroke-width="3"/>
-<circle cx="1017.2028062330965" cy="539.0008418984871" r="7" fill="#14877D" stroke="#14877D" stroke-width="3"/>
-<circle cx="764.3290072107728" cy="566.0777680567102" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
-<circle cx="1050.0" cy="540.7202033975358" r="7" fill="#14877D" stroke="#14877D" stroke-width="3"/>
-<circle cx="1050.0" cy="504.016704037177" r="7" fill="#14877D" stroke="#14877D" stroke-width="3"/>
-<circle cx="1050.0" cy="547.3710854598688" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
-<circle cx="808.0352773688655" cy="566.2482019546385" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
-<circle cx="1050.0" cy="598.5621362902721" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
-<circle cx="1050.0" cy="518.031411562114" r="7" fill="#14877D" stroke="#14877D" stroke-width="3"/>
-<circle cx="1050.0" cy="303.8062407947072" r="7" fill="#14877D" stroke="#14877D" stroke-width="3"/>
-<line x1="863.9452935571201" y1="570.6666742828794" x2="877.9452935571201" y2="584.6666742828794" stroke="#536273" stroke-width="3" stroke-linecap="round"/>
-<line x1="863.9452935571201" y1="584.6666742828794" x2="877.9452935571201" y2="570.6666742828794" stroke="#536273" stroke-width="3" stroke-linecap="round"/>
-<circle cx="1050.0" cy="627.6261276269862" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
-<circle cx="1050.0" cy="503.19909484669313" r="7" fill="#14877D" stroke="#14877D" stroke-width="3"/>
-<circle cx="1090" cy="170" r="7" fill="#14877D" stroke="#14877D" stroke-width="3"/>
-<text id="text-20" x="1110" y="176" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" fill="#14877D" text-anchor="start" data-containment="free">gate +</text>
-<circle cx="1090" cy="210" r="7" fill="#FFFFFF" stroke="#D97745" stroke-width="3"/>
-<text id="text-21" x="1110" y="216" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" fill="#D97745" text-anchor="start" data-containment="free">gate −</text>
-<line x1="1083" y1="243" x2="1097" y2="257" stroke="#536273" stroke-width="3" stroke-linecap="round"/>
-<line x1="1083" y1="257" x2="1097" y2="243" stroke="#536273" stroke-width="3" stroke-linecap="round"/>
-<text id="text-22" x="1110" y="256" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" fill="#536273" text-anchor="start" data-containment="free">no core</text>
-<text id="text-23" x="120" y="738" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" fill="#536273" text-anchor="start" data-containment="free">Guides: ambiguity .08; p2 mass .18. Full gate also uses strict core, ratio, and headroom.</text>
+<rect x="0" y="0" width="1200" height="620" fill="#FFFFFF"/>
+<text id="text-1" x="35" y="45" font-family="Nimbus Sans,TeX Gyre Heros,Arial,Helvetica,sans-serif" font-size="34" font-weight="700" fill="#18324A" text-anchor="start" data-containment="free">Observed gate evidence versus the economic Quantum Value Region</text>
+<text id="text-2" x="35" y="80" font-family="Nimbus Sans,TeX Gyre Heros,Arial,Helvetica,sans-serif" font-size="26" font-weight="400" fill="#536273" text-anchor="start" data-containment="free">All marks come from frozen C1.2; the economic region contains no observed points.</text>
+<rect x="35" y="105" width="760" height="460" rx="16" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2" id="observed-panel"/>
+<text id="text-3" x="60" y="142" font-family="Nimbus Sans,TeX Gyre Heros,Arial,Helvetica,sans-serif" font-size="29" font-weight="700" fill="#18324A" text-anchor="start" data-container="observed-panel" data-padding="8">A  Frozen post-simulation gate margins</text>
+<rect x="167.85714285714286" y="150" width="597.1428571428571" height="230.0" rx="0" fill="#E8F6F1" stroke="none" stroke-width="0"/>
+<rect x="105" y="150" width="660" height="345" rx="0" fill="none" stroke="#18324A" stroke-width="2" id="plot"/>
+<line x1="167.85714285714286" y1="150" x2="167.85714285714286" y2="495" stroke="#18324A" stroke-width="2" stroke-linecap="round" stroke-dasharray="8 6"/>
+<line x1="105" y1="380.0" x2="765" y2="380.0" stroke="#18324A" stroke-width="2" stroke-linecap="round" stroke-dasharray="8 6"/>
+<line x1="117.57142857142857" y1="495" x2="117.57142857142857" y2="502" stroke="#18324A" stroke-width="2" stroke-linecap="round"/>
+<text id="text-4" x="117.57142857142857" y="526" font-family="Nimbus Sans,TeX Gyre Heros,Arial,Helvetica,sans-serif" font-size="25" font-weight="400" fill="#18324A" text-anchor="middle" data-containment="free">-0.08</text>
+<line x1="167.85714285714286" y1="495" x2="167.85714285714286" y2="502" stroke="#18324A" stroke-width="2" stroke-linecap="round"/>
+<text id="text-5" x="167.85714285714286" y="526" font-family="Nimbus Sans,TeX Gyre Heros,Arial,Helvetica,sans-serif" font-size="25" font-weight="400" fill="#18324A" text-anchor="middle" data-containment="free">0</text>
+<line x1="325.0" y1="495" x2="325.0" y2="502" stroke="#18324A" stroke-width="2" stroke-linecap="round"/>
+<text id="text-6" x="325.0" y="526" font-family="Nimbus Sans,TeX Gyre Heros,Arial,Helvetica,sans-serif" font-size="25" font-weight="400" fill="#18324A" text-anchor="middle" data-containment="free">0.25</text>
+<line x1="482.1428571428571" y1="495" x2="482.1428571428571" y2="502" stroke="#18324A" stroke-width="2" stroke-linecap="round"/>
+<text id="text-7" x="482.1428571428571" y="526" font-family="Nimbus Sans,TeX Gyre Heros,Arial,Helvetica,sans-serif" font-size="25" font-weight="400" fill="#18324A" text-anchor="middle" data-containment="free">0.5</text>
+<line x1="639.2857142857142" y1="495" x2="639.2857142857142" y2="502" stroke="#18324A" stroke-width="2" stroke-linecap="round"/>
+<text id="text-8" x="639.2857142857142" y="526" font-family="Nimbus Sans,TeX Gyre Heros,Arial,Helvetica,sans-serif" font-size="25" font-weight="400" fill="#18324A" text-anchor="middle" data-containment="free">0.75</text>
+<line x1="746.1428571428571" y1="495" x2="746.1428571428571" y2="502" stroke="#18324A" stroke-width="2" stroke-linecap="round"/>
+<text id="text-9" x="746.1428571428571" y="526" font-family="Nimbus Sans,TeX Gyre Heros,Arial,Helvetica,sans-serif" font-size="25" font-weight="400" fill="#18324A" text-anchor="middle" data-containment="free">0.92</text>
+<line x1="98" y1="483.5" x2="105" y2="483.5" stroke="#18324A" stroke-width="2" stroke-linecap="round"/>
+<text id="text-10" x="93" y="490.5" font-family="Nimbus Sans,TeX Gyre Heros,Arial,Helvetica,sans-serif" font-size="25" font-weight="400" fill="#18324A" text-anchor="end" data-containment="free">-0.18</text>
+<line x1="98" y1="380.0" x2="105" y2="380.0" stroke="#18324A" stroke-width="2" stroke-linecap="round"/>
+<text id="text-11" x="93" y="387.0" font-family="Nimbus Sans,TeX Gyre Heros,Arial,Helvetica,sans-serif" font-size="25" font-weight="400" fill="#18324A" text-anchor="end" data-containment="free">0</text>
+<line x1="98" y1="322.5" x2="105" y2="322.5" stroke="#18324A" stroke-width="2" stroke-linecap="round"/>
+<text id="text-12" x="93" y="329.5" font-family="Nimbus Sans,TeX Gyre Heros,Arial,Helvetica,sans-serif" font-size="25" font-weight="400" fill="#18324A" text-anchor="end" data-containment="free">0.1</text>
+<line x1="98" y1="265.0" x2="105" y2="265.0" stroke="#18324A" stroke-width="2" stroke-linecap="round"/>
+<text id="text-13" x="93" y="272.0" font-family="Nimbus Sans,TeX Gyre Heros,Arial,Helvetica,sans-serif" font-size="25" font-weight="400" fill="#18324A" text-anchor="end" data-containment="free">0.2</text>
+<line x1="98" y1="207.5" x2="105" y2="207.5" stroke="#18324A" stroke-width="2" stroke-linecap="round"/>
+<text id="text-14" x="93" y="214.5" font-family="Nimbus Sans,TeX Gyre Heros,Arial,Helvetica,sans-serif" font-size="25" font-weight="400" fill="#18324A" text-anchor="end" data-containment="free">0.3</text>
+<line x1="98" y1="150.0" x2="105" y2="150.0" stroke="#18324A" stroke-width="2" stroke-linecap="round"/>
+<text id="text-15" x="93" y="157.0" font-family="Nimbus Sans,TeX Gyre Heros,Arial,Helvetica,sans-serif" font-size="25" font-weight="400" fill="#18324A" text-anchor="end" data-containment="free">0.4</text>
+<text id="text-16" x="435.0" y="558" font-family="Nimbus Sans,TeX Gyre Heros,Arial,Helvetica,sans-serif" font-size="26" font-weight="700" fill="#18324A" text-anchor="middle" data-containment="free">ambiguity margin: a - 0.08</text>
+<text id="text-17" x="52" y="325" transform="rotate(-90 52 325)" font-family="Nimbus Sans,TeX Gyre Heros,Arial,Helvetica,sans-serif" font-size="26" font-weight="700" fill="#18324A" text-anchor="middle" data-containment="free">concentration margin</text>
+<text id="text-18" x="185.85714285714286" y="182" font-family="Nimbus Sans,TeX Gyre Heros,Arial,Helvetica,sans-serif" font-size="25" font-weight="700" fill="#0F766E" text-anchor="start" data-containment="free">positive two-margin region</text>
+<circle cx="117.57142857142857" cy="460.3372162327" r="8" fill="#FFFFFF" stroke="#A94F21" stroke-width="3"/>
+<circle cx="746.1428571428571" cy="397.7621732989" r="8" fill="#FFFFFF" stroke="#A94F21" stroke-width="3"/>
+<circle cx="746.1428571428571" cy="372.23088046315" r="8" fill="#0F766E" stroke="#0F766E" stroke-width="3"/>
+<circle cx="614.0724932498856" cy="358.46655307387505" r="8" fill="#0F766E" stroke="#0F766E" stroke-width="3"/>
+<circle cx="746.1428571428571" cy="479.53792350925" r="8" fill="#FFFFFF" stroke="#A94F21" stroke-width="3"/>
+<circle cx="746.1428571428571" cy="411.84330140765" r="8" fill="#FFFFFF" stroke="#A94F21" stroke-width="3"/>
+<circle cx="746.1428571428571" cy="428.3851674061" r="8" fill="#FFFFFF" stroke="#A94F21" stroke-width="3"/>
+<circle cx="117.57142857142857" cy="348.42507764699997" r="8" fill="#FFFFFF" stroke="#A94F21" stroke-width="3"/>
+<circle cx="746.1428571428571" cy="435.628053130525" r="8" fill="#FFFFFF" stroke="#A94F21" stroke-width="3"/>
+<circle cx="117.57142857142857" cy="430.26276642725" r="8" fill="#FFFFFF" stroke="#A94F21" stroke-width="3"/>
+<circle cx="746.1428571428571" cy="465.0265915049" r="8" fill="#FFFFFF" stroke="#A94F21" stroke-width="3"/>
+<circle cx="117.57142857142857" cy="350.453838861475" r="8" fill="#FFFFFF" stroke="#A94F21" stroke-width="3"/>
+<circle cx="117.57142857142857" cy="459.09114007495" r="8" fill="#FFFFFF" stroke="#A94F21" stroke-width="3"/>
+<circle cx="117.57142857142857" cy="433.548792382925" r="8" fill="#FFFFFF" stroke="#A94F21" stroke-width="3"/>
+<line x1="738.1428571428571" y1="427.518241197975" x2="754.1428571428571" y2="443.518241197975" stroke="#536273" stroke-width="3" stroke-linecap="round"/>
+<line x1="738.1428571428571" y1="443.518241197975" x2="754.1428571428571" y2="427.518241197975" stroke="#536273" stroke-width="3" stroke-linecap="round"/>
+<circle cx="117.57142857142857" cy="376.6720614071" r="8" fill="#FFFFFF" stroke="#A94F21" stroke-width="3"/>
+<circle cx="395.63600021028566" cy="463.586355955625" r="8" fill="#FFFFFF" stroke="#A94F21" stroke-width="3"/>
+<circle cx="746.1428571428571" cy="400.742929964025" r="8" fill="#FFFFFF" stroke="#A94F21" stroke-width="3"/>
+<circle cx="746.1428571428571" cy="382.39191799810004" r="8" fill="#FFFFFF" stroke="#A94F21" stroke-width="3"/>
+<circle cx="746.1428571428571" cy="363.9265289038" r="8" fill="#0F766E" stroke="#0F766E" stroke-width="3"/>
+<circle cx="723.9757830149142" cy="375.2656550818" r="8" fill="#0F766E" stroke="#0F766E" stroke-width="3"/>
+<circle cx="553.0626162408" cy="405.793562024925" r="8" fill="#FFFFFF" stroke="#A94F21" stroke-width="3"/>
+<circle cx="746.1428571428571" cy="377.20415088957503" r="8" fill="#0F766E" stroke="#0F766E" stroke-width="3"/>
+<circle cx="746.1428571428571" cy="335.82275455170003" r="8" fill="#0F766E" stroke="#0F766E" stroke-width="3"/>
+<circle cx="746.1428571428571" cy="384.702694391075" r="8" fill="#FFFFFF" stroke="#A94F21" stroke-width="3"/>
+<circle cx="582.6029524457714" cy="405.9857178899" r="8" fill="#FFFFFF" stroke="#A94F21" stroke-width="3"/>
+<circle cx="746.1428571428571" cy="442.4180948369" r="8" fill="#FFFFFF" stroke="#A94F21" stroke-width="3"/>
+<circle cx="746.1428571428571" cy="351.6236502904" r="8" fill="#0F766E" stroke="#0F766E" stroke-width="3"/>
+<circle cx="746.1428571428571" cy="167.59527148395006" r="8" fill="#0F766E" stroke="#0F766E" stroke-width="3"/>
+<line x1="617.1227790553143" y1="410.859485711" x2="633.1227790553143" y2="426.859485711" stroke="#536273" stroke-width="3" stroke-linecap="round"/>
+<line x1="617.1227790553143" y1="426.859485711" x2="633.1227790553143" y2="410.859485711" stroke="#536273" stroke-width="3" stroke-linecap="round"/>
+<circle cx="746.1428571428571" cy="475.186320364" r="8" fill="#FFFFFF" stroke="#A94F21" stroke-width="3"/>
+<circle cx="746.1428571428571" cy="334.900940268575" r="8" fill="#0F766E" stroke="#0F766E" stroke-width="3"/>
+<rect x="820" y="105" width="350" height="460" rx="16" fill="#F5F7FB" stroke="#8B4050" stroke-width="3" id="economic-panel" stroke-dasharray="10 7"/>
+<text id="text-19" x="850" y="142" font-family="Nimbus Sans,TeX Gyre Heros,Arial,Helvetica,sans-serif" font-size="29" font-weight="700" fill="#18324A" text-anchor="start" data-container="economic-panel" data-padding="8">B  Economic QVR</text>
+<g transform="translate(920 155) scale(0.29296875 0.29296875)">
+
+
+
+<line x1="70" y1="105" x2="250" y2="105" stroke="#CBD5E1" stroke-width="6" stroke-linecap="round"/>
+<circle cx="105" cy="105" r="10" fill="#FFFFFF" stroke="#315EFB" stroke-width="5"/>
+<line x1="70" y1="155" x2="250" y2="155" stroke="#CBD5E1" stroke-width="6" stroke-linecap="round"/>
+<circle cx="127" cy="155" r="10" fill="#FFFFFF" stroke="#315EFB" stroke-width="5"/>
+<line x1="70" y1="205" x2="250" y2="205" stroke="#CBD5E1" stroke-width="6" stroke-linecap="round"/>
+<circle cx="149" cy="205" r="10" fill="#FFFFFF" stroke="#315EFB" stroke-width="5"/>
+<line x1="70" y1="255" x2="250" y2="255" stroke="#CBD5E1" stroke-width="6" stroke-linecap="round"/>
+<circle cx="171" cy="255" r="10" fill="#FFFFFF" stroke="#0F766E" stroke-width="5"/>
+<line x1="70" y1="305" x2="250" y2="305" stroke="#CBD5E1" stroke-width="6" stroke-linecap="round"/>
+<circle cx="193" cy="305" r="10" fill="#FFFFFF" stroke="#0F766E" stroke-width="5"/>
+<line x1="70" y1="355" x2="250" y2="355" stroke="#CBD5E1" stroke-width="6" stroke-linecap="round"/>
+<circle cx="215" cy="355" r="10" fill="#FFFFFF" stroke="#0F766E" stroke-width="5"/>
+<path d="M 275 110 L 440 180 L 400 390 L 245 315 Z" fill="#EAF0FF" stroke="#18324A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="250" y1="145" x2="315" y2="200" stroke="#315EFB" stroke-width="5" stroke-linecap="round" marker-end="url(#arrow)"/>
+<line x1="250" y1="305" x2="300" y2="300" stroke="#0F766E" stroke-width="5" stroke-linecap="round" marker-end="url(#arrow)"/>
+</g>
+<text id="text-20" x="997" y="335" font-family="Nimbus Sans,TeX Gyre Heros,Arial,Helvetica,sans-serif" font-size="27" font-weight="700" fill="#18324A" text-anchor="middle" data-container="economic-panel" data-padding="10"><tspan x="997" dy="0">E[value gain | z] &gt;</tspan><tspan x="997" dy="33.75">quantum + validation +</tspan><tspan x="997" dy="33.75">delay + risk + review cost</tspan></text>
+<text id="text-21" x="997" y="438" font-family="Nimbus Sans,TeX Gyre Heros,Arial,Helvetica,sans-serif" font-size="28" font-weight="700" fill="#8B4050" text-anchor="middle" data-container="economic-panel" data-padding="14">not estimated here</text>
+<text id="text-22" x="997" y="470" font-family="Nimbus Sans,TeX Gyre Heros,Arial,Helvetica,sans-serif" font-size="25" font-weight="400" fill="#536273" text-anchor="middle" data-container="economic-panel" data-padding="6"><tspan x="997" dy="0">Missing: QPU noise + runtime,</tspan><tspan x="997" dy="31.25">engineering + review,</tspan><tspan x="997" dy="31.25">stakeholder outcomes</tspan></text>
+<circle cx="55" cy="595" r="8" fill="#0F766E" stroke="#0F766E" stroke-width="3"/>
+<text id="text-23" x="75" y="602" font-family="Nimbus Sans,TeX Gyre Heros,Arial,Helvetica,sans-serif" font-size="25" font-weight="400" fill="#0F766E" text-anchor="start" data-containment="free">complete gate +</text>
+<circle cx="270" cy="595" r="8" fill="#FFFFFF" stroke="#A94F21" stroke-width="3"/>
+<text id="text-24" x="290" y="602" font-family="Nimbus Sans,TeX Gyre Heros,Arial,Helvetica,sans-serif" font-size="25" font-weight="400" fill="#A94F21" text-anchor="start" data-containment="free">gate -</text>
+<line x1="425" y1="587" x2="441" y2="603" stroke="#536273" stroke-width="3" stroke-linecap="round"/>
+<line x1="425" y1="603" x2="441" y2="587" stroke="#536273" stroke-width="3" stroke-linecap="round"/>
+<text id="text-25" x="450" y="602" font-family="Nimbus Sans,TeX Gyre Heros,Arial,Helvetica,sans-serif" font-size="25" font-weight="400" fill="#536273" text-anchor="start" data-containment="free">no strict core</text>
+<text id="text-26" x="815" y="602" font-family="Nimbus Sans,TeX Gyre Heros,Arial,Helvetica,sans-serif" font-size="25" font-weight="700" fill="#0F766E" text-anchor="start" data-containment="free">9/32 complete-gate pass</text>
 </svg>

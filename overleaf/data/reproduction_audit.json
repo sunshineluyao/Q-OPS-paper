@@ -1,5 +1,4 @@
 {
-  "source_commit": "ae6a85f52fb5808e631bc0c4cfa43220c10ce9aa",
   "archive_rows": 32,
   "rerun_rows": 32,
   "archive_field_count": 30,
@@ -44,5 +43,5 @@
   "mismatch_count": 0,
   "mismatches": [],
   "status": "PASS",
-  "interpretation": "The fresh run reproduces every field emitted by the current public runner. The archived table additionally preserves diagnostic fields that the current runner omits."
+  "interpretation": "The fresh run reproduces every field emitted by the current runner. The archived table additionally preserves diagnostic fields that the current runner omits. This is exact shared-field, not byte-identical CSV, reproduction."
 }

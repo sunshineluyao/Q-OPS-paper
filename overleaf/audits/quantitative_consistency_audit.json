@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "computed": {
+    "instances": 32,
+    "strict_core_instances": 30,
+    "post_simulation_gate_positive": 9,
+    "composite_feasible_incumbents": 27,
+    "disallowed_mode_violations": 0,
+    "p1_greater_than_p2_instances": 28,
+    "mean_uniform_exact_optimum_mass": 0.022278120276439495,
+    "mean_p2_exact_optimum_mass": 0.1521904451831595,
+    "ratio_of_means": 6.8313862792145175,
+    "shared_fields": 22,
+    "shared_value_comparisons": 704,
+    "mismatch_count": 0,
+    "max_abs_error": 0.0
+  },
+  "claim_boundary": "Frozen, synthetic, retained-core, noiseless statevector evidence only. The 9/32 gate is retrospective; 6.831x is an all-32 ratio of exact distribution masses, not an adopted-subset or matched-draw estimate.",
+  "checks": {
+    "frozen_rows_32": true,
+    "strict_core_30_of_32": true,
+    "post_simulation_gate_9_of_32": true,
+    "composite_feasible_27_of_32": true,
+    "zero_disallowed_mode_violations": true,
+    "adverse_depth_28_of_32": true,
+    "ratio_of_all_instance_exact_means_6_831386": true,
+    "abstract_labels_ratio_exact_and_all_instance": true,
+    "abstract_separates_matched_draws": true,
+    "no_adopted_subset_ratio_claim": true,
+    "gate_always_labeled_post_simulation": true,
+    "table_contains_ratio_and_scope": true,
+    "table_contains_composite_and_violation_rows": true,
+    "rerun_key_set_exact": true,
+    "shared_field_count_22": true,
+    "shared_comparisons_704": true,
+    "shared_values_exact": true,
+    "published_reproduction_summary_matches": true,
+    "summary_means_match_records": true,
+    "reported_rerun_runtime_matches_manifest": true
+  },
+  "mismatches": []
+}

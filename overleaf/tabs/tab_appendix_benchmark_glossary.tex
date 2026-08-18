@@ -1,5 +1,5 @@
 \begingroup
-\scriptsize
+\small
 \setlength{\tabcolsep}{3pt}
 \begin{longtable}{@{}p{0.13\linewidth}p{0.25\linewidth}p{0.25\linewidth}p{0.28\linewidth}@{}}
 \caption{Complete benchmark formula glossary. Every row is implemented in the frozen evaluator.}\label{tab:benchmarkglossary}\\
@@ -12,13 +12,13 @@ Factor & Implemented definition & Plain-language / real-world role & Evidence an
 \midrule
 \endhead
 Mode & $y_i\in\{H,A,C\}$; $A\notin D_i$ for human-mandatory $i$ & Each task is human-only, AI-only, or collaborative; some retain human responsibility. & Directly enumerated domain; human--AI interaction design motivates explicit authority boundaries~\citep{amershi2019humanai,seeber2020machines}. \\
-Hard violations & $H(y)=\sum_i\mathbf1[y_i\notin D_i]$ & Counts disallowed assignments; this is narrower than composite feasibility. & Evaluator and final certificate; governance context~\citep{nist2023airmf,iso42001}. \\
+Hard violations & $H(y)=\sum_i\mathbf1[y_i\notin D_i]$ & Counts disallowed assignments; this is narrower than composite feasibility. & Shared final check; governance context~\citep{nist2023airmf,iso42001}. \\
 Base cost & $C(y)=\sum_i d_i c_{i,y_i}$ & Duration-weighted cost of the chosen operating mode. & Scenario-independent term in the evaluator; resource allocation tradition~\citep{gans2003callcenters}. \\
 Review load & $R(y)=\sum_i r_i(\mathbf1[y_i=A]+.25\mathbf1[y_i=C])$ & AI-only work consumes a full review unit; collaboration consumes one quarter. & Synthetic coefficient, not empirically calibrated; makes oversight capacity explicit~\citep{nist2023airmf}. \\
 Review overflow & $R_+(y)=[R(y)-B_R]_+$ & Review demand above the available audit budget. & Penalized by 9 in the score; operational bottleneck construct. \\
 Cluster reward & $\sum_k B_k\mathbf1[n_k^C\ge h_k]$ & Collaboration creates value only after a workflow-level threshold. & Implemented clusters of at most three tasks; complementarity motivation~\citep{seeber2020machines,fuegener2026complementarity}. \\
 All-AI penalty & $\sum_k A_k\mathbf1[\forall i\in k:y_i=A]$ & A fully automated workflow incurs a governance/robustness cost. & Synthetic penalty, increasing with stress level; not a causal harm estimate. \\
-Handoff penalty & $\sum_k J_k(|\{y_i:i\in k\}|-1)_+$ & More modes inside one cluster create coordination overhead. & Implemented workflow mixing cost; organizational interdependence motivation~\citep{simon1955behavioral,hart1990property}. \\
+Handoff penalty & $\sum_k J_k(|\{y_i:i\in k\}|-1)_+$ & More modes inside one cluster create coordination overhead. & Implemented synthetic workflow-mixing cost; the coefficient is not empirically calibrated. \\
 AI exposure dispersion & $P_{\rm exp}(y)=2\operatorname{sd}_{r}(a_r)$, $a_r=|I_r|^{-1}\sum_{i\in I_r}\mathbf1[y_i=A]$ & Penalizes uneven AI-only rates across modeled regions. & Coded diagnostic, \emph{not} validated fairness; sociotechnical cautions~\citep{selbst2019fairness,mehrabi2021fairness,bai2022algorithmic}. \\
 Scenario loads & $L^H_{r\omega}=\sum_{i\in r}d_iD_\omega\ell^H(y_i)$, $L^A_{r\omega}=\sum_{i\in r}d_iD_\omega\ell^A(y_i)$, with $(\ell^H,\ell^A)=(1,0),(0,1),(.45,.65)$ & Human and AI capacity draw changes by mode and correlated demand scenario. & Exact frozen coefficients; chance-constrained operations motivation~\citep{charnes1959chance,gans2003callcenters}. \\
 Scenario success & $s_{i\omega}=\bar s_{i,y_i}$ times regional human/AI factors and AI shock; collaboration blends factors $.55/.45$ & Mode success changes with regional and common disruptions. & Exact generator/evaluator equations in Appendix~\ref{app:benchmark}; synthetic, not field-estimated. \\
