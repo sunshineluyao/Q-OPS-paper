@@ -1,0 +1,28 @@
+\section{Related Work and Human--AI Staffing Formulation}
+\label{sec:formulation}
+
+\paragraph{Intersecting literatures.}
+Algorithm selection asks which solver fits an instance~\citep{rice1976algorithm,kotthoff2014algorithm}; selective prediction and learning to defer add abstention or handoff under uncertainty~\citep{geifman2017selective,madras2018defer}. QAOA and alternating operators provide parameterized distributions and constraint-aware mixers~\citep{farhi2014qaoa,hadfield2019alternating}, while warm starts inject classical information~\citep{egger2021warm}. QOBLIB argues for model-independent instances, strong classical records, standardized metrics, and transparent resource reporting~\citep{koch2026qoblib}. Q-OPS connects these components to a staffing decision in which certification and fallback remain classical. Its integration claim is qualified: it does not introduce a new circuit family, prove a welfare theorem, or establish field validity.
+
+\paragraph{Staffing benchmark.}
+For tasks $i\in I$, choose a legal mode $y_i\in D_i\subseteq\{\Hmode,\Amode,\Cmode\}$ for human-only, AI-only, or collaboration. Tasks have duration $d_i$, priority $p_i$, value $v_i$, region $r(i)$, and mode-dependent cost $c_{i,y_i}$. Review-required AI work consumes one unit and collaboration one quarter,
+\begin{equation}
+C(y)=\sum_i d_i c_{i,y_i},\qquad
+R(y)=\sum_i r_i\bigl(\ind[y_i=\Amode]+.25\ind[y_i=\Cmode]\bigr),
+\label{eq:costreview}
+\end{equation}
+with review overflow $R_+(y)=[R(y)-B_R]_+$. Workflow clusters receive a thresholded collaboration benefit, an AI-only concentration penalty, and a mode-friction penalty; the complete frozen formula appears in Appendix~\ref{app:benchmark}.
+
+For each correlated disruption scenario $\omega\in\Omega$, a shared evaluator computes weighted service and regional capacity overflow. Empirical service and capacity failure rates are
+\begin{equation}
+q_s(y)=|\Omega|^{-1}\!\sum_\omega \ind[\mathrm{service}_\omega(y)<.70],\quad
+q_c(y)=|\Omega|^{-1}\!\sum_\omega \ind[O_\omega(y)>0].
+\label{eq:chance}
+\end{equation}
+Composite feasibility is
+$F(y)=\ind[H(y)=0,R_+(y)=0,q_s(y)\le .20,q_c(y)\le .20]$,
+where $H$ counts disallowed modes. The score combines expected value minus cost and overflow, workflow complementarity, a regional AI-exposure regularizer, review overflow, and chance-constraint penalties. All coefficients are frozen synthetic design choices, not learned welfare weights, workplace standards, or fairness guarantees.
+
+\input{tabs/table1_decision_environment}
+
+The benchmark makes stakeholder consequences visible without claiming them as measured benefits. Customers depend on service continuity; workers face review load and inappropriate automation risk; organizations face cost, accountability, and resilience; society faces the broader question of disciplined technology adoption. Lower cost, more AI assignments, or more collaboration need not imply higher welfare.

@@ -2,12 +2,13 @@
 
 \PassOptionsToPackage{numbers,sort&compress}{natbib}
 \usepackage[dblblindworkshop]{neurips_2026}
-\workshoptitle{Trustworthy AI for Good Workshop}
+\workshoptitle{NeurIPS 2026 Workshop Submission}
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+\usepackage{courier}
 \usepackage{amsmath,amssymb,amsfonts,mathtools}
-\usepackage{booktabs,tabularx,longtable,array,multirow}
+\usepackage{booktabs,tabularx,longtable,array,multirow,pifont}
 \usepackage{graphicx}
 \usepackage{xcolor}
 \usepackage{microtype}
@@ -17,9 +18,10 @@
 \usepackage[nameinlink,capitalise,noabbrev]{cleveref}
 \usepackage{enumitem}
 
-\definecolor{qnavy}{HTML}{17324D}
-\definecolor{qgreen}{HTML}{2A9D78}
-\definecolor{qorange}{HTML}{E28E2C}
+\definecolor{qnavy}{HTML}{18324A}
+\definecolor{qblue}{HTML}{315EFB}
+\definecolor{qgreen}{HTML}{14877D}
+\definecolor{qorange}{HTML}{D97745}
 \hypersetup{colorlinks=true,citecolor=qnavy,linkcolor=qnavy,urlcolor=qgreen}
 \newcolumntype{Y}{>{\raggedright\arraybackslash}X}
 \newcommand{\ind}{\mathbb{I}}
@@ -28,25 +30,25 @@
 \newcommand{\Cmode}{\mathrm{C}}
 \newcommand{\UWCQ}{\textsc{U--W--C--Q}}
 \newcommand{\Repo}{anonymous supplementary artifact}
+\newcommand{\cmark}{\ding{51}}
+\newcommand{\xmark}{\ding{55}}
 
-\title{Q-OPS: A Reproducible Evidence Audit of Quantum Sampling for Trustworthy Human--AI Mode Allocation}
+\title{Q-OPS: Evidence-Aware Quantum--Classical Routing for Trustworthy Human--AI Staffing}
 \author{Anonymous authors}
 
 \begin{document}
 \maketitle
 
 \begin{abstract}
-Organizations allocating work among humans, AI, and human--AI collaboration face accountability, reliability, review-capacity, exposure, and workflow-complementarity constraints. We formulate this as a synthetic governance-constrained benchmark and audit quantum sampling only inside a four-task retained set derived from strong classical controls. The \UWCQ{} stack combines uniform feasible sampling (U), an incumbent-derived warm state (W), greedy/cluster-repair controls plus a classical certificate (C), and feasible-subspace statevector QAOA (Q). A frozen 32-instance evaluation yields strict feasible retained sets on 30/32 cases and cluster-repair gains on 25/32. At $p=2$, mean optimum mass rises from .0223 under uniform sampling to .1522 (paired difference .1299, 95\% bootstrap CI [.0991,.1640]); the matched 128-draw first-hit proxy falls from 36.50 to 12.94 draws. Yet only 9/32 cases pass a \emph{post-simulation} evidence gate, $p=1$ exceeds $p=2$ on 28/32 under unequal parameter searches, and composite feasibility holds for 27/32 incumbents despite zero explicit disallowed-mode violations. Thus the evidence is conditional noiseless probability concentration---not QPU, runtime, scaling, workplace-safety, or universal quantum advantage. The result is an auditable benchmark foundation and a falsifiable agenda for selective quantum adoption in human--AI organizations.
+Organizations allocating work among humans, AI systems, and human--AI teams must balance service, cost, limited review capacity, correlated failures, and hard operating requirements. Indiscriminate adoption of an uncertain computational technology creates a second trust problem: a promising candidate is not sufficient evidence that the technology should be invoked. Q-OPS treats quantum computation as an optional expert inside an application-oriented decision architecture. Strong classical methods first establish feasibility and remaining headroom; an evidence gate identifies a selective quantum pilot; every candidate is independently checked; unsupported use falls back to the classical incumbent. In the frozen study, the quantum branch audits a retained-state distribution and does not replace that incumbent. Among 32 synthetic held-out instances, 9/32 (28.13\%) meet the recorded post-simulation evidence gate. Across all retained-core comparisons, the matched-budget optimum-sampling probability ratio is 6.831$\times$ relative to uniform feasible sampling. The shared evaluator records zero disallowed-mode violations, while only 27/32 classical incumbents satisfy the stricter composite-feasibility predicate. Earlier C1.0--C1.1 development stages and the frozen depth comparison preserve negative evidence: strong classical controls can remove apparent headroom, and $p=1$ exceeds $p=2$ on 28/32 cases under unequal parameter-search budgets. The present result is therefore statevector-level conditional algorithmic evidence, not real-QPU, wall-clock, scaling, universal, or application-level quantum advantage. Q-OPS illustrates a general rule for trustworthy emerging-computation adoption: compare against credible alternatives, invoke selectively, certify independently, and retain a safe fallback.
 \end{abstract}
 
 \input{sections/01_introduction}
-\input{sections/02_related_work}
-\input{sections/03_problem_benchmark}
-\input{sections/04_selective_quantum_framework}
-\input{sections/05_experiments}
-\input{sections/06_results_discussion}
-\input{sections/07_open_questions}
-\input{sections/08_conclusion}
+\input{sections/02_related_formulation}
+\input{sections/03_routing}
+\input{sections/04_experimental_design}
+\input{sections/05_results}
+\input{sections/06_trustworthiness_conclusion}
 
 \bibliographystyle{plainnat}
 \bibliography{references}
